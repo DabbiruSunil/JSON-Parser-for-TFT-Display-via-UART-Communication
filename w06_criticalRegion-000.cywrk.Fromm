@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="w06_criticalRegion-000\w06_criticalRegion\asw\main.c">
+<ExpandedNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\TopDesign</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Pins</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Analog</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Clocks</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Interrupts</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\DMA</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\System</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Directives</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Flash Security</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\EEPROM</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\asw</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\asw\main.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\button.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\button.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\led.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\led.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer_cfg.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\seven.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\seven.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart_cfg.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcSnapshotConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcStreamingConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\ERIKAPorting.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcHardwarePort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcKernelPort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcPortDefines.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcRecorder.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport\trcStreamingPort.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport\trcStreamingPort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcKernelPort.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcSnapshotRecorder.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcStreamingRecorder.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cyapicallbacks.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\derivate.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\global.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cyapicallbacks.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\Generated_Source</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\TopDesign</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Pins</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Analog</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Clocks</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Interrupts</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\DMA</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\System</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Directives</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\Flash Security</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.cydwr\EEPROM</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\asw</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\asw\main.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\button.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\button.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\led.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\led.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\ringbuffer_cfg.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\seven.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\seven.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cdd\uart_cfg.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcSnapshotConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\config\trcStreamingConfig.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\ERIKAPorting.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcHardwarePort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcKernelPort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcPortDefines.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\include\trcRecorder.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport\trcStreamingPort.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\streamport\trcStreamingPort.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcKernelPort.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcSnapshotRecorder.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\tracerecorder\trcStreamingRecorder.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\cyapicallbacks.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\derivate.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\bsw\global.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_compiler_gcc.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_hal_structs.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_hal_structs.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_irqstub.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_primitives.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_stdint.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_types.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_context.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_context.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_cpu.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_irq.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_irq_cng_cont.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_nvic.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_system_timer.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_systick.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_utils.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_activate.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alcancel.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alget.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_algetbase.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alsetabs.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alsetrel.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_altick.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_api.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_kernel.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_timing_prot.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_chaintas.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evclear.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evget.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evset.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evwait.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_force_schedule.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_getcountervalue.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_getelapsedvalue.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gettaskid.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gettaskstate.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_change_context_isr.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_irq_stack.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_multi_context.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_oo.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_iparam.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_irq.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_irqendin.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_lockres.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_lookup.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_api.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_common.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_inline.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_intfunc.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_irq.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_oo_kernel.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_os.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_rq_exchg.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_rq_first.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_rq_inser.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_rtdruid_versions.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_schedule.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_semgetvalue.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_sempost.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_semtrywait.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_semwait.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_shtdown.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_startos.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_terminat.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_thendin.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_tnterm.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_tracing.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_tstub.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_ulockallres.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_ulockres.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\eecfg.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\eecfg.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\event_definition.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ISR_definition.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\resource_priorities.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\task_priorities.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSAlarmsCounters.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSAlarmsCounters.Designer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSAlarmsCounters.resx</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSControl.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSControl.Designer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSControl.resx</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSCustomizer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSEventsResources.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSEventsResources.Designer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSEventsResources.resx</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSISRs.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSISRs.Designer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSISRs.resx</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSParameters.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSTask.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSTask.Designer.cs</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\Custom\ErikaOSTask.resx</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\ErikaOS_v2_5.cysym</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\ErikaOS_v2_5.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\TopDesign</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_compiler_gcc.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_hal_structs.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_hal_structs.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_irqstub.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_primitives.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_stdint.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\common_ee_types.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_context.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_context.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_cpu.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_irq.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_irq_cng_cont.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_nvic.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_system_timer.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_systick.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\cortex_mx_ee_utils.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee.h</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_activate.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alcancel.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alget.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_algetbase.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alsetabs.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_alsetrel.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_altick.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_api.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_kernel.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_as_timing_prot.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_chaintas.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evclear.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evget.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evset.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_evwait.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_force_schedule.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_getcountervalue.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_getelapsedvalue.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gettaskid.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gettaskstate.c</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_change_context_isr.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_irq_stack.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_multi_context.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_gnu_oo.s</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_internal.inc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5\API\ee_iparam.c</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\button.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_1.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_2.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_3.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_4.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_common_ee_hal_structs.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_context.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_system_timer.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_utils.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_activate.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alcancel.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alget.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_algetbase.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetabs.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetrel.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_altick.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_chaintas.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evclear.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evget.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evset.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evwait.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_force_schedule.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getcountervalue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getelapsedvalue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskid.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskstate.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_change_context_isr.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_irq_stack.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_multi_context.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_oo.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_iparam.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_irqendin.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_lockres.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_lookup.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_exchg.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_first.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_inser.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_schedule.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semgetvalue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_sempost.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semtrywait.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semwait.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_shtdown.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_startos.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_terminat.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_thendin.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_tnterm.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_tstub.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_ulockallres.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_ulockres.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_eecfg.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_Button.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_DEBUG_rx.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_DEBUG_tx.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\led.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_green.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_red.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_yellow.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_Clock.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_B.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_G.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_blue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_blue_PM.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_green.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_green_PM.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_red.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_PWM_red_PM.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\RGB_R.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ringbuffer.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\seven.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_A.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_B.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_C.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_D.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_DP.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_E.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_F.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_G.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_reg.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_reg_PM.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\SEVEN_SELECT.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\trcKernelPort.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\trcSnapshotRecorder.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\trcStreamingPort.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\trcStreamingRecorder.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\uart.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_BOOT.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_INT.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_IntClock.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_PM.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_audio.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_boot.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cdc.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cls.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_descr.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dm.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dp.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_drv.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_episr.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_hid.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_midi.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_msc.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_pm.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_std.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_vnd.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.elf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.hex</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.map</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.gpdsc</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion.rpt</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\w06_criticalRegion_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\button.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_1.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_2.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_3.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\BUTTON_4.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_common_ee_hal_structs.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_context.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_system_timer.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_utils.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_activate.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alcancel.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alget.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_algetbase.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetabs.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetrel.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_altick.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_chaintas.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evclear.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evget.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evset.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evwait.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_force_schedule.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getcountervalue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getelapsedvalue.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskid.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskstate.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_change_context_isr.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_irq_stack.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_multi_context.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_oo.lst</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_iparam.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PSoC 5LP Architecture TRM</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CY8C58LP Family Datasheet</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\System Reference Guides</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\System Reference Guides\cy_boot_v5_80</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_clock_v2_20.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_isr_v1_70</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_pins_v2_20</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CyControlReg_v1_80.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\or_v1_0.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PWM_v3_30</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\UART_v2_50.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\USBFS_v3_20.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>w06_criticalRegion-000</v>
+<v>w06_criticalRegion-000\w06_criticalRegion</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PSoC 5LP Architecture TRM</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CY8C58LP Family Datasheet</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\System Reference Guides</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\System Reference Guides\cy_boot_v5_80</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_clock_v2_20.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_isr_v1_70</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_pins_v2_20</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\CyControlReg_v1_80.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\ErikaOS_v2_5.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\or_v1_0.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PWM_v3_30</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\UART_v2_50.pdf</v>
+<v>w06_criticalRegion-000\w06_criticalRegion\USBFS_v3_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\source\asw\main.c" />
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\source\bsw\cdd\uart.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1164, 728" SelectedTabbedMdiWindow="aa4e6310-5872-43f8-8f8d-383098febbd2"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b832959d-9e0d-46f9-a3c4-65616f3c6ce5" /><DocumentWindow Key="D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture\060_CriticalRegions\code\w06_criticalRegion.cydsn\source\asw\main.c" Guid="aa4e6310-5872-43f8-8f8d-383098febbd2" /><DocumentWindow Key="D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture\060_CriticalRegions\code\w06_criticalRegion.cydsn\TopDesign\TopDesign.cysch" Guid="9ffa311b-9482-41d1-a84f-61fa482ea09a" /><DocumentWindow Key="D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture\060_CriticalRegions\code\w06_criticalRegion.cydsn\source\bsw\cdd\uart.c" Guid="38527f77-d5eb-43b4-bdab-24680a07e284" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

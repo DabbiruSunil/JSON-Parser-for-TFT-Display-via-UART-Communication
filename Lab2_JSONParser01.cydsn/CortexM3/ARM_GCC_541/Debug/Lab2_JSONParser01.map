@@ -1,0 +1,2322 @@
+Archive member included to satisfy reference by file (symbol)
+
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_ActivateTask)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_ClearEvent)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_GetEvent)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_SetEvent)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_WaitEvent)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_GetResource)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o) (EE_rq2stk_exchange)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o) (EE_rq_queryfirst)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o) (EE_rq_insert)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_StartOS)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_TerminateTask)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (EE_oo_ReleaseResource)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o) (EE_system_init)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o) (EE_IRQ_nesting_level)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o) (EE_oo_autostart_task_data)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (ISR_UART_RX_StartEx)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (UART_LOG_Init)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                              .\CortexM3\ARM_GCC_541\Debug\tft.o (TFT_SPI_WriteTxData)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+                              .\CortexM3\ARM_GCC_541\Debug\tft.o (TFT_DC_Write)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+                              .\CortexM3\ARM_GCC_541\Debug\tft.o (TFT_RES_Write)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                              .\CortexM3\ARM_GCC_541\Debug\tft.o (TFT_BackLight_WriteCompare)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o) (UART_LOG_IntClock_Start)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o) (TFT_SPI_IntClock_Start)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o (CyHalt)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o) (CyPmReadStatus)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o) (EE_cortex_mx_pendsv_ISR)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o) (EE_cortex_mx_change_context)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o) (EE_hal_terminate_task)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+                              .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (CyDelayCycles)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o) (EE_oo_assign_TID_to_ISR2)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o) (EE_rq_lookup)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o) (EE_thread_not_terminated)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o) (EE_oo_thread_stub)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o) (EE_oo_release_all_resources)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o) (EE_std_run_task_code)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o) (CyFlash_SetWaitCycles)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o) (CySpcStart)
+.\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o) (EE_thread_end_instance)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+                              .\CortexM3\ARM_GCC_541\Debug\drawer.o (atoi)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o (__errno)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+                              .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o (malloc)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                              .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (memcpy)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o) (_free_r)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o) (_malloc_r)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+                              .\CortexM3\ARM_GCC_541\Debug\drawer.o (strcmp)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o) (_strtol_r)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o) (__ctype_ptr__)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+                              c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o) (errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+EE_oo_IRQ_disable_count
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+errno               0x4               c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+EE_rq_pairs_tid     0x10              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_terminate_data   0x10              .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_resource_oldceiling
+                    0x8               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_oo_started       0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+TFT_SPI_swStatusTx  0x1               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+myRB                0xc               .\CortexM3\ARM_GCC_541\Debug\main.o
+EE_cortex_mx_stack_1
+                    0xfa0             .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_IRQ_nesting_level
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+EE_cortex_mx_stack_2
+                    0x3e8             .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_ApplicationMode  0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+TFT_SPI_swStatusRx  0x1               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+EE_isr2_nesting_level
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+messagebox          0x60              .\CortexM3\ARM_GCC_541\Debug\main.o
+EE_isr2_oldpriority
+                    0x8               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+EE_std_endcycle_next_tid
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+dieTemperature      0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+EE_oo_IRQ_suspend_status
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+EE_cortex_mx_stack_9
+                    0x200             .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .text          0x00000000       0x74 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.unhandledException
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.charBounds
+                0x00000000      0x1bc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getBacklight
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setCursor
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setTextColor
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setcolor
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setColors
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getFGcolor
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getBGcolor
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setTextWrap
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setTextSize
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setFont
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getTextBounds
+                0x00000000       0xa8 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_clearScreen
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawCircleHelper
+                0x00000000      0x13c .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fastVLine
+                0x00000000       0x64 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fillCircleHelper
+                0x00000000      0x108 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fastHLine
+                0x00000000       0x64 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_invertDisplay
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawCircle
+                0x00000000      0x138 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fillCircle
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawTriangle
+                0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fillTriangle
+                0x00000000      0x178 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawRoundRect
+                0x00000000       0xdc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_fillRoundRect
+                0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawRect
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_drawChar
+                0x00000000      0x21c .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_write
+                0x00000000      0x144 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_print
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_println
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_width
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_height
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getRotation
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getCursorX
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_getCursorY
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .text.LOG_Init
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .rodata        0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .text.circularRingbuffer_clear
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .text.circularRingbuffer_UART_print
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .text.circularRingbuffer_checkForChar
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .text.PARSER_addEndl
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .text.PARSER_resetNextToken
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.SetAnalogRoutingPumps
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .text._exit    0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_Interrupt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_GetVector
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_GetPriority
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_GetState
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_Start
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_Stop
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_SetPending
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text.ISR_UART_RX_ClearPending
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_Stop
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_ReadControlRegister
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_WriteControlRegister
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetRxInterruptMode
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_ReadRxStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_GetChar
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_GetByte
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_GetRxBufferSize
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_ClearRxBuffer
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetRxAddressMode
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetRxAddress1
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetRxAddress2
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetTxInterruptMode
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_WriteTxData
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_ReadTxStatus
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_PutArray
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_PutCRLF
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_GetTxBufferSize
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_ClearTxBuffer
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SendBreak
+                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text.UART_LOG_SetTxAddressMode
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_Stop
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_EnableTxInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_EnableRxInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_DisableTxInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_DisableRxInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_SetTxInterruptMode
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_SetRxInterruptMode
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_ReadRxData
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_GetRxBufferSize
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_GetTxBufferSize
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_ClearRxBuffer
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_ClearTxBuffer
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_PutArray
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_EnableInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_DisableInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_SetInterruptMode
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text.TFT_SPI_ReadStatus
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ COMMON         0x00000000        0x2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .text.TFT_DC_SetDriveMode
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .text.TFT_DC_Read
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .text.TFT_DC_ReadDataReg
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .text.TFT_RES_SetDriveMode
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .text.TFT_RES_Read
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .text.TFT_RES_ReadDataReg
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_Stop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_ReadCounter
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_ReadControlRegister
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_WriteControlRegister
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_ReadCompare
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text.TFT_BackLight_ReadPeriod
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_Stop
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_StopBlock
+                0x00000000       0x6c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_StandbyPower
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_GetDividerRegister
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_SetModeRegister
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_ClearModeRegister
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_GetModeRegister
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_GetSourceRegister
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_SetDividerRegister
+                0x00000000       0xdc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text.UART_LOG_IntClock_SetSourceRegister
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_Stop
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_StopBlock
+                0x00000000       0x6c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_StandbyPower
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_GetDividerRegister
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_SetModeRegister
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_ClearModeRegister
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_GetModeRegister
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_GetSourceRegister
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_SetDividerRegister
+                0x00000000       0xd8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text.TFT_SPI_IntClock_SetSourceRegister
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .bss           0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyUSB_PowerOnCheck
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyBusClk_Internal_SetDivider
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyPLL_OUT_Stop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_Stop
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_EnableDoubler
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_DisableDoubler
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyMasterClk_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyMasterClk_SetDivider
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyBusClk_SetDivider
+                0x00000000       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyUsbClk_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Start1K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Stop1K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Start100K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Stop100K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyPLL_OUT_Start
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_Start
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Enable33K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_Disable33K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyILO_SetPowerMode
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_32KHZ_Stop
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_32KHZ_ReadStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_Start
+                0x00000000       0xac .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_Stop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_EnableErrStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_DisableErrStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_ReadStatus
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_EnableFaultRecovery
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_DisableFaultRecovery
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_SetStartup
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_SetFbVoltage
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_SetWdVoltage
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyPLL_OUT_SetPQ
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyPLL_OUT_SetSource
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_SetTrimValue
+                0x00000000       0xcc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_SetFreq
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIMO_SetSource
+                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyDelayUs
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_32KHZ_SetPowerMode
+                0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyXTAL_32KHZ_Start
+                0x00000000       0x74 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyWdtStart
+                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyWdtClear
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdStickyStatus
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdLvDigitEnable
+                0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdLvAnalogEnable
+                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdLvDigitDisable
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdLvAnalogDisable
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdHvAnalogEnable
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdHvAnalogDisable
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyVdRealTimeStatus
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyFlushCache
+                0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntSetVector
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickStop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickEnableInterrupt
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickEnable
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickDisableInterrupt
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickSetReload
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickGetReload
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickGetValue
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickSetClockSource
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickGetClockSource
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickGetCountFlag
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickServiceCallbacks
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickClear
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickInit
+                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickStart
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickSetCallback
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CySysTickGetCallback
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text.CyGetUniqueId
+                0x00000000       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .bss           0x00000000       0x43 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibSlpSaveSet
+                0x00000000      0x1dc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibSlpRestore
+                0x00000000       0xd8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHviLviSaveDisable
+                0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibSaveSet
+                0x00000000       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHviLviRestore
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibRestore
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmSaveClocks
+                0x00000000      0x218 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmRestoreClocks
+                0x00000000      0x24c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmAltAct
+                0x00000000       0x6c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmSleep
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibernateEx
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmHibernate
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmReadStatus
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmCtwSetInterval
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmOppsSet
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .text.CyPmFtwSetInterval
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .rodata        0x00000000        0xf .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .text.EE_IRQ_release_all_items
+                0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .text.EE_IRQ_end_post_stub
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CySetTempInt
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyFlash_Start
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyFlash_Stop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyFlash_EraseRow
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyFlashGetSpcAlgorithm
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CySetTemp
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CySetFlashEEBuffer
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyWriteRowFull
+                0x00000000       0xf8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyWriteRowData
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyFlash_SetWaitCycles
+                0x00000000       0x7c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyEEPROM_Start
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyEEPROM_Stop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyEEPROM_ReadReserve
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text.CyEEPROM_ReadRelease
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ COMMON         0x00000000        0x2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .bss           0x00000000        0x8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcStart
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcStop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcReadData
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcLoadMultiByte
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcLoadRow
+                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcLoadRowFull
+                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcWriteRow
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcEraseSector
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcEraseRow
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcGetTemp
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcLock
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcUnlock
+                0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text.CySpcGetAlgorithm
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .text._atoi_r  0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x1fff8000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+START GROUP
+LOAD .\CortexM3\ARM_GCC_541\Debug\main.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\tft.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\logging.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\parser.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\drawer.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a
+LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000100                CY_FLASH_ROW_SIZE = 0x100
+                0x00000020                CY_ECC_ROW_SIZE = 0x20
+                0x00000000                CY_EE_IN_BTLDR = 0x0
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000800                CY_EE_SIZE = 0x800
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000001                CY_APPL_MAX = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000000                CY_CHECKSUM_EXCLUDE_SIZE = ALIGN (0x0, CY_FLASH_ROW_SIZE)
+                [!provide]                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20008000                PROVIDE (__cy_stack, (ORIGIN (ram) + LENGTH (ram)))
+                [!provide]                PROVIDE (__cy_heap_end, (__cy_stack - 0x800))
+
+.cybootloader   0x00000000        0x0
+ *(.cybootloader)
+                0x00000000                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x0001ff00                appl2_start = (appl1_start + ALIGN ((((LENGTH (rom) - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+                0x00000000                ecc_offset = ((appl_start / CY_FLASH_ROW_SIZE) * CY_ECC_ROW_SIZE)
+                0x00000000                ee_offset = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?((CY_EE_SIZE / CY_APPL_MAX) * (CY_APPL_NUM - 0x1)):0x0
+                0x00000800                ee_size = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?(CY_EE_SIZE / CY_APPL_MAX):CY_EE_SIZE
+                [!provide]                PROVIDE (CY_ECC_OFFSET, ecc_offset)
+
+.text           0x00000000     0x2754
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000000                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00000010                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00000010       0x18 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000010                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.dma_init)
+                0x00000001                ASSERT ((((appl_start + .) <= 0x10000) || 0x1), DMA Init must be within the first 64k of flash)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000028       0x5c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .text.jsmn_alloc_token
+                0x00000084       0x20 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.jsmn_fill_token
+                0x000000a4        0xc .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.jsmn_parse_primitive
+                0x000000b0       0x80 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.jsmn_parse_string
+                0x00000130      0x11c .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.ISR_UART_RX
+                0x0000024c       0x30 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x0000024c                ISR_UART_RX
+ .text.jsmn_parse
+                0x0000027c      0x214 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x0000027c                jsmn_parse
+ .text.jsmn_init
+                0x00000490       0x10 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000490                jsmn_init
+ .text.main     0x000004a0       0x18 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000004a0                main
+ .text.Functsk_init
+                0x000004b8       0x2c .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000004b8                Functsk_init
+ .text.Functsk_json_parser
+                0x000004e4       0xc8 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000004e4                Functsk_json_parser
+ .text.Functsk_hmi
+                0x000005ac       0x74 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000005ac                Functsk_hmi
+ .text.Functsk_background
+                0x00000620        0x4 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000620                Functsk_background
+ .text.__TFT_SPI_TX_ISR
+                0x00000624       0x58 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000624                __TFT_SPI_TX_ISR
+ .text.TFT_send
+                0x0000067c       0x84 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.setAddrWindow
+                0x00000700       0x88 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .text.TFT_setBacklight
+                0x00000788       0x10 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000788                TFT_setBacklight
+ .text.TFT_setRotation
+                0x00000798       0xc0 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000798                TFT_setRotation
+ .text.TFT_fillRect
+                0x00000858       0x8c .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000858                TFT_fillRect
+ .text.TFT_fillScreen
+                0x000008e4       0x24 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x000008e4                TFT_fillScreen
+ .text.TFT_init
+                0x00000908       0xe4 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000908                TFT_init
+ .text.TFT_drawPixel
+                0x000009ec       0x50 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x000009ec                TFT_drawPixel
+ .text.TFT_writeLine
+                0x00000a3c       0xc0 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                0x00000a3c                TFT_writeLine
+ .text.LOG_send
+                0x00000afc       0x2c .\CortexM3\ARM_GCC_541\Debug\logging.o
+                0x00000afc                LOG_send
+ .text.circularRingbuffer_init
+                0x00000b28       0x34 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+                0x00000b28                circularRingbuffer_init
+ .text.circularRingbuffer_read
+                0x00000b5c       0x24 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+                0x00000b5c                circularRingbuffer_read
+ .text.circularRingbuffer_write
+                0x00000b80       0x24 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+                0x00000b80                circularRingbuffer_write
+ .text.PARSER_init
+                0x00000ba4       0x14 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000ba4                PARSER_init
+ .text.PARSER_clear
+                0x00000bb8       0x18 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000bb8                PARSER_clear
+ .text.PARSER_addChar
+                0x00000bd0       0x14 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000bd0                PARSER_addChar
+ .text.PARSER_parse
+                0x00000be4       0x20 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000be4                PARSER_parse
+ .text.PARSER_getNextToken
+                0x00000c04       0x38 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000c04                PARSER_getNextToken
+ .text.PARSER_dbg_printContent
+                0x00000c3c       0xb0 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                0x00000c3c                PARSER_dbg_printContent
+ .text.search   0x00000cec       0x2c .\CortexM3\ARM_GCC_541\Debug\drawer.o
+                0x00000cec                search
+ .text.DRAWER_getNextDrawCommand
+                0x00000d18      0x15c .\CortexM3\ARM_GCC_541\Debug\drawer.o
+                0x00000d18                DRAWER_getNextDrawCommand
+ .text.messagebox_init
+                0x00000e74       0x14 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+                0x00000e74                messagebox_init
+ .text.messagebox_send
+                0x00000e88       0x70 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+                0x00000e88                messagebox_send
+ .text.messagebox_receive
+                0x00000ef8       0x68 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+                0x00000ef8                messagebox_receive
+ .text.inteprete
+                0x00000f60       0x44 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+                0x00000f60                inteprete
+ .text.CyClockStartupError
+                0x00000fa4        0x4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.cfg_write_bytes32
+                0x00000fa8       0x34 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.AnalogSetDefault
+                0x00000fdc       0x28 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.CYMEMZERO
+                0x00001004        0xc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.ClockSetup
+                0x00001010       0xd0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.CYCONFIGCPY
+                0x000010e0        0x8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.cyfitter_cfg
+                0x000010e8      0x110 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000010e8                cyfitter_cfg
+ .text.IntDefaultHandler
+                0x000011f8       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x000011f8                IntDefaultHandler
+ .text._sbrk    0x00001208       0x30 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00001208                _sbrk
+ .text.Start_c  0x00001238       0x4c .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00001238                Start_c
+ .text.initialize_psoc
+                0x00001284       0x68 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00001284                initialize_psoc
+ .text.EE_oo_ActivateTask
+                0x000012ec       0xe8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+                0x000012ec                EE_oo_ActivateTask
+ .text.EE_oo_ClearEvent
+                0x000013d4       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+                0x000013d4                EE_oo_ClearEvent
+ .text.EE_oo_GetEvent
+                0x00001430       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+                0x00001430                EE_oo_GetEvent
+ .text.EE_oo_SetEvent
+                0x00001470      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+                0x00001470                EE_oo_SetEvent
+ .text.EE_oo_WaitEvent
+                0x00001570      0x124 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+                0x00001570                EE_oo_WaitEvent
+ .text.EE_oo_GetResource
+                0x00001694       0xfc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+                0x00001694                EE_oo_GetResource
+ .text.EE_rq2stk_exchange
+                0x00001790       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+                0x00001790                EE_rq2stk_exchange
+ .text.EE_rq_queryfirst
+                0x00001818       0x44 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+                0x00001818                EE_rq_queryfirst
+ .text.EE_rq_insert
+                0x0000185c       0x74 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+                0x0000185c                EE_rq_insert
+ .text.compute_task_tid
+                0x000018d0       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .text.EE_oo_start_os
+                0x000018e0        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .text.EE_oo_autostart_tasks
+                0x000018ec       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .text.EE_oo_autostart_os
+                0x0000194c        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .text.EE_oo_StartOS
+                0x00001958       0x84 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+                0x00001958                EE_oo_StartOS
+ .text.EE_oo_TerminateTask
+                0x000019dc       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+                0x000019dc                EE_oo_TerminateTask
+ .text.EE_oo_ReleaseResource
+                0x00001a2c      0x174 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+                0x00001a2c                EE_oo_ReleaseResource
+ .text.EE_system_init
+                0x00001ba0       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+                0x00001ba0                EE_system_init
+ .text.ISR_UART_RX_SetVector
+                0x00001bd8        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                0x00001bd8                ISR_UART_RX_SetVector
+ .text.ISR_UART_RX_SetPriority
+                0x00001be4       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                0x00001be4                ISR_UART_RX_SetPriority
+ .text.ISR_UART_RX_Enable
+                0x00001bf4        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                0x00001bf4                ISR_UART_RX_Enable
+ .text.ISR_UART_RX_Disable
+                0x00001c00        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                0x00001c00                ISR_UART_RX_Disable
+ .text.ISR_UART_RX_StartEx
+                0x00001c0c       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                0x00001c0c                ISR_UART_RX_StartEx
+ .text.UART_LOG_Init
+                0x00001c28       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001c28                UART_LOG_Init
+ .text.UART_LOG_Enable
+                0x00001c4c       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001c4c                UART_LOG_Enable
+ .text.UART_LOG_Start
+                0x00001c84       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001c84                UART_LOG_Start
+ .text.UART_LOG_ReadRxData
+                0x00001ca0        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001ca0                UART_LOG_ReadRxData
+ .text.UART_LOG_PutChar
+                0x00001cac       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001cac                UART_LOG_PutChar
+ .text.UART_LOG_PutString
+                0x00001cc4       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x00001cc4                UART_LOG_PutString
+ .text.TFT_SPI_Enable
+                0x00001ce8       0x34 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001ce8                TFT_SPI_Enable
+ .text.TFT_SPI_ReadTxStatus
+                0x00001d1c        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001d1c                TFT_SPI_ReadTxStatus
+ .text.TFT_SPI_ReadRxStatus
+                0x00001d28        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001d28                TFT_SPI_ReadRxStatus
+ .text.TFT_SPI_WriteTxData
+                0x00001d34       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001d34                TFT_SPI_WriteTxData
+ .text.TFT_SPI_ClearFIFO
+                0x00001d4c       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001d4c                TFT_SPI_ClearFIFO
+ .text.TFT_SPI_Init
+                0x00001d88       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001d88                TFT_SPI_Init
+ .text.TFT_SPI_Start
+                0x00001db0       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x00001db0                TFT_SPI_Start
+ .text.TFT_DC_Write
+                0x00001dcc       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+                0x00001dcc                TFT_DC_Write
+ .text.TFT_RES_Write
+                0x00001de4       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+                0x00001de4                TFT_RES_Write
+ .text.TFT_BackLight_Enable
+                0x00001dfc       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001dfc                TFT_BackLight_Enable
+ .text.TFT_BackLight_WriteCounter
+                0x00001e0c        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e0c                TFT_BackLight_WriteCounter
+ .text.TFT_BackLight_WritePeriod
+                0x00001e18        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e18                TFT_BackLight_WritePeriod
+ .text.TFT_BackLight_WriteCompare
+                0x00001e24        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e24                TFT_BackLight_WriteCompare
+ .text.TFT_BackLight_SetInterruptMode
+                0x00001e30        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e30                TFT_BackLight_SetInterruptMode
+ .text.TFT_BackLight_ReadStatusRegister
+                0x00001e3c        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e3c                TFT_BackLight_ReadStatusRegister
+ .text.TFT_BackLight_ReadCapture
+                0x00001e48        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e48                TFT_BackLight_ReadCapture
+ .text.TFT_BackLight_ClearFIFO
+                0x00001e54       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e54                TFT_BackLight_ClearFIFO
+ .text.TFT_BackLight_Init
+                0x00001e68       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001e68                TFT_BackLight_Init
+ .text.TFT_BackLight_Start
+                0x00001ec4       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x00001ec4                TFT_BackLight_Start
+ .text.UART_LOG_IntClock_Start
+                0x00001ee0       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+                0x00001ee0                UART_LOG_IntClock_Start
+ .text.TFT_SPI_IntClock_Start
+                0x00001efc       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+                0x00001efc                TFT_SPI_IntClock_Start
+ .text.CyHalt   0x00001f18        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                0x00001f18                CyHalt
+ .text.CyDelay  0x00001f1c       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                0x00001f1c                CyDelay
+ .text.CyIntSetPriority
+                0x00001f48       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                0x00001f48                CyIntSetPriority
+ .text          0x00001f78       0x7c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+                0x00001f78                EE_set_switch_context_pri
+                0x00001f92                EE_switch_context
+                0x00001f9c                EE_cortex_mx_pendsv_ISR
+                0x00001fd8                EE_cortex_mx_svc_ISR
+ .text          0x00001ff4       0x68 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+                0x00001ff4                EE_cortex_mx_change_context
+ .text          0x0000205c       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+                0x0000205c                EE_hal_terminate_savestk
+                0x000020a6                EE_hal_terminate_task
+ *fill*         0x000020dc        0x4 
+ .text          0x000020e0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+                0x000020e0                CyDelayCycles
+                0x000020f0                CyEnterCriticalSection
+                0x000020f8                CyExitCriticalSection
+ .text.EE_IRQ_run_next_task
+                0x00002100       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .text.EE_oo_assign_TID_to_ISR2
+                0x00002130       0x44 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+                0x00002130                EE_oo_assign_TID_to_ISR2
+ .text.EE_IRQ_end_instance
+                0x00002174       0x68 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+                0x00002174                EE_IRQ_end_instance
+ .text.EE_thread_not_terminated
+                0x000021dc       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+                0x000021dc                EE_thread_not_terminated
+ .text.EE_oo_thread_stub
+                0x000021f4       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+                0x000021f4                EE_oo_thread_stub
+ .text.EE_oo_release_all_resources
+                0x00002204       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+                0x00002204                EE_oo_release_all_resources
+ .text.EE_std_run_task_code
+                0x00002268       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+                0x00002268                EE_std_run_task_code
+ .text.EE_std_need_context_change
+                0x00002280       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+                0x00002280                EE_std_need_context_change
+ .text.EE_thread_rnact_max
+                0x000022a8       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .text.EE_thread_endcycle_next
+                0x000022c8       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .text.EE_thread_end_instance
+                0x000022f8      0x108 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+                0x000022f8                EE_thread_end_instance
+ .text.atoi     0x00002400        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+                0x00002400                atoi
+ .text.__errno  0x00002408        0xc c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                0x00002408                __errno
+ .text.__libc_init_array
+                0x00002414       0x4c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                0x00002414                __libc_init_array
+ .text.malloc   0x00002460       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+                0x00002460                malloc
+ .text.free     0x00002470       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+                0x00002470                free
+ .text.memcpy   0x00002480       0x16 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00002480                memcpy
+ .text.memset   0x00002496       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                0x00002496                memset
+ *fill*         0x000024a6        0x2 
+ .text._free_r  0x000024a8       0x98 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+                0x000024a8                _free_r
+ .text._malloc_r
+                0x00002540       0xbc c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00002540                _malloc_r
+ .text._sbrk_r  0x000025fc       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+                0x000025fc                _sbrk_r
+ .text          0x0000261c       0x14 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+                0x0000261c                strcmp
+ .text._strtol_r
+                0x00002630      0x10c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+                0x00002630                _strtol_r
+ .text.strtol   0x0000273c       0x14 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+                0x0000273c                strtol
+ .text.__malloc_lock
+                0x00002750        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+                0x00002750                __malloc_lock
+ .text.__malloc_unlock
+                0x00002752        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+                0x00002752                __malloc_unlock
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00002754        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00002754        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00002754        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x00002754        0x0
+ .v4_bx         0x00002754        0x0 linker stubs
+
+.iplt           0x00002754        0x0
+ .iplt          0x00002754        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00002754        0x4
+ *(.eh_frame)
+ .eh_frame      0x00002754        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .eh_frame      0x00002754        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002758                __exidx_end = .
+
+.rodata         0x00002758      0xa58
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00002758      0x558 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .rodata.str1.4
+                0x00002cb0       0x14 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .rodata.str1.4
+                0x00002cc4       0x18 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .rodata.str1.4
+                0x00002cdc       0xfb .\CortexM3\ARM_GCC_541\Debug\parser.o
+ *fill*         0x00002dd7        0x1 
+ .rodata.str1.4
+                0x00002dd8       0x33 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ *fill*         0x00002e0b        0x1 
+ .rodata        0x00002e0c       0x50 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .rodata        0x00002e5c       0xa8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                0x00002e5c                EE_oo_autostart_task_data
+                0x00002e68                EE_resource_isr2_ceiling
+                0x00002e68                EE_ALARM_ID
+                0x00002e70                EE_resource_isr2_priority
+                0x00002e78                EE_resource_ceiling
+                0x00002e80                EE_th_is_extended
+                0x00002e90                EE_th_rnact_max
+                0x00002ea0                EE_th_dispatch_prio
+                0x00002eb0                EE_EVENT_ID
+                0x00002eb8                EE_RESOURCE_ID
+                0x00002ec0                EE_th_ready_prio
+                0x00002ed0                EE_terminate_real_th_body
+                0x00002ee0                EE_hal_thread_body
+                0x00002ef0                EE_std_thread_tos
+ .rodata.str1.4
+                0x00002f04       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                                 0x6d (size before relaxing)
+ .rodata        0x00002f74      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+                0x00002f74                EE_rq_lookup
+ .rodata.str1.1
+                0x00003074        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .rodata._ctype_
+                0x00003076      0x101 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+                0x00003076                _ctype_
+                0x00003178                . = ALIGN (0x4)
+ *fill*         0x00003177        0x1 
+ *(.init)
+ .init          0x00003178        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00003178                _init
+ .init          0x0000317c        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00003184                . = ALIGN (0x4)
+                0x00003184                __preinit_array_start = .
+ *(.preinit_array)
+                0x00003184                __preinit_array_end = .
+                0x00003184                . = ALIGN (0x4)
+                0x00003184                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00003184        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .init_array    0x00003188        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x0000318c                __init_array_end = .
+                0x0000318c                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x0000318c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x0000318c                _fini
+ .fini          0x00003190        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00003198                . = ALIGN (0x4)
+                0x00003198                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00003198        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0000319c                __fini_array_end = .
+                0x0000319c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000319c                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000319c                . = ALIGN (0x4)
+                0x0000319c                __cy_regions = .
+                0x0000319c        0x4 LONG 0x31b0 __cy_region_init_ram
+                0x000031a0        0x4 LONG 0x1fff80c8 __cy_region_start_data
+                0x000031a4        0x4 LONG 0x1f0 __cy_region_init_size_ram
+                0x000031a8        0x4 LONG 0x17a0 __cy_region_zero_size_ram
+                0x000031ac                __cy_regions_end = .
+                0x000031b0                . = ALIGN (0x8)
+ *fill*         0x000031ac        0x4 
+                0x000031b0                _etext = .
+
+.cy_checksum_exclude
+                0x000031b0        0x0
+ *(.cy_checksum_exclude)
+
+.ramvectors     0x1fff8000       0xc0
+                0x1fff8000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x1fff8000       0xc0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x1fff8000                CyRamVectors
+
+.noinit         0x1fff80c0        0x1
+ *(.noinit)
+ .noinit        0x1fff80c0        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                0x1fff80c0                CyResetStatus
+
+.data           0x1fff80c8      0x1f0 load address 0x000031b0
+                0x1fff80c8                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x1fff80c8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .jcr           0x1fff80c8        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x1fff80cc       0x3c .\CortexM3\ARM_GCC_541\Debug\drawer.o
+                0x1fff80cc                num_items
+                0x1fff80d0                items
+ .data          0x1fff8108        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .data          0x1fff810c      0x130 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                0x1fff810c                EE_resource_stack
+                0x1fff8114                EE_th_resource_last
+                0x1fff8128                EE_th_terminate_nextask
+                0x1fff8138                EE_rq_pairs_next
+                0x1fff8148                EE_rq_link
+                0x1fff8158                EE_th_rnact
+                0x1fff8168                EE_rq_queues_tail
+                0x1fff81a8                EE_rq_queues_head
+                0x1fff81e8                EE_stkfirst
+                0x1fff81ec                EE_th_next
+                0x1fff81fc                EE_th_status
+                0x1fff820c                EE_EVENT_NAME
+                0x1fff8214                EE_RESOURCE_NAME
+                0x1fff821c                EE_TASK_NAME
+                0x1fff822c                EE_cortex_mx_IRQ_tos
+                0x1fff8230                EE_cortex_mx_system_tos
+ .data          0x1fff823c       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                0x1fff823c                cydelay_32k_ms
+                0x1fff8240                cydelay_freq_khz
+                0x1fff8244                cydelay_freq_mhz
+                0x1fff8248                cydelay_freq_hz
+ .data          0x1fff824c        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+                0x1fff824c                EE_isr2_index
+ .data.impure_data
+                0x1fff8250       0x60 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x1fff82b0        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x1fff82b0                _impure_ptr
+ .data.__ctype_ptr__
+                0x1fff82b4        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+                0x1fff82b4                __ctype_ptr__
+                0x1fff82b8                . = ALIGN (0x8)
+ *(.ram)
+                0x1fff82b8                _edata = .
+
+.igot.plt       0x1fff82b8        0x0 load address 0x000033a0
+ .igot.plt      0x1fff82b8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.bss            0x1fff82b8     0x17a0 load address 0x000033a0
+                0x1fff82b8                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x1fff82b8       0x1c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .bss           0x1fff82d4       0xe6 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ *fill*         0x1fff83ba        0x2 
+ .bss           0x1fff83bc       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                0x1fff83bc                EE_ALARM_NAME
+                0x1fff83bc                EE_resource_locked
+                0x1fff83c4                EE_th_waswaiting
+                0x1fff83d4                EE_th_event_waitmask
+                0x1fff83e4                EE_th_event_active
+                0x1fff83f4                EE_rq_free
+                0x1fff83f8                EE_rq_bitmask
+                0x1fff83fc                EE_sys_ceiling
+                0x1fff8400                EE_cortex_mx_active_tos
+ .bss           0x1fff8404        0x2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                0x1fff8404                UART_LOG_initVar
+ .bss           0x1fff8406        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                0x1fff8406                TFT_SPI_initVar
+ .bss           0x1fff8407        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                0x1fff8407                TFT_BackLight_initVar
+ .bss.__malloc_sbrk_start
+                0x1fff8408        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x1fff8408                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x1fff840c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x1fff840c                __malloc_free_list
+ *(COMMON)
+ COMMON         0x1fff8410       0x6c .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x1fff8410                myRB
+                0x1fff841c                messagebox
+ COMMON         0x1fff847c        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+                0x1fff847c                EE_oo_started
+ COMMON         0x1fff8480        0x8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+                0x1fff8480                EE_IRQ_nesting_level
+                0x1fff8484                EE_std_endcycle_next_tid
+ COMMON         0x1fff8488     0x15c0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                0x1fff8488                EE_rq_pairs_tid
+                0x1fff8498                EE_terminate_data
+                0x1fff84a8                EE_resource_oldceiling
+                0x1fff84b0                EE_cortex_mx_stack_1
+                0x1fff9450                EE_cortex_mx_stack_2
+                0x1fff9838                EE_ApplicationMode
+                0x1fff983c                EE_isr2_nesting_level
+                0x1fff9840                EE_isr2_oldpriority
+                0x1fff9848                EE_cortex_mx_stack_9
+ COMMON         0x1fff9a48        0x8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+                0x1fff9a48                EE_oo_IRQ_disable_count
+                0x1fff9a4c                EE_oo_IRQ_suspend_status
+ COMMON         0x1fff9a50        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+                0x1fff9a50                errno
+                0x1fff9a58                . = ALIGN (0x8)
+ *fill*         0x1fff9a54        0x4 
+ *(.ram.b)
+                0x1fff9a58                _end = .
+                0x1fff9a58                __end = .
+                0x1fff9a58                PROVIDE (end, .)
+                0x1fff9a58                PROVIDE (__bss_end__, .)
+                0x000031b0                __cy_region_init_ram = LOADADDR (.data)
+                0x000001f0                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x000017a0                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x1fff9a58      0x3e8 load address 0x000033a0
+                0x1fff9a58                . = _end
+                0x1fff9e40                . = (. + 0x3e8)
+ *fill*         0x1fff9a58      0x3e8 
+                0x1fff9e40                __cy_heap_limit = .
+
+.stack          0x20007800      0x800
+                0x20007800                __cy_stack_limit = .
+                0x20008000                . = (. + 0x800)
+ *fill*         0x20007800      0x800 
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+                0x00000000                cy_checksum_exclude_size = (CY_APPL_LOADABLE == 0x1)?SIZEOF (.cy_checksum_exclude):0x0
+                0x00000001                ASSERT ((cy_checksum_exclude_size <= CY_CHECKSUM_EXCLUDE_SIZE), CY_BOOT: Section .cy_checksum_exclude size exceedes specified limit.)
+
+.cyloadermeta
+ *(.cyloadermeta)
+
+.cyloadablemeta
+ *(.cyloadablemeta)
+
+.cyconfigecc    0x80000000      0x6e0
+ *(.cyconfigecc)
+ .cyconfigecc   0x80000000      0x6e0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x80000000                cy_meta_configecc
+
+.cycustnvl      0x90000000        0x4
+ *(.cycustnvl)
+ .cycustnvl     0x90000000        0x4 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90000000                cy_meta_custnvl
+
+.cywolatch      0x90100000        0x4
+ *(.cywolatch)
+ .cywolatch     0x90100000        0x4 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90100000                cy_meta_wonvl
+
+.cyeeprom       0x90200000        0x0
+ *(.cyeeprom)
+                0x00000001                ASSERT ((. <= ((0x90200000 + ee_offset) + ee_size)), .cyeeprom data will not fit in EEPROM)
+
+.cyflashprotect
+                0x90400000      0x100
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000      0x100 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90500000                cy_metadata
+
+.rel.dyn        0x000033a0        0x0 load address 0x9050000c
+ .rel.iplt      0x000033a0        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xfe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_aranges
+                0x00000080      0x178 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_aranges
+                0x000001f8       0x28 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_aranges
+                0x00000220       0x48 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_aranges
+                0x00000268       0x58 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_aranges
+                0x000002c0       0x28 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_aranges
+                0x000002e8       0x30 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_aranges
+                0x00000318       0x20 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_aranges
+                0x00000338       0x58 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_aranges
+                0x00000390       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_aranges
+                0x000003a8       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_aranges
+                0x000003f0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_aranges
+                0x00000410       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_aranges
+                0x00000430       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_aranges
+                0x00000450       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_aranges
+                0x00000470       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_aranges
+                0x00000490       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_aranges
+                0x000004b0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_aranges
+                0x000004d0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_aranges
+                0x000004f0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_aranges
+                0x00000510       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_aranges
+                0x00000550       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_aranges
+                0x00000570       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_aranges
+                0x00000590       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_aranges
+                0x000005b0       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .debug_aranges
+                0x000005c8       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .debug_aranges
+                0x000005e0       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_aranges
+                0x00000660       0xf0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_aranges
+                0x00000750       0xd8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_aranges
+                0x00000828       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_aranges
+                0x00000860       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_aranges
+                0x00000898       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_aranges
+                0x00000930       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_aranges
+                0x000009a0       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_aranges
+                0x00000a10      0x2a0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_aranges
+                0x00000cb0       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_aranges
+                0x00000d48       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .debug_aranges
+                0x00000d68       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .debug_aranges
+                0x00000d88       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .debug_aranges
+                0x00000da8       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000dc8       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_aranges
+                0x00000e08       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .debug_aranges
+                0x00000e20       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_aranges
+                0x00000e40       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_aranges
+                0x00000e60       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_aranges
+                0x00000e80       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_aranges
+                0x00000ea8       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_aranges
+                0x00000f30       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_aranges
+                0x00000fb0       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x11b19
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1076 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00001076     0x2733 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_info    0x000037a9      0x3b5 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_info    0x00003b5e      0x454 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_info    0x00003fb2      0x543 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_info    0x000044f5      0x6d7 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_info    0x00004bcc      0x480 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_info    0x0000504c      0x45c .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_info    0x000054a8      0x5a8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00005a50      0x139 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x00005b89      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_info    0x00005f44      0x64d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_info    0x00006591      0x3e7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_info    0x00006978      0x30a .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_info    0x00006c82      0x603 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_info    0x00007285      0x6aa .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_info    0x0000792f      0x664 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_info    0x00007f93      0x2af .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_info    0x00008242      0x261 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_info    0x000084a3      0x2b5 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_info    0x00008758     0x1e80 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_info    0x0000a5d8      0x3e5 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_info    0x0000a9bd      0x808 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_info    0x0000b1c5      0x353 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_info    0x0000b518      0x20b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .debug_info    0x0000b723      0x70f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .debug_info    0x0000be32      0x2d2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_info    0x0000c104      0x60c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_info    0x0000c710      0x4bb .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_info    0x0000cbcb      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_info    0x0000ccea      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_info    0x0000ce09      0x351 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_info    0x0000d15a      0x283 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_info    0x0000d3dd      0x283 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_info    0x0000d660     0x1374 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_info    0x0000e9d4      0xa2a .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_info    0x0000f3fe       0xe6 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .debug_info    0x0000f4e4       0xe1 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .debug_info    0x0000f5c5       0xd6 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .debug_info    0x0000f69b       0xcf .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .debug_info    0x0000f76a      0x4d5 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_info    0x0000fc3f      0x210 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .debug_info    0x0000fe4f      0x2b3 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_info    0x00010102      0x2c7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_info    0x000103c9      0x339 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_info    0x00010702      0x341 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_info    0x00010a43      0x64d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_info    0x00011090      0x550 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_info    0x000115e0      0x539 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_abbrev   0x00000000     0x472b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3af .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x000003af      0x2bf .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_abbrev  0x0000066e      0x14a .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_abbrev  0x000007b8      0x15e .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_abbrev  0x00000916      0x171 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_abbrev  0x00000a87      0x218 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_abbrev  0x00000c9f      0x1a4 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_abbrev  0x00000e43      0x170 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_abbrev  0x00000fb3      0x20d .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x000011c0       0x77 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x00001237      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_abbrev  0x0000141f      0x259 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_abbrev  0x00001678      0x19d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_abbrev  0x00001815      0x10d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_abbrev  0x00001922      0x254 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_abbrev  0x00001b76      0x232 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_abbrev  0x00001da8      0x1f4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_abbrev  0x00001f9c       0xb9 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_abbrev  0x00002055       0xaa .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_abbrev  0x000020ff       0xc6 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_abbrev  0x000021c5      0x4a7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_abbrev  0x0000266c      0x19b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_abbrev  0x00002807      0x284 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_abbrev  0x00002a8b      0x1a0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_abbrev  0x00002c2b       0x8c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .debug_abbrev  0x00002cb7      0x112 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .debug_abbrev  0x00002dc9      0x173 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_abbrev  0x00002f3c      0x175 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_abbrev  0x000030b1      0x146 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_abbrev  0x000031f7       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_abbrev  0x00003287       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_abbrev  0x00003317      0x133 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_abbrev  0x0000344a      0x139 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_abbrev  0x00003583      0x139 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_abbrev  0x000036bc      0x254 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_abbrev  0x00003910      0x1ab .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_abbrev  0x00003abb       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .debug_abbrev  0x00003acf       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .debug_abbrev  0x00003ae3       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .debug_abbrev  0x00003af7       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00003b0b      0x1d6 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_abbrev  0x00003ce1       0x8c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .debug_abbrev  0x00003d6d      0x14d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_abbrev  0x00003eba      0x118 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_abbrev  0x00003fd2      0x10d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_abbrev  0x000040df      0x113 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_abbrev  0x000041f2      0x1a7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_abbrev  0x00004399      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_abbrev  0x0000452d      0x1fe .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_line     0x00000000     0x6736
+ *(.debug_line)
+ .debug_line    0x00000000      0x648 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x00000648      0x8c7 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_line    0x00000f0f      0x26b .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_line    0x0000117a      0x320 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_line    0x0000149a      0x154 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_line    0x000015ee      0x21a .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_line    0x00001808      0x2ec .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_line    0x00001af4      0x27e .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_line    0x00001d72      0x1f6 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x00001f68      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000020a9      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x000022dd      0x1fa .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_line    0x000024d7      0x1d5 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_line    0x000026ac      0x15b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_line    0x00002807      0x1f7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_line    0x000029fe      0x205 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_line    0x00002c03      0x21c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_line    0x00002e1f      0x15b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_line    0x00002f7a      0x152 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_line    0x000030cc      0x156 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_line    0x00003222      0x3f9 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_line    0x0000361b      0x1c4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_line    0x000037df      0x24b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_line    0x00003a2a      0x183 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_line    0x00003bad       0xf9 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .debug_line    0x00003ca6      0x13c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .debug_line    0x00003de2      0x138 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_line    0x00003f1a      0x2c4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_line    0x000041de      0x249 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_line    0x00004427       0x93 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_line    0x000044ba       0x94 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_line    0x0000454e      0x190 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_line    0x000046de      0x180 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_line    0x0000485e      0x17f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_line    0x000049dd      0x816 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_line    0x000051f3      0x367 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_line    0x0000555a       0xae .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .debug_line    0x00005608       0x9d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .debug_line    0x000056a5       0x99 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .debug_line    0x0000573e       0x66 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .debug_line    0x000057a4      0x1e2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_line    0x00005986      0x139 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .debug_line    0x00005abf      0x183 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_line    0x00005c42      0x172 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_line    0x00005db4      0x195 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_line    0x00005f49      0x1ac .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_line    0x000060f5      0x21a .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_line    0x0000630f      0x260 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_line    0x0000656f      0x1c7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_frame    0x00000000     0x27b8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x174 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_frame   0x00000174      0x5bc .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_frame   0x00000730       0x48 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_frame   0x00000778       0xa8 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_frame   0x00000820       0xd8 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_frame   0x000008f8       0x68 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_frame   0x00000960       0x68 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_frame   0x000009c8       0x38 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_frame   0x00000a00       0xe4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x00000ae4       0xb8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_frame   0x00000b9c       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_frame   0x00000bcc       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_frame   0x00000c04       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_frame   0x00000c24       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_frame   0x00000c54       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_frame   0x00000c84       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_frame   0x00000cb4       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_frame   0x00000cf0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_frame   0x00000d10       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_frame   0x00000d40       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_frame   0x00000dd0       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_frame   0x00000dfc       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_frame   0x00000e2c       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_frame   0x00000e5c      0x104 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_frame   0x00000f60      0x250 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_frame   0x000011b0      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_frame   0x00001398       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_frame   0x000013e8       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_frame   0x00001438      0x134 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_frame   0x0000156c       0xe0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_frame   0x0000164c       0xe0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_frame   0x0000172c      0x738 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_frame   0x00001e64      0x1f8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_frame   0x0000205c       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_frame   0x000020ec       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_frame   0x00002118       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_frame   0x00002144       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_frame   0x00002170       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_frame   0x000021ac      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_frame   0x00002340      0x180 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_frame   0x000024c0       0x5c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .debug_frame   0x0000251c       0x30 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .debug_frame   0x0000254c       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000256c       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00002594       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x000025c0       0x30 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x000025f0       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00002618       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00002638       0x38 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00002670       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000269c       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x000026c8       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x000026e8       0x44 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000272c       0x30 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000275c       0x5c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+
+.debug_str      0x00000000     0x46ce
+ *(.debug_str)
+ .debug_str     0x00000000      0x99b .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0xa51 (size before relaxing)
+ .debug_str     0x0000099b      0x7c4 .\CortexM3\ARM_GCC_541\Debug\tft.o
+                                0xd57 (size before relaxing)
+ .debug_str     0x0000115f       0x47 .\CortexM3\ARM_GCC_541\Debug\logging.o
+                                0x51e (size before relaxing)
+ .debug_str     0x000011a6       0xbc .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+                                0x5b1 (size before relaxing)
+ .debug_str     0x00001262       0x42 .\CortexM3\ARM_GCC_541\Debug\parser.o
+                                0x525 (size before relaxing)
+ .debug_str     0x000012a4       0x92 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+                                0x5b3 (size before relaxing)
+ .debug_str     0x00001336       0x57 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+                                0x586 (size before relaxing)
+ .debug_str     0x0000138d        0xd .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+                                0x5d7 (size before relaxing)
+ .debug_str     0x0000139a      0x1a2 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x383 (size before relaxing)
+ .debug_str     0x0000153c       0x75 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                                0x223 (size before relaxing)
+ .debug_str     0x000015b1      0x13f .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                                0x349 (size before relaxing)
+ .debug_str     0x000016f0      0x46c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+                                0x6cc (size before relaxing)
+ .debug_str     0x00001b5c       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+                                0x4a4 (size before relaxing)
+ .debug_str     0x00001b9c       0x5d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+                                0x414 (size before relaxing)
+ .debug_str     0x00001bf9       0x41 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+                                0x6a4 (size before relaxing)
+ .debug_str     0x00001c3a       0xa3 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+                                0x6fc (size before relaxing)
+ .debug_str     0x00001cdd      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+                                0x608 (size before relaxing)
+ .debug_str     0x00001e71       0x8c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+                                0x3c2 (size before relaxing)
+ .debug_str     0x00001efd       0x2f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+                                0x38d (size before relaxing)
+ .debug_str     0x00001f2c       0x3a .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+                                0x3c7 (size before relaxing)
+ .debug_str     0x00001f66      0xf0d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+                               0x15f3 (size before relaxing)
+ .debug_str     0x00002e73       0x5d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+                                0x4c5 (size before relaxing)
+ .debug_str     0x00002ed0       0x6d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+                                0x7d2 (size before relaxing)
+ .debug_str     0x00002f3d       0x82 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+                                0x41f (size before relaxing)
+ .debug_str     0x00002fbf       0x39 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+                                0x35c (size before relaxing)
+ .debug_str     0x00002ff8      0x1ee .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+                                0x670 (size before relaxing)
+ .debug_str     0x000031e6      0x126 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+                                0x339 (size before relaxing)
+ .debug_str     0x0000330c      0x2c7 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+                                0x530 (size before relaxing)
+ .debug_str     0x000035d3      0x253 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+                                0x4a5 (size before relaxing)
+ .debug_str     0x00003826       0x63 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+                                0x226 (size before relaxing)
+ .debug_str     0x00003889       0x57 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+                                0x22b (size before relaxing)
+ .debug_str     0x000038e0      0x1de .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+                                0x435 (size before relaxing)
+ .debug_str     0x00003abe      0x1ab .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+                                0x3a5 (size before relaxing)
+ .debug_str     0x00003c69      0x156 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+                                0x399 (size before relaxing)
+ .debug_str     0x00003dbf      0x234 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+                                0xa86 (size before relaxing)
+ .debug_str     0x00003ff3      0x2dc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+                                0x772 (size before relaxing)
+ .debug_str     0x000042cf      0x11b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+                                0x609 (size before relaxing)
+ .debug_str     0x000043ea       0x2d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+                                0x350 (size before relaxing)
+ .debug_str     0x00004417       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+                                0x3df (size before relaxing)
+ .debug_str     0x00004487       0x57 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+                                0x49a (size before relaxing)
+ .debug_str     0x000044de       0x39 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+                                0x425 (size before relaxing)
+ .debug_str     0x00004517       0x8c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+                                0x451 (size before relaxing)
+ .debug_str     0x000045a3       0x65 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+                                0x3ff (size before relaxing)
+ .debug_str     0x00004608       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+                                0x377 (size before relaxing)
+ .debug_str     0x0000466c       0x62 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+                                0x617 (size before relaxing)
+
+.debug_loc      0x00000000     0x5673
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x541 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_loc     0x00000541     0x1924 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_loc     0x00001e65       0x4d .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_loc     0x00001eb2      0x1ec .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_loc     0x0000209e      0x1b3 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_loc     0x00002251      0x1d3 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_loc     0x00002424      0x2a4 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_loc     0x000026c8       0x3c .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_loc     0x00002704      0x289 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_loc     0x0000298d      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_loc     0x00002ad1      0x12d .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_loc     0x00002bfe       0xbc .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_loc     0x00002cba       0xa4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_loc     0x00002d5e      0x16b .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_loc     0x00002ec9      0x158 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_loc     0x00003021      0x17e .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_loc     0x0000319f       0x4a .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_loc     0x000031e9       0x36 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_loc     0x0000321f       0x1e .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_loc     0x0000323d      0x1d8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_loc     0x00003415       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_loc     0x00003465      0x1f9 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_loc     0x0000365e       0x13 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_loc     0x00003671       0x56 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_loc     0x000036c7      0x258 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_loc     0x0000391f       0xfe .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_loc     0x00003a1d       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_loc     0x00003a5f       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_loc     0x00003aa1       0x26 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_loc     0x00003ac7      0x128 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_loc     0x00003bef      0x12c .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_loc     0x00003d1b      0xa11 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_loc     0x0000472c      0x1e4 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_loc     0x00004910       0x82 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_loc     0x00004992       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_loc     0x00004a1a       0xc5 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_loc     0x00004adf      0x3b2 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_loc     0x00004e91      0x705 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_loc     0x00005596       0xdd .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0xdc0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_ranges  0x000000a0      0x168 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .debug_ranges  0x00000208       0x18 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .debug_ranges  0x00000220       0x50 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .debug_ranges  0x00000270       0x60 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .debug_ranges  0x000002d0       0x60 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .debug_ranges  0x00000330       0x20 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .debug_ranges  0x00000350       0x10 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .debug_ranges  0x00000360       0x48 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x000003a8       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_ranges  0x000003e0       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .debug_ranges  0x00000420       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .debug_ranges  0x00000448       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .debug_ranges  0x00000458       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .debug_ranges  0x00000498       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .debug_ranges  0x000004a8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .debug_ranges  0x000004b8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .debug_ranges  0x000004c8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .debug_ranges  0x000004d8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .debug_ranges  0x000004e8       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .debug_ranges  0x00000518       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .debug_ranges  0x00000528       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .debug_ranges  0x00000568       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .debug_ranges  0x00000578       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .debug_ranges  0x000005e8       0xe0 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .debug_ranges  0x000006c8       0xc8 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .debug_ranges  0x00000790       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .debug_ranges  0x000007b8       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .debug_ranges  0x000007e0       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .debug_ranges  0x00000868       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .debug_ranges  0x000008c8       0x60 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .debug_ranges  0x00000928      0x290 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .debug_ranges  0x00000bb8       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .debug_ranges  0x00000c40       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .debug_ranges  0x00000c70       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .debug_ranges  0x00000c80       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .debug_ranges  0x00000c90       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .debug_ranges  0x00000ca0       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .debug_ranges  0x00000cb8       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .debug_ranges  0x00000d30       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .debug_ranges  0x00000da0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e .\CortexM3\ARM_GCC_541\Debug\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .ARM.attributes
+                0x00000098       0x33 .\CortexM3\ARM_GCC_541\Debug\tft.o
+ .ARM.attributes
+                0x000000cb       0x33 .\CortexM3\ARM_GCC_541\Debug\logging.o
+ .ARM.attributes
+                0x000000fe       0x33 .\CortexM3\ARM_GCC_541\Debug\circularRingbuffer.o
+ .ARM.attributes
+                0x00000131       0x33 .\CortexM3\ARM_GCC_541\Debug\parser.o
+ .ARM.attributes
+                0x00000164       0x33 .\CortexM3\ARM_GCC_541\Debug\drawer.o
+ .ARM.attributes
+                0x00000197       0x33 .\CortexM3\ARM_GCC_541\Debug\messagebox.o
+ .ARM.attributes
+                0x000001ca       0x33 .\CortexM3\ARM_GCC_541\Debug\intepreter.o
+ .ARM.attributes
+                0x000001fd       0x33 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .ARM.attributes
+                0x00000230       0x33 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .ARM.attributes
+                0x00000263       0x33 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .ARM.attributes
+                0x00000296       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_activate.o)
+ .ARM.attributes
+                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evclear.o)
+ .ARM.attributes
+                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evget.o)
+ .ARM.attributes
+                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evset.o)
+ .ARM.attributes
+                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_evwait.o)
+ .ARM.attributes
+                0x00000395       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lockres.o)
+ .ARM.attributes
+                0x000003c8       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_exchg.o)
+ .ARM.attributes
+                0x000003fb       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_first.o)
+ .ARM.attributes
+                0x0000042e       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_rq_inser.o)
+ .ARM.attributes
+                0x00000461       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_startos.o)
+ .ARM.attributes
+                0x00000494       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_terminat.o)
+ .ARM.attributes
+                0x000004c7       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockres.o)
+ .ARM.attributes
+                0x000004fa       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_utils.o)
+ .ARM.attributes
+                0x0000052d       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_common_ee_hal_structs.o)
+ .ARM.attributes
+                0x00000560       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_eecfg.o)
+ .ARM.attributes
+                0x00000593       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ISR_UART_RX.o)
+ .ARM.attributes
+                0x000005c6       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG.o)
+ .ARM.attributes
+                0x000005f9       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI.o)
+ .ARM.attributes
+                0x0000062c       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_DC.o)
+ .ARM.attributes
+                0x0000065f       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_RES.o)
+ .ARM.attributes
+                0x00000692       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_BackLight.o)
+ .ARM.attributes
+                0x000006c5       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(UART_LOG_IntClock.o)
+ .ARM.attributes
+                0x000006f8       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(TFT_SPI_IntClock.o)
+ .ARM.attributes
+                0x0000072b       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyLib.o)
+ .ARM.attributes
+                0x0000075e       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(cyPm.o)
+ .ARM.attributes
+                0x00000791       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_change_context_isr.o)
+ .ARM.attributes
+                0x000007b2       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_multi_context.o)
+ .ARM.attributes
+                0x000007d3       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_gnu_oo.o)
+ .ARM.attributes
+                0x000007f4       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x00000815       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_irqendin.o)
+ .ARM.attributes
+                0x00000848       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_lookup.o)
+ .ARM.attributes
+                0x0000087b       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tnterm.o)
+ .ARM.attributes
+                0x000008ae       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_tstub.o)
+ .ARM.attributes
+                0x000008e1       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_ulockallres.o)
+ .ARM.attributes
+                0x00000914       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_cortex_mx_ee_context.o)
+ .ARM.attributes
+                0x00000947       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CyFlash.o)
+ .ARM.attributes
+                0x0000097a       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(CySpc.o)
+ .ARM.attributes
+                0x000009ad       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.a(ErikaOS_1_ee_thendin.o)
+ .ARM.attributes
+                0x000009e0       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-atoi.o)
+ .ARM.attributes
+                0x00000a0d       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000a3a       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000a67       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000a94       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000ac1       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000aee       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000b1b       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000b48       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000b75       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000ba2       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000bcf       0x1b c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000bea       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x00000c17       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000c44       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000c71       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000c9e       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000ccb       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(C:\My_Files\College_Documents\AMA EOS\EOS\LAB\LAB_2_Submission\Json Parser\code\w06_criticalRegion.cydsn\Lab2_JSONParser01.cydsn\CortexM3\ARM_GCC_541\Debug\Lab2_JSONParser01.elf elf32-littlearm)

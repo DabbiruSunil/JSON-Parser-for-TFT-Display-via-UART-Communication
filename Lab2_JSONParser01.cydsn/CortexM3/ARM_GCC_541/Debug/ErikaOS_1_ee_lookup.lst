@@ -1,0 +1,963 @@
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"ErikaOS_1_ee_lookup.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	EE_rq_lookup
+  20              		.comm	EE_oo_IRQ_suspend_status,4,4
+  21              		.comm	EE_oo_IRQ_disable_count,4,4
+  22              		.section	.rodata
+  23              		.align	2
+  24              		.type	EE_rq_lookup, %object
+  25              		.size	EE_rq_lookup, 256
+  26              	EE_rq_lookup:
+  27 0000 FF       		.byte	-1
+  28 0001 00       		.byte	0
+  29 0002 01       		.byte	1
+  30 0003 01       		.byte	1
+  31 0004 02       		.byte	2
+  32 0005 02       		.byte	2
+  33 0006 02       		.byte	2
+  34 0007 02       		.byte	2
+  35 0008 03       		.byte	3
+  36 0009 03       		.byte	3
+  37 000a 03       		.byte	3
+  38 000b 03       		.byte	3
+  39 000c 03       		.byte	3
+  40 000d 03       		.byte	3
+  41 000e 03       		.byte	3
+  42 000f 03       		.byte	3
+  43 0010 04       		.byte	4
+  44 0011 04       		.byte	4
+  45 0012 04       		.byte	4
+  46 0013 04       		.byte	4
+  47 0014 04       		.byte	4
+  48 0015 04       		.byte	4
+  49 0016 04       		.byte	4
+  50 0017 04       		.byte	4
+  51 0018 04       		.byte	4
+  52 0019 04       		.byte	4
+  53 001a 04       		.byte	4
+  54 001b 04       		.byte	4
+  55 001c 04       		.byte	4
+  56 001d 04       		.byte	4
+  57 001e 04       		.byte	4
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 2
+
+
+  58 001f 04       		.byte	4
+  59 0020 05       		.byte	5
+  60 0021 05       		.byte	5
+  61 0022 05       		.byte	5
+  62 0023 05       		.byte	5
+  63 0024 05       		.byte	5
+  64 0025 05       		.byte	5
+  65 0026 05       		.byte	5
+  66 0027 05       		.byte	5
+  67 0028 05       		.byte	5
+  68 0029 05       		.byte	5
+  69 002a 05       		.byte	5
+  70 002b 05       		.byte	5
+  71 002c 05       		.byte	5
+  72 002d 05       		.byte	5
+  73 002e 05       		.byte	5
+  74 002f 05       		.byte	5
+  75 0030 05       		.byte	5
+  76 0031 05       		.byte	5
+  77 0032 05       		.byte	5
+  78 0033 05       		.byte	5
+  79 0034 05       		.byte	5
+  80 0035 05       		.byte	5
+  81 0036 05       		.byte	5
+  82 0037 05       		.byte	5
+  83 0038 05       		.byte	5
+  84 0039 05       		.byte	5
+  85 003a 05       		.byte	5
+  86 003b 05       		.byte	5
+  87 003c 05       		.byte	5
+  88 003d 05       		.byte	5
+  89 003e 05       		.byte	5
+  90 003f 05       		.byte	5
+  91 0040 06       		.byte	6
+  92 0041 06       		.byte	6
+  93 0042 06       		.byte	6
+  94 0043 06       		.byte	6
+  95 0044 06       		.byte	6
+  96 0045 06       		.byte	6
+  97 0046 06       		.byte	6
+  98 0047 06       		.byte	6
+  99 0048 06       		.byte	6
+ 100 0049 06       		.byte	6
+ 101 004a 06       		.byte	6
+ 102 004b 06       		.byte	6
+ 103 004c 06       		.byte	6
+ 104 004d 06       		.byte	6
+ 105 004e 06       		.byte	6
+ 106 004f 06       		.byte	6
+ 107 0050 06       		.byte	6
+ 108 0051 06       		.byte	6
+ 109 0052 06       		.byte	6
+ 110 0053 06       		.byte	6
+ 111 0054 06       		.byte	6
+ 112 0055 06       		.byte	6
+ 113 0056 06       		.byte	6
+ 114 0057 06       		.byte	6
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 3
+
+
+ 115 0058 06       		.byte	6
+ 116 0059 06       		.byte	6
+ 117 005a 06       		.byte	6
+ 118 005b 06       		.byte	6
+ 119 005c 06       		.byte	6
+ 120 005d 06       		.byte	6
+ 121 005e 06       		.byte	6
+ 122 005f 06       		.byte	6
+ 123 0060 06       		.byte	6
+ 124 0061 06       		.byte	6
+ 125 0062 06       		.byte	6
+ 126 0063 06       		.byte	6
+ 127 0064 06       		.byte	6
+ 128 0065 06       		.byte	6
+ 129 0066 06       		.byte	6
+ 130 0067 06       		.byte	6
+ 131 0068 06       		.byte	6
+ 132 0069 06       		.byte	6
+ 133 006a 06       		.byte	6
+ 134 006b 06       		.byte	6
+ 135 006c 06       		.byte	6
+ 136 006d 06       		.byte	6
+ 137 006e 06       		.byte	6
+ 138 006f 06       		.byte	6
+ 139 0070 06       		.byte	6
+ 140 0071 06       		.byte	6
+ 141 0072 06       		.byte	6
+ 142 0073 06       		.byte	6
+ 143 0074 06       		.byte	6
+ 144 0075 06       		.byte	6
+ 145 0076 06       		.byte	6
+ 146 0077 06       		.byte	6
+ 147 0078 06       		.byte	6
+ 148 0079 06       		.byte	6
+ 149 007a 06       		.byte	6
+ 150 007b 06       		.byte	6
+ 151 007c 06       		.byte	6
+ 152 007d 06       		.byte	6
+ 153 007e 06       		.byte	6
+ 154 007f 06       		.byte	6
+ 155 0080 07       		.byte	7
+ 156 0081 07       		.byte	7
+ 157 0082 07       		.byte	7
+ 158 0083 07       		.byte	7
+ 159 0084 07       		.byte	7
+ 160 0085 07       		.byte	7
+ 161 0086 07       		.byte	7
+ 162 0087 07       		.byte	7
+ 163 0088 07       		.byte	7
+ 164 0089 07       		.byte	7
+ 165 008a 07       		.byte	7
+ 166 008b 07       		.byte	7
+ 167 008c 07       		.byte	7
+ 168 008d 07       		.byte	7
+ 169 008e 07       		.byte	7
+ 170 008f 07       		.byte	7
+ 171 0090 07       		.byte	7
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 4
+
+
+ 172 0091 07       		.byte	7
+ 173 0092 07       		.byte	7
+ 174 0093 07       		.byte	7
+ 175 0094 07       		.byte	7
+ 176 0095 07       		.byte	7
+ 177 0096 07       		.byte	7
+ 178 0097 07       		.byte	7
+ 179 0098 07       		.byte	7
+ 180 0099 07       		.byte	7
+ 181 009a 07       		.byte	7
+ 182 009b 07       		.byte	7
+ 183 009c 07       		.byte	7
+ 184 009d 07       		.byte	7
+ 185 009e 07       		.byte	7
+ 186 009f 07       		.byte	7
+ 187 00a0 07       		.byte	7
+ 188 00a1 07       		.byte	7
+ 189 00a2 07       		.byte	7
+ 190 00a3 07       		.byte	7
+ 191 00a4 07       		.byte	7
+ 192 00a5 07       		.byte	7
+ 193 00a6 07       		.byte	7
+ 194 00a7 07       		.byte	7
+ 195 00a8 07       		.byte	7
+ 196 00a9 07       		.byte	7
+ 197 00aa 07       		.byte	7
+ 198 00ab 07       		.byte	7
+ 199 00ac 07       		.byte	7
+ 200 00ad 07       		.byte	7
+ 201 00ae 07       		.byte	7
+ 202 00af 07       		.byte	7
+ 203 00b0 07       		.byte	7
+ 204 00b1 07       		.byte	7
+ 205 00b2 07       		.byte	7
+ 206 00b3 07       		.byte	7
+ 207 00b4 07       		.byte	7
+ 208 00b5 07       		.byte	7
+ 209 00b6 07       		.byte	7
+ 210 00b7 07       		.byte	7
+ 211 00b8 07       		.byte	7
+ 212 00b9 07       		.byte	7
+ 213 00ba 07       		.byte	7
+ 214 00bb 07       		.byte	7
+ 215 00bc 07       		.byte	7
+ 216 00bd 07       		.byte	7
+ 217 00be 07       		.byte	7
+ 218 00bf 07       		.byte	7
+ 219 00c0 07       		.byte	7
+ 220 00c1 07       		.byte	7
+ 221 00c2 07       		.byte	7
+ 222 00c3 07       		.byte	7
+ 223 00c4 07       		.byte	7
+ 224 00c5 07       		.byte	7
+ 225 00c6 07       		.byte	7
+ 226 00c7 07       		.byte	7
+ 227 00c8 07       		.byte	7
+ 228 00c9 07       		.byte	7
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 5
+
+
+ 229 00ca 07       		.byte	7
+ 230 00cb 07       		.byte	7
+ 231 00cc 07       		.byte	7
+ 232 00cd 07       		.byte	7
+ 233 00ce 07       		.byte	7
+ 234 00cf 07       		.byte	7
+ 235 00d0 07       		.byte	7
+ 236 00d1 07       		.byte	7
+ 237 00d2 07       		.byte	7
+ 238 00d3 07       		.byte	7
+ 239 00d4 07       		.byte	7
+ 240 00d5 07       		.byte	7
+ 241 00d6 07       		.byte	7
+ 242 00d7 07       		.byte	7
+ 243 00d8 07       		.byte	7
+ 244 00d9 07       		.byte	7
+ 245 00da 07       		.byte	7
+ 246 00db 07       		.byte	7
+ 247 00dc 07       		.byte	7
+ 248 00dd 07       		.byte	7
+ 249 00de 07       		.byte	7
+ 250 00df 07       		.byte	7
+ 251 00e0 07       		.byte	7
+ 252 00e1 07       		.byte	7
+ 253 00e2 07       		.byte	7
+ 254 00e3 07       		.byte	7
+ 255 00e4 07       		.byte	7
+ 256 00e5 07       		.byte	7
+ 257 00e6 07       		.byte	7
+ 258 00e7 07       		.byte	7
+ 259 00e8 07       		.byte	7
+ 260 00e9 07       		.byte	7
+ 261 00ea 07       		.byte	7
+ 262 00eb 07       		.byte	7
+ 263 00ec 07       		.byte	7
+ 264 00ed 07       		.byte	7
+ 265 00ee 07       		.byte	7
+ 266 00ef 07       		.byte	7
+ 267 00f0 07       		.byte	7
+ 268 00f1 07       		.byte	7
+ 269 00f2 07       		.byte	7
+ 270 00f3 07       		.byte	7
+ 271 00f4 07       		.byte	7
+ 272 00f5 07       		.byte	7
+ 273 00f6 07       		.byte	7
+ 274 00f7 07       		.byte	7
+ 275 00f8 07       		.byte	7
+ 276 00f9 07       		.byte	7
+ 277 00fa 07       		.byte	7
+ 278 00fb 07       		.byte	7
+ 279 00fc 07       		.byte	7
+ 280 00fd 07       		.byte	7
+ 281 00fe 07       		.byte	7
+ 282 00ff 07       		.byte	7
+ 283              		.text
+ 284              	.Letext0:
+ 285              		.file 1 "Generated_Source\\PSoC5\\ErikaOS_1_common_ee_types.inc"
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 6
+
+
+ 286              		.file 2 "Generated_Source\\PSoC5\\ErikaOS_1_cortex_mx_ee_cpu.inc"
+ 287              		.file 3 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_common.inc"
+ 288              		.file 4 "Generated_Source\\PSoC5\\ErikaOS_1_common_ee_primitives.inc"
+ 289              		.file 5 "Generated_Source\\PSoC5\\ErikaOS_1_cortex_mx_ee_context.inc"
+ 290              		.file 6 "Generated_Source\\PSoC5\\ErikaOS_1_ee_lookup.c"
+ 291              		.file 7 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_intfunc.inc"
+ 292              		.file 8 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_internal.inc"
+ 293              		.section	.debug_info,"",%progbits
+ 294              	.Ldebug_info0:
+ 295 0000 0C020000 		.4byte	0x20c
+ 296 0004 0400     		.2byte	0x4
+ 297 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 298 000a 04       		.byte	0x4
+ 299 000b 01       		.uleb128 0x1
+ 300 000c AA020000 		.4byte	.LASF37
+ 301 0010 0C       		.byte	0xc
+ 302 0011 70000000 		.4byte	.LASF38
+ 303 0015 D8000000 		.4byte	.LASF39
+ 304 0019 00000000 		.4byte	.Ldebug_line0
+ 305 001d 02       		.uleb128 0x2
+ 306 001e 01       		.byte	0x1
+ 307 001f 06       		.byte	0x6
+ 308 0020 B9010000 		.4byte	.LASF0
+ 309 0024 02       		.uleb128 0x2
+ 310 0025 01       		.byte	0x1
+ 311 0026 08       		.byte	0x8
+ 312 0027 AB010000 		.4byte	.LASF1
+ 313 002b 02       		.uleb128 0x2
+ 314 002c 02       		.byte	0x2
+ 315 002d 05       		.byte	0x5
+ 316 002e 3A000000 		.4byte	.LASF2
+ 317 0032 02       		.uleb128 0x2
+ 318 0033 02       		.byte	0x2
+ 319 0034 07       		.byte	0x7
+ 320 0035 17020000 		.4byte	.LASF3
+ 321 0039 02       		.uleb128 0x2
+ 322 003a 04       		.byte	0x4
+ 323 003b 05       		.byte	0x5
+ 324 003c 59010000 		.4byte	.LASF4
+ 325 0040 02       		.uleb128 0x2
+ 326 0041 04       		.byte	0x4
+ 327 0042 07       		.byte	0x7
+ 328 0043 47020000 		.4byte	.LASF5
+ 329 0047 02       		.uleb128 0x2
+ 330 0048 08       		.byte	0x8
+ 331 0049 05       		.byte	0x5
+ 332 004a B2000000 		.4byte	.LASF6
+ 333 004e 02       		.uleb128 0x2
+ 334 004f 08       		.byte	0x8
+ 335 0050 07       		.byte	0x7
+ 336 0051 C5010000 		.4byte	.LASF7
+ 337 0055 03       		.uleb128 0x3
+ 338 0056 04       		.byte	0x4
+ 339 0057 05       		.byte	0x5
+ 340 0058 696E7400 		.ascii	"int\000"
+ 341 005c 02       		.uleb128 0x2
+ 342 005d 04       		.byte	0x4
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 7
+
+
+ 343 005e 07       		.byte	0x7
+ 344 005f DC010000 		.4byte	.LASF8
+ 345 0063 02       		.uleb128 0x2
+ 346 0064 08       		.byte	0x8
+ 347 0065 04       		.byte	0x4
+ 348 0066 9F010000 		.4byte	.LASF9
+ 349 006a 04       		.uleb128 0x4
+ 350 006b C0000000 		.4byte	.LASF10
+ 351 006f 01       		.byte	0x1
+ 352 0070 3F       		.byte	0x3f
+ 353 0071 1D000000 		.4byte	0x1d
+ 354 0075 04       		.uleb128 0x4
+ 355 0076 2A020000 		.4byte	.LASF11
+ 356 007a 01       		.byte	0x1
+ 357 007b 52       		.byte	0x52
+ 358 007c 32000000 		.4byte	0x32
+ 359 0080 04       		.uleb128 0x4
+ 360 0081 0E020000 		.4byte	.LASF12
+ 361 0085 01       		.byte	0x1
+ 362 0086 53       		.byte	0x53
+ 363 0087 55000000 		.4byte	0x55
+ 364 008b 04       		.uleb128 0x4
+ 365 008c 55000000 		.4byte	.LASF13
+ 366 0090 01       		.byte	0x1
+ 367 0091 54       		.byte	0x54
+ 368 0092 5C000000 		.4byte	0x5c
+ 369 0096 04       		.uleb128 0x4
+ 370 0097 0E000000 		.4byte	.LASF14
+ 371 009b 02       		.byte	0x2
+ 372 009c 4D       		.byte	0x4d
+ 373 009d 8B000000 		.4byte	0x8b
+ 374 00a1 04       		.uleb128 0x4
+ 375 00a2 4D000000 		.4byte	.LASF15
+ 376 00a6 02       		.byte	0x2
+ 377 00a7 4F       		.byte	0x4f
+ 378 00a8 8B000000 		.4byte	0x8b
+ 379 00ac 04       		.uleb128 0x4
+ 380 00ad 59020000 		.4byte	.LASF16
+ 381 00b1 02       		.byte	0x2
+ 382 00b2 54       		.byte	0x54
+ 383 00b3 96000000 		.4byte	0x96
+ 384 00b7 04       		.uleb128 0x4
+ 385 00b8 62010000 		.4byte	.LASF17
+ 386 00bc 02       		.byte	0x2
+ 387 00bd 78       		.byte	0x78
+ 388 00be 80000000 		.4byte	0x80
+ 389 00c2 05       		.uleb128 0x5
+ 390 00c3 C8000000 		.4byte	.LASF18
+ 391 00c7 03       		.byte	0x3
+ 392 00c8 1101     		.2byte	0x111
+ 393 00ca 75000000 		.4byte	0x75
+ 394 00ce 06       		.uleb128 0x6
+ 395 00cf 9D000000 		.4byte	.LASF19
+ 396 00d3 04       		.byte	0x4
+ 397 00d4 44       		.byte	0x44
+ 398 00d5 96000000 		.4byte	0x96
+ 399 00d9 06       		.uleb128 0x6
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 8
+
+
+ 400 00da F5010000 		.4byte	.LASF20
+ 401 00de 05       		.byte	0x5
+ 402 00df 48       		.byte	0x48
+ 403 00e0 B7000000 		.4byte	0xb7
+ 404 00e4 07       		.uleb128 0x7
+ 405 00e5 FB000000 		.4byte	0xfb
+ 406 00e9 F4000000 		.4byte	0xf4
+ 407 00ed 08       		.uleb128 0x8
+ 408 00ee F4000000 		.4byte	0xf4
+ 409 00f2 03       		.byte	0x3
+ 410 00f3 00       		.byte	0
+ 411 00f4 02       		.uleb128 0x2
+ 412 00f5 04       		.byte	0x4
+ 413 00f6 07       		.byte	0x7
+ 414 00f7 44000000 		.4byte	.LASF21
+ 415 00fb 09       		.uleb128 0x9
+ 416 00fc 96000000 		.4byte	0x96
+ 417 0100 06       		.uleb128 0x6
+ 418 0101 5F000000 		.4byte	.LASF22
+ 419 0105 03       		.byte	0x3
+ 420 0106 B2       		.byte	0xb2
+ 421 0107 0B010000 		.4byte	0x10b
+ 422 010b 09       		.uleb128 0x9
+ 423 010c E4000000 		.4byte	0xe4
+ 424 0110 06       		.uleb128 0x6
+ 425 0111 8B020000 		.4byte	.LASF23
+ 426 0115 03       		.byte	0x3
+ 427 0116 B3       		.byte	0xb3
+ 428 0117 1B010000 		.4byte	0x11b
+ 429 011b 09       		.uleb128 0x9
+ 430 011c E4000000 		.4byte	0xe4
+ 431 0120 07       		.uleb128 0x7
+ 432 0121 96000000 		.4byte	0x96
+ 433 0125 30010000 		.4byte	0x130
+ 434 0129 08       		.uleb128 0x8
+ 435 012a F4000000 		.4byte	0xf4
+ 436 012e 03       		.byte	0x3
+ 437 012f 00       		.byte	0
+ 438 0130 06       		.uleb128 0x6
+ 439 0131 7E020000 		.4byte	.LASF24
+ 440 0135 03       		.byte	0x3
+ 441 0136 CA       		.byte	0xca
+ 442 0137 20010000 		.4byte	0x120
+ 443 013b 07       		.uleb128 0x7
+ 444 013c B7000000 		.4byte	0xb7
+ 445 0140 4B010000 		.4byte	0x14b
+ 446 0144 08       		.uleb128 0x8
+ 447 0145 F4000000 		.4byte	0xf4
+ 448 0149 03       		.byte	0x3
+ 449 014a 00       		.byte	0
+ 450 014b 06       		.uleb128 0x6
+ 451 014c 9F020000 		.4byte	.LASF25
+ 452 0150 03       		.byte	0x3
+ 453 0151 D2       		.byte	0xd2
+ 454 0152 3B010000 		.4byte	0x13b
+ 455 0156 06       		.uleb128 0x6
+ 456 0157 E9010000 		.4byte	.LASF26
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 9
+
+
+ 457 015b 03       		.byte	0x3
+ 458 015c DA       		.byte	0xda
+ 459 015d 20010000 		.4byte	0x120
+ 460 0161 06       		.uleb128 0x6
+ 461 0162 65020000 		.4byte	.LASF27
+ 462 0166 03       		.byte	0x3
+ 463 0167 E2       		.byte	0xe2
+ 464 0168 B7000000 		.4byte	0xb7
+ 465 016c 06       		.uleb128 0x6
+ 466 016d 90010000 		.4byte	.LASF28
+ 467 0171 03       		.byte	0x3
+ 468 0172 F7       		.byte	0xf7
+ 469 0173 96000000 		.4byte	0x96
+ 470 0177 0A       		.uleb128 0xa
+ 471 0178 00000000 		.4byte	.LASF29
+ 472 017c 03       		.byte	0x3
+ 473 017d 3F01     		.2byte	0x13f
+ 474 017f C2000000 		.4byte	0xc2
+ 475 0183 0A       		.uleb128 0xa
+ 476 0184 16000000 		.4byte	.LASF30
+ 477 0188 03       		.byte	0x3
+ 478 0189 5C01     		.2byte	0x15c
+ 479 018b 20010000 		.4byte	0x120
+ 480 018f 07       		.uleb128 0x7
+ 481 0190 AC000000 		.4byte	0xac
+ 482 0194 9F010000 		.4byte	0x19f
+ 483 0198 08       		.uleb128 0x8
+ 484 0199 F4000000 		.4byte	0xf4
+ 485 019d 03       		.byte	0x3
+ 486 019e 00       		.byte	0
+ 487 019f 0A       		.uleb128 0xa
+ 488 01a0 29000000 		.4byte	.LASF31
+ 489 01a4 03       		.byte	0x3
+ 490 01a5 6701     		.2byte	0x167
+ 491 01a7 8F010000 		.4byte	0x18f
+ 492 01ab 0B       		.uleb128 0xb
+ 493 01ac 38030000 		.4byte	.LASF32
+ 494 01b0 06       		.byte	0x6
+ 495 01b1 41       		.byte	0x41
+ 496 01b2 96000000 		.4byte	0x96
+ 497 01b6 05       		.uleb128 0x5
+ 498 01b7 03       		.byte	0x3
+ 499 01b8 00000000 		.4byte	EE_oo_IRQ_disable_count
+ 500 01bc 0B       		.uleb128 0xb
+ 501 01bd 69010000 		.4byte	.LASF33
+ 502 01c1 06       		.byte	0x6
+ 503 01c2 48       		.byte	0x48
+ 504 01c3 A1000000 		.4byte	0xa1
+ 505 01c7 05       		.uleb128 0x5
+ 506 01c8 03       		.byte	0x3
+ 507 01c9 00000000 		.4byte	EE_oo_IRQ_suspend_status
+ 508 01cd 06       		.uleb128 0x6
+ 509 01ce 34020000 		.4byte	.LASF34
+ 510 01d2 07       		.byte	0x7
+ 511 01d3 4A       		.byte	0x4a
+ 512 01d4 96000000 		.4byte	0x96
+ 513 01d8 07       		.uleb128 0x7
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 10
+
+
+ 514 01d9 E8010000 		.4byte	0x1e8
+ 515 01dd E8010000 		.4byte	0x1e8
+ 516 01e1 08       		.uleb128 0x8
+ 517 01e2 F4000000 		.4byte	0xf4
+ 518 01e6 FF       		.byte	0xff
+ 519 01e7 00       		.byte	0
+ 520 01e8 09       		.uleb128 0x9
+ 521 01e9 6A000000 		.4byte	0x6a
+ 522 01ed 0B       		.uleb128 0xb
+ 523 01ee 71020000 		.4byte	.LASF35
+ 524 01f2 06       		.byte	0x6
+ 525 01f3 51       		.byte	0x51
+ 526 01f4 FE010000 		.4byte	0x1fe
+ 527 01f8 05       		.uleb128 0x5
+ 528 01f9 03       		.byte	0x3
+ 529 01fa 00000000 		.4byte	EE_rq_lookup
+ 530 01fe 09       		.uleb128 0x9
+ 531 01ff D8010000 		.4byte	0x1d8
+ 532 0203 0A       		.uleb128 0xa
+ 533 0204 82010000 		.4byte	.LASF36
+ 534 0208 08       		.byte	0x8
+ 535 0209 1602     		.2byte	0x216
+ 536 020b 96000000 		.4byte	0x96
+ 537 020f 00       		.byte	0
+ 538              		.section	.debug_abbrev,"",%progbits
+ 539              	.Ldebug_abbrev0:
+ 540 0000 01       		.uleb128 0x1
+ 541 0001 11       		.uleb128 0x11
+ 542 0002 01       		.byte	0x1
+ 543 0003 25       		.uleb128 0x25
+ 544 0004 0E       		.uleb128 0xe
+ 545 0005 13       		.uleb128 0x13
+ 546 0006 0B       		.uleb128 0xb
+ 547 0007 03       		.uleb128 0x3
+ 548 0008 0E       		.uleb128 0xe
+ 549 0009 1B       		.uleb128 0x1b
+ 550 000a 0E       		.uleb128 0xe
+ 551 000b 10       		.uleb128 0x10
+ 552 000c 17       		.uleb128 0x17
+ 553 000d 00       		.byte	0
+ 554 000e 00       		.byte	0
+ 555 000f 02       		.uleb128 0x2
+ 556 0010 24       		.uleb128 0x24
+ 557 0011 00       		.byte	0
+ 558 0012 0B       		.uleb128 0xb
+ 559 0013 0B       		.uleb128 0xb
+ 560 0014 3E       		.uleb128 0x3e
+ 561 0015 0B       		.uleb128 0xb
+ 562 0016 03       		.uleb128 0x3
+ 563 0017 0E       		.uleb128 0xe
+ 564 0018 00       		.byte	0
+ 565 0019 00       		.byte	0
+ 566 001a 03       		.uleb128 0x3
+ 567 001b 24       		.uleb128 0x24
+ 568 001c 00       		.byte	0
+ 569 001d 0B       		.uleb128 0xb
+ 570 001e 0B       		.uleb128 0xb
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 11
+
+
+ 571 001f 3E       		.uleb128 0x3e
+ 572 0020 0B       		.uleb128 0xb
+ 573 0021 03       		.uleb128 0x3
+ 574 0022 08       		.uleb128 0x8
+ 575 0023 00       		.byte	0
+ 576 0024 00       		.byte	0
+ 577 0025 04       		.uleb128 0x4
+ 578 0026 16       		.uleb128 0x16
+ 579 0027 00       		.byte	0
+ 580 0028 03       		.uleb128 0x3
+ 581 0029 0E       		.uleb128 0xe
+ 582 002a 3A       		.uleb128 0x3a
+ 583 002b 0B       		.uleb128 0xb
+ 584 002c 3B       		.uleb128 0x3b
+ 585 002d 0B       		.uleb128 0xb
+ 586 002e 49       		.uleb128 0x49
+ 587 002f 13       		.uleb128 0x13
+ 588 0030 00       		.byte	0
+ 589 0031 00       		.byte	0
+ 590 0032 05       		.uleb128 0x5
+ 591 0033 16       		.uleb128 0x16
+ 592 0034 00       		.byte	0
+ 593 0035 03       		.uleb128 0x3
+ 594 0036 0E       		.uleb128 0xe
+ 595 0037 3A       		.uleb128 0x3a
+ 596 0038 0B       		.uleb128 0xb
+ 597 0039 3B       		.uleb128 0x3b
+ 598 003a 05       		.uleb128 0x5
+ 599 003b 49       		.uleb128 0x49
+ 600 003c 13       		.uleb128 0x13
+ 601 003d 00       		.byte	0
+ 602 003e 00       		.byte	0
+ 603 003f 06       		.uleb128 0x6
+ 604 0040 34       		.uleb128 0x34
+ 605 0041 00       		.byte	0
+ 606 0042 03       		.uleb128 0x3
+ 607 0043 0E       		.uleb128 0xe
+ 608 0044 3A       		.uleb128 0x3a
+ 609 0045 0B       		.uleb128 0xb
+ 610 0046 3B       		.uleb128 0x3b
+ 611 0047 0B       		.uleb128 0xb
+ 612 0048 49       		.uleb128 0x49
+ 613 0049 13       		.uleb128 0x13
+ 614 004a 3F       		.uleb128 0x3f
+ 615 004b 19       		.uleb128 0x19
+ 616 004c 3C       		.uleb128 0x3c
+ 617 004d 19       		.uleb128 0x19
+ 618 004e 00       		.byte	0
+ 619 004f 00       		.byte	0
+ 620 0050 07       		.uleb128 0x7
+ 621 0051 01       		.uleb128 0x1
+ 622 0052 01       		.byte	0x1
+ 623 0053 49       		.uleb128 0x49
+ 624 0054 13       		.uleb128 0x13
+ 625 0055 01       		.uleb128 0x1
+ 626 0056 13       		.uleb128 0x13
+ 627 0057 00       		.byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 12
+
+
+ 628 0058 00       		.byte	0
+ 629 0059 08       		.uleb128 0x8
+ 630 005a 21       		.uleb128 0x21
+ 631 005b 00       		.byte	0
+ 632 005c 49       		.uleb128 0x49
+ 633 005d 13       		.uleb128 0x13
+ 634 005e 2F       		.uleb128 0x2f
+ 635 005f 0B       		.uleb128 0xb
+ 636 0060 00       		.byte	0
+ 637 0061 00       		.byte	0
+ 638 0062 09       		.uleb128 0x9
+ 639 0063 26       		.uleb128 0x26
+ 640 0064 00       		.byte	0
+ 641 0065 49       		.uleb128 0x49
+ 642 0066 13       		.uleb128 0x13
+ 643 0067 00       		.byte	0
+ 644 0068 00       		.byte	0
+ 645 0069 0A       		.uleb128 0xa
+ 646 006a 34       		.uleb128 0x34
+ 647 006b 00       		.byte	0
+ 648 006c 03       		.uleb128 0x3
+ 649 006d 0E       		.uleb128 0xe
+ 650 006e 3A       		.uleb128 0x3a
+ 651 006f 0B       		.uleb128 0xb
+ 652 0070 3B       		.uleb128 0x3b
+ 653 0071 05       		.uleb128 0x5
+ 654 0072 49       		.uleb128 0x49
+ 655 0073 13       		.uleb128 0x13
+ 656 0074 3F       		.uleb128 0x3f
+ 657 0075 19       		.uleb128 0x19
+ 658 0076 3C       		.uleb128 0x3c
+ 659 0077 19       		.uleb128 0x19
+ 660 0078 00       		.byte	0
+ 661 0079 00       		.byte	0
+ 662 007a 0B       		.uleb128 0xb
+ 663 007b 34       		.uleb128 0x34
+ 664 007c 00       		.byte	0
+ 665 007d 03       		.uleb128 0x3
+ 666 007e 0E       		.uleb128 0xe
+ 667 007f 3A       		.uleb128 0x3a
+ 668 0080 0B       		.uleb128 0xb
+ 669 0081 3B       		.uleb128 0x3b
+ 670 0082 0B       		.uleb128 0xb
+ 671 0083 49       		.uleb128 0x49
+ 672 0084 13       		.uleb128 0x13
+ 673 0085 3F       		.uleb128 0x3f
+ 674 0086 19       		.uleb128 0x19
+ 675 0087 02       		.uleb128 0x2
+ 676 0088 18       		.uleb128 0x18
+ 677 0089 00       		.byte	0
+ 678 008a 00       		.byte	0
+ 679 008b 00       		.byte	0
+ 680              		.section	.debug_aranges,"",%progbits
+ 681 0000 14000000 		.4byte	0x14
+ 682 0004 0200     		.2byte	0x2
+ 683 0006 00000000 		.4byte	.Ldebug_info0
+ 684 000a 04       		.byte	0x4
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 13
+
+
+ 685 000b 00       		.byte	0
+ 686 000c 0000     		.2byte	0
+ 687 000e 0000     		.2byte	0
+ 688 0010 00000000 		.4byte	0
+ 689 0014 00000000 		.4byte	0
+ 690              		.section	.debug_line,"",%progbits
+ 691              	.Ldebug_line0:
+ 692 0000 35010000 		.section	.debug_str,"MS",%progbits,1
+ 692      02002F01 
+ 692      00000201 
+ 692      FB0E0D00 
+ 692      01010101 
+ 693              	.LASF29:
+ 694 0000 45455F72 		.ascii	"EE_rq_bitmask\000"
+ 694      715F6269 
+ 694      746D6173 
+ 694      6B00
+ 695              	.LASF14:
+ 696 000e 45455F55 		.ascii	"EE_UREG\000"
+ 696      52454700 
+ 697              	.LASF30:
+ 698 0016 45455F74 		.ascii	"EE_th_event_active\000"
+ 698      685F6576 
+ 698      656E745F 
+ 698      61637469 
+ 698      766500
+ 699              	.LASF31:
+ 700 0029 45455F74 		.ascii	"EE_th_waswaiting\000"
+ 700      685F7761 
+ 700      73776169 
+ 700      74696E67 
+ 700      00
+ 701              	.LASF2:
+ 702 003a 73686F72 		.ascii	"short int\000"
+ 702      7420696E 
+ 702      7400
+ 703              	.LASF21:
+ 704 0044 73697A65 		.ascii	"sizetype\000"
+ 704      74797065 
+ 704      00
+ 705              	.LASF15:
+ 706 004d 45455F46 		.ascii	"EE_FREG\000"
+ 706      52454700 
+ 707              	.LASF13:
+ 708 0055 45455F55 		.ascii	"EE_UINT32\000"
+ 708      494E5433 
+ 708      3200
+ 709              	.LASF22:
+ 710 005f 45455F74 		.ascii	"EE_th_ready_prio\000"
+ 710      685F7265 
+ 710      6164795F 
+ 710      7072696F 
+ 710      00
+ 711              	.LASF38:
+ 712 0070 47656E65 		.ascii	"Generated_Source\\PSoC5\\ErikaOS_1_ee_lookup.c\000"
+ 712      72617465 
+ 712      645F536F 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 14
+
+
+ 712      75726365 
+ 712      5C50536F 
+ 713              	.LASF19:
+ 714 009d 45455F49 		.ascii	"EE_IRQ_nesting_level\000"
+ 714      52515F6E 
+ 714      65737469 
+ 714      6E675F6C 
+ 714      6576656C 
+ 715              	.LASF6:
+ 716 00b2 6C6F6E67 		.ascii	"long long int\000"
+ 716      206C6F6E 
+ 716      6720696E 
+ 716      7400
+ 717              	.LASF10:
+ 718 00c0 45455F49 		.ascii	"EE_INT8\000"
+ 718      4E543800 
+ 719              	.LASF18:
+ 720 00c8 45455F54 		.ascii	"EE_TYPE_RQ_MASK\000"
+ 720      5950455F 
+ 720      52515F4D 
+ 720      41534B00 
+ 721              	.LASF39:
+ 722 00d8 433A5C4D 		.ascii	"C:\\My_Files\\College_Documents\\AMA EOS\\EOS\\LAB\\"
+ 722      795F4669 
+ 722      6C65735C 
+ 722      436F6C6C 
+ 722      6567655F 
+ 723 0106 4C41425F 		.ascii	"LAB_2_Submission\\Json Parser\\code\\w06_criticalRe"
+ 723      325F5375 
+ 723      626D6973 
+ 723      73696F6E 
+ 723      5C4A736F 
+ 724 0136 67696F6E 		.ascii	"gion.cydsn\\Lab2_JSONParser01.cydsn\000"
+ 724      2E637964 
+ 724      736E5C4C 
+ 724      6162325F 
+ 724      4A534F4E 
+ 725              	.LASF4:
+ 726 0159 6C6F6E67 		.ascii	"long int\000"
+ 726      20696E74 
+ 726      00
+ 727              	.LASF17:
+ 728 0162 45455F54 		.ascii	"EE_TID\000"
+ 728      494400
+ 729              	.LASF33:
+ 730 0169 45455F6F 		.ascii	"EE_oo_IRQ_suspend_status\000"
+ 730      6F5F4952 
+ 730      515F7375 
+ 730      7370656E 
+ 730      645F7374 
+ 731              	.LASF36:
+ 732 0182 45455F69 		.ascii	"EE_isr2_index\000"
+ 732      7372325F 
+ 732      696E6465 
+ 732      7800
+ 733              	.LASF28:
+ 734 0190 45455F73 		.ascii	"EE_sys_ceiling\000"
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 15
+
+
+ 734      79735F63 
+ 734      65696C69 
+ 734      6E6700
+ 735              	.LASF9:
+ 736 019f 6C6F6E67 		.ascii	"long double\000"
+ 736      20646F75 
+ 736      626C6500 
+ 737              	.LASF1:
+ 738 01ab 756E7369 		.ascii	"unsigned char\000"
+ 738      676E6564 
+ 738      20636861 
+ 738      7200
+ 739              	.LASF0:
+ 740 01b9 7369676E 		.ascii	"signed char\000"
+ 740      65642063 
+ 740      68617200 
+ 741              	.LASF7:
+ 742 01c5 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 742      206C6F6E 
+ 742      6720756E 
+ 742      7369676E 
+ 742      65642069 
+ 743              	.LASF8:
+ 744 01dc 756E7369 		.ascii	"unsigned int\000"
+ 744      676E6564 
+ 744      20696E74 
+ 744      00
+ 745              	.LASF26:
+ 746 01e9 45455F74 		.ascii	"EE_th_rnact\000"
+ 746      685F726E 
+ 746      61637400 
+ 747              	.LASF20:
+ 748 01f5 45455F73 		.ascii	"EE_std_endcycle_next_tid\000"
+ 748      74645F65 
+ 748      6E646379 
+ 748      636C655F 
+ 748      6E657874 
+ 749              	.LASF12:
+ 750 020e 45455F49 		.ascii	"EE_INT32\000"
+ 750      4E543332 
+ 750      00
+ 751              	.LASF3:
+ 752 0217 73686F72 		.ascii	"short unsigned int\000"
+ 752      7420756E 
+ 752      7369676E 
+ 752      65642069 
+ 752      6E7400
+ 753              	.LASF11:
+ 754 022a 45455F55 		.ascii	"EE_UINT16\000"
+ 754      494E5431 
+ 754      3600
+ 755              	.LASF34:
+ 756 0234 45455F41 		.ascii	"EE_ApplicationMode\000"
+ 756      70706C69 
+ 756      63617469 
+ 756      6F6E4D6F 
+ 756      646500
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 16
+
+
+ 757              	.LASF5:
+ 758 0247 6C6F6E67 		.ascii	"long unsigned int\000"
+ 758      20756E73 
+ 758      69676E65 
+ 758      6420696E 
+ 758      7400
+ 759              	.LASF16:
+ 760 0259 45455F54 		.ascii	"EE_TYPEBOOL\000"
+ 760      59504542 
+ 760      4F4F4C00 
+ 761              	.LASF27:
+ 762 0265 45455F73 		.ascii	"EE_stkfirst\000"
+ 762      746B6669 
+ 762      72737400 
+ 763              	.LASF35:
+ 764 0271 45455F72 		.ascii	"EE_rq_lookup\000"
+ 764      715F6C6F 
+ 764      6F6B7570 
+ 764      00
+ 765              	.LASF24:
+ 766 027e 45455F74 		.ascii	"EE_th_status\000"
+ 766      685F7374 
+ 766      61747573 
+ 766      00
+ 767              	.LASF23:
+ 768 028b 45455F74 		.ascii	"EE_th_dispatch_prio\000"
+ 768      685F6469 
+ 768      73706174 
+ 768      63685F70 
+ 768      72696F00 
+ 769              	.LASF25:
+ 770 029f 45455F74 		.ascii	"EE_th_next\000"
+ 770      685F6E65 
+ 770      787400
+ 771              	.LASF37:
+ 772 02aa 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 772      43313120 
+ 772      352E342E 
+ 772      31203230 
+ 772      31363036 
+ 773 02dd 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 773      20726576 
+ 773      6973696F 
+ 773      6E203233 
+ 773      37373135 
+ 774 0310 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 774      66756E63 
+ 774      74696F6E 
+ 774      2D736563 
+ 774      74696F6E 
+ 775              	.LASF32:
+ 776 0338 45455F6F 		.ascii	"EE_oo_IRQ_disable_count\000"
+ 776      6F5F4952 
+ 776      515F6469 
+ 776      7361626C 
+ 776      655F636F 
+ 777              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\ccufGp6t.s 			page 17
+
+

@@ -1,0 +1,1345 @@
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"ErikaOS_1_ee_evget.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.EE_oo_GetEvent,"ax",%progbits
+  20              		.align	2
+  21              		.global	EE_oo_GetEvent
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	EE_oo_GetEvent, %function
+  25              	EE_oo_GetEvent:
+  26              	.LFB60:
+  27              		.file 1 "Generated_Source\\PSoC5\\ErikaOS_1_ee_evget.c"
+   1:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** /* ###*B*###
+   2:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * ERIKA Enterprise - a tiny RTOS for small microcontrollers
+   3:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+   4:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Copyright (C) 2002-2008  Evidence Srl
+   5:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+   6:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * This file is part of ERIKA Enterprise.
+   7:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+   8:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * ERIKA Enterprise is free software; you can redistribute it
+   9:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * and/or modify it under the terms of the GNU General Public License
+  10:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * version 2 as published by the Free Software Foundation, 
+  11:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * (with a special exception described below).
+  12:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+  13:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Linking this code statically or dynamically with other modules is
+  14:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * making a combined work based on this code.  Thus, the terms and
+  15:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * conditions of the GNU General Public License cover the whole
+  16:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * combination.
+  17:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+  18:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * As a special exception, the copyright holders of this library give you
+  19:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * permission to link this code with independent modules to produce an
+  20:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * executable, regardless of the license terms of these independent
+  21:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * modules, and to copy and distribute the resulting executable under
+  22:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * terms of your choice, provided that you also meet, for each linked
+  23:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * independent module, the terms and conditions of the license of that
+  24:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * module.  An independent module is a module which is not derived from
+  25:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * or based on this library.  If you modify this code, you may extend
+  26:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * this exception to your version of the code, but you are not
+  27:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * obligated to do so.  If you do not wish to do so, delete this
+  28:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * exception statement from your version.
+  29:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+  30:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * ERIKA Enterprise is distributed in the hope that it will be
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 2
+
+
+  31:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  32:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  33:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * GNU General Public License version 2 for more details.
+  34:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  *
+  35:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * You should have received a copy of the GNU General Public License
+  36:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * version 2 along with ERIKA Enterprise; if not, write to the
+  37:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  38:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Boston, MA 02110-1301 USA.
+  39:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * ###*E*### */
+  40:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  41:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** /*
+  42:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Author: 2002 Paolo Gai
+  43:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * CVS: $Id: ee_evget.c,v 1.1 2005/07/16 12:23:42 pj Exp $
+  44:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  */
+  45:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  46:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** /*
+  47:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * PSoC Port and API Generation
+  48:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Carlos Fernando Meier Martinez
+  49:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  * Hochschule Darmstadt, Germany. 2017.
+  50:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****  */
+  51:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #include "ErikaOS_1_ee_tracing.h"
+  52:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  53:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #include "ErikaOS_1_ee_internal.inc"
+  54:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #if (__OO_configUSE_TRACE_FACILITY == 1)
+  55:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #include "trcKernelPort.h"
+  56:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif
+  57:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** /* GetEvent:
+  58:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****    - can be called from a task, from ISR, from error, pre e post taskhook
+  59:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****    - clear the events for the task
+  60:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****    - returns (only extended state)
+  61:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****        E_OS_ID       task id invalid
+  62:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****        E_OS_ACCESS   if the task is not an extended task
+  63:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****        E_OS_STATE    the task id is in the suspended state
+  64:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** */
+  65:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  66:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  67:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #if (defined(__OO_ECC1__)) || (defined(__OO_ECC2__))
+  68:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #ifndef __PRIVATE_GETEVENT__
+  69:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  70:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** StatusType EE_oo_GetEvent(TaskType TaskID, EventMaskRefType Event)
+  71:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** {
+  28              		.loc 1 71 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              	.LVL0:
+  72:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* Error Value */
+  73:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   register StatusType ev;
+  74:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   EE_ORTI_set_service_in(EE_SERVICETRACE_GETEVENT);
+  75:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  76:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #ifdef EE_SERVICE_PROTECTION__
+  77:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /*  [OS093]: If interrupts are disabled/suspended by a Task/OsIsr and the
+  78:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       Task/OsIsr calls any OS service (excluding the interrupt services)
+  79:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       then the Operating System shall ignore the service AND shall return
+  80:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       E_OS_DISABLEDINT if the service returns a StatusType value. */
+  81:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /*  [OS088]: If an OS-Application makes a service call from the wrong context
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 3
+
+
+  82:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       AND is currently not inside a Category 1 ISR the Operating System module
+  83:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       shall not perform the requested action (the service call shall have no
+  84:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       effect), and return E_OS_CALLEVEL (see [12], section 13.1) or the
+  85:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       invalid value of  the service. (BSW11009, BSW11013) */
+  86:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* GetEvent is callable by Task, ISR2, ErrorHook Pre and Post TaskHook */
+  87:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( (EE_as_execution_context > ErrorHook_Context) &&
+  88:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****        (EE_as_execution_context != PreTaskHook_Context) &&
+  89:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****        (EE_as_execution_context != PostTaskHook_Context) )
+  90:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   {
+  91:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_CALLEVEL;
+  92:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else if ( EE_oo_check_disableint_error() ) {
+  93:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_DISABLEDINT;
+  94:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+  95:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* EE_SERVICE_PROTECTION__ */
+  96:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  97:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+  98:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #if (defined(EE_AS_OSAPPLICATIONS__)) && (defined(EE_SERVICE_PROTECTION__))
+  99:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #ifdef EE_AS_RPC__
+ 100:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /*  [OS589] All functions that are not allowed to operate cross core shall
+ 101:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****         return E_OS_CORE in extended status if called with parameters that
+ 102:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****         require a cross core operation. (BSW4080013) */
+ 103:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( EE_IS_TID_REMOTE(TaskID) ) {
+ 104:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_CORE;
+ 105:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 106:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* EE_AS_RPC__ */
+ 107:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* check if the task Id is valid */
+ 108:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( (TaskID < 0) || (TaskID >= EE_MAX_TASK) ) {
+ 109:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_ID;
+ 110:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else if ( EE_TASK_ACCESS_ERR(TaskID, EE_as_active_app) ) {
+ 111:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_ACCESS;
+ 112:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 113:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #elif defined(__OO_EXTENDED_STATUS__)
+ 114:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #ifdef EE_AS_RPC__
+ 115:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* [OS589]: All functions that are not allowed to operate cross core shall
+ 116:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       return E_OS_CORE in extended status if called with parameters that
+ 117:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       require a cross core operation. (BSW4080013) */
+ 118:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( EE_IS_TID_REMOTE(TaskID) ) {
+ 119:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_CORE;
+ 120:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 121:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* EE_AS_RPC__ */
+ 122:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* Check if the TASK ID is valid */
+ 123:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( (TaskID < 0) || (TaskID >= EE_MAX_TASK) ) {
+  34              		.loc 1 123 0
+  35 0000 0328     		cmp	r0, #3
+  36 0002 0FD8     		bhi	.L3
+ 124:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_ID;
+ 125:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 126:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* EE_AS_OSAPPLICATIONS__ || E_SERVICE_PROTECTION__ ||
+ 127:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** __OO_EXTENDED_STATUS__ */
+ 128:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #ifdef __OO_EXTENDED_STATUS__
+ 129:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( EE_th_is_extended[TaskID] == EE_FALSE ) {
+  37              		.loc 1 129 0
+  38 0004 0B4B     		ldr	r3, .L7
+  39 0006 53F82030 		ldr	r3, [r3, r0, lsl #2]
+  40 000a 6BB1     		cbz	r3, .L4
+ 130:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_ACCESS;
+ 131:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else if ( EE_th_status[TaskID] == SUSPENDED ) {
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 4
+
+
+  41              		.loc 1 131 0
+  42 000c 0A4B     		ldr	r3, .L7+4
+  43 000e 53F82030 		ldr	r3, [r3, r0, lsl #2]
+  44 0012 032B     		cmp	r3, #3
+  45 0014 0AD0     		beq	.L5
+ 132:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_STATE;
+ 133:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 134:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* __OO_EXTENDED_STATUS__ */
+ 135:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( Event == NULL ) {
+  46              		.loc 1 135 0
+  47 0016 59B1     		cbz	r1, .L6
+ 136:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_PARAM_POINTER;
+ 137:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 138:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #if (defined(EE_AS_OSAPPLICATIONS__)) && (defined(EE_SERVICE_PROTECTION__)) \
+ 139:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   && (defined(__EE_MEMORY_PROTECTION__))
+ 140:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   /* [SWS_Os_00051] If an invalid address (address is not writable by this
+ 141:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       OS-Application) is passed as an out-parameter to an Operating System
+ 142:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       service, the Operating System module shall return the status code
+ 143:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****       E_OS_ILLEGAL_ADDRESS. (SRS_Os_11009, SRS_Os_11013) */
+ 144:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( !OSMEMORY_IS_WRITEABLE(EE_hal_get_app_mem_access(EE_as_active_app,
+ 145:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     Event, sizeof(*Event))) )
+ 146:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   {
+ 147:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OS_ILLEGAL_ADDRESS;
+ 148:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+ 149:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif /* EE_AS_OSAPPLICATIONS__ && __EE_MEMORY_PROTECTION__ &&
+ 150:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   EE_SERVICE_PROTECTION__ */
+ 151:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   {
+ 152:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     /* XXX: This SHALL be atomic. Check this architectures other than TriCore */
+ 153:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     *Event = EE_th_event_active[TaskID];
+  48              		.loc 1 153 0
+  49 0018 084B     		ldr	r3, .L7+8
+  50 001a 53F82030 		ldr	r3, [r3, r0, lsl #2]
+  51 001e 0B60     		str	r3, [r1]
+  52              	.LVL1:
+ 154:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     ev = E_OK;
+  53              		.loc 1 154 0
+  54 0020 0020     		movs	r0, #0
+  55              	.LVL2:
+  56 0022 7047     		bx	lr
+  57              	.LVL3:
+  58              	.L3:
+ 124:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+  59              		.loc 1 124 0
+  60 0024 0320     		movs	r0, #3
+  61              	.LVL4:
+  62 0026 7047     		bx	lr
+  63              	.LVL5:
+  64              	.L4:
+ 130:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else if ( EE_th_status[TaskID] == SUSPENDED ) {
+  65              		.loc 1 130 0
+  66 0028 0120     		movs	r0, #1
+  67              	.LVL6:
+  68 002a 7047     		bx	lr
+  69              	.LVL7:
+  70              	.L5:
+ 132:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+  71              		.loc 1 132 0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 5
+
+
+  72 002c 0720     		movs	r0, #7
+  73              	.LVL8:
+  74 002e 7047     		bx	lr
+  75              	.LVL9:
+  76              	.L6:
+ 136:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else
+  77              		.loc 1 136 0
+  78 0030 0E20     		movs	r0, #14
+  79              	.LVL10:
+ 155:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   }
+ 156:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+ 157:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   if ( ev != E_OK ) {
+ 158:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_OS_ERROR_PARAMETERS();
+ 159:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_OS_ERROR_PARAMETERS_PARAM1_VALUE((EE_UREG)TaskID);
+ 160:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_OS_ERROR_PARAMETERS_PARAM2_REF(event_ref,Event);
+ 161:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+ 162:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_os_notify_error_from_us(OSServiceId_GetEvent, &error_parameters, ev);
+ 163:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_ORTI_set_service_out(EE_SERVICETRACE_GETEVENT);
+ 164:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   } else {
+ 165:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     EE_ORTI_set_service_out(EE_SERVICETRACE_GETEVENT);
+ 166:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   }
+ 167:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+ 168:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #if (__OO_configUSE_TRACE_FACILITY == 1)
+ 169:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****     traceTASK_GET_EVENT(TaskID, *Event)
+ 170:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** #endif
+ 171:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** 
+ 172:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c ****   return ev;
+ 173:Generated_Source\PSoC5/ErikaOS_1_ee_evget.c **** }
+  80              		.loc 1 173 0
+  81 0032 7047     		bx	lr
+  82              	.L8:
+  83              		.align	2
+  84              	.L7:
+  85 0034 00000000 		.word	EE_th_is_extended
+  86 0038 00000000 		.word	EE_th_status
+  87 003c 00000000 		.word	EE_th_event_active
+  88              		.cfi_endproc
+  89              	.LFE60:
+  90              		.size	EE_oo_GetEvent, .-EE_oo_GetEvent
+  91              		.text
+  92              	.Letext0:
+  93              		.file 2 "Generated_Source\\PSoC5\\ErikaOS_1_common_ee_types.inc"
+  94              		.file 3 "Generated_Source\\PSoC5\\ErikaOS_1_cortex_mx_ee_cpu.inc"
+  95              		.file 4 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_common.inc"
+  96              		.file 5 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_internal.inc"
+  97              		.file 6 "Generated_Source\\PSoC5\\ErikaOS_1_common_ee_primitives.inc"
+  98              		.file 7 "Generated_Source\\PSoC5\\ErikaOS_1_cortex_mx_ee_context.inc"
+  99              		.file 8 "Generated_Source\\PSoC5\\ErikaOS_1_ee_oo_intfunc.inc"
+ 100              		.section	.debug_info,"",%progbits
+ 101              	.Ldebug_info0:
+ 102 0000 06030000 		.4byte	0x306
+ 103 0004 0400     		.2byte	0x4
+ 104 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 105 000a 04       		.byte	0x4
+ 106 000b 01       		.uleb128 0x1
+ 107 000c 50030000 		.4byte	.LASF49
+ 108 0010 0C       		.byte	0xc
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 6
+
+
+ 109 0011 10020000 		.4byte	.LASF50
+ 110 0015 25010000 		.4byte	.LASF51
+ 111 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 112 001d 00000000 		.4byte	0
+ 113 0021 00000000 		.4byte	.Ldebug_line0
+ 114 0025 02       		.uleb128 0x2
+ 115 0026 01       		.byte	0x1
+ 116 0027 06       		.byte	0x6
+ 117 0028 3C020000 		.4byte	.LASF0
+ 118 002c 02       		.uleb128 0x2
+ 119 002d 01       		.byte	0x1
+ 120 002e 08       		.byte	0x8
+ 121 002f F9010000 		.4byte	.LASF1
+ 122 0033 02       		.uleb128 0x2
+ 123 0034 02       		.byte	0x2
+ 124 0035 05       		.byte	0x5
+ 125 0036 4F000000 		.4byte	.LASF2
+ 126 003a 02       		.uleb128 0x2
+ 127 003b 02       		.byte	0x2
+ 128 003c 07       		.byte	0x7
+ 129 003d 9A020000 		.4byte	.LASF3
+ 130 0041 02       		.uleb128 0x2
+ 131 0042 04       		.byte	0x4
+ 132 0043 05       		.byte	0x5
+ 133 0044 A6010000 		.4byte	.LASF4
+ 134 0048 02       		.uleb128 0x2
+ 135 0049 04       		.byte	0x4
+ 136 004a 07       		.byte	0x7
+ 137 004b D0020000 		.4byte	.LASF5
+ 138 004f 02       		.uleb128 0x2
+ 139 0050 08       		.byte	0x8
+ 140 0051 05       		.byte	0x5
+ 141 0052 E6000000 		.4byte	.LASF6
+ 142 0056 02       		.uleb128 0x2
+ 143 0057 08       		.byte	0x8
+ 144 0058 07       		.byte	0x7
+ 145 0059 48020000 		.4byte	.LASF7
+ 146 005d 03       		.uleb128 0x3
+ 147 005e 04       		.byte	0x4
+ 148 005f 05       		.byte	0x5
+ 149 0060 696E7400 		.ascii	"int\000"
+ 150 0064 02       		.uleb128 0x2
+ 151 0065 04       		.byte	0x4
+ 152 0066 07       		.byte	0x7
+ 153 0067 5F020000 		.4byte	.LASF8
+ 154 006b 02       		.uleb128 0x2
+ 155 006c 08       		.byte	0x8
+ 156 006d 04       		.byte	0x4
+ 157 006e DA000000 		.4byte	.LASF9
+ 158 0072 04       		.uleb128 0x4
+ 159 0073 00000000 		.4byte	.LASF10
+ 160 0077 02       		.byte	0x2
+ 161 0078 3E       		.byte	0x3e
+ 162 0079 2C000000 		.4byte	0x2c
+ 163 007d 04       		.uleb128 0x4
+ 164 007e F4000000 		.4byte	.LASF11
+ 165 0082 02       		.byte	0x2
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 7
+
+
+ 166 0083 3F       		.byte	0x3f
+ 167 0084 25000000 		.4byte	0x25
+ 168 0088 04       		.uleb128 0x4
+ 169 0089 AD020000 		.4byte	.LASF12
+ 170 008d 02       		.byte	0x2
+ 171 008e 52       		.byte	0x52
+ 172 008f 3A000000 		.4byte	0x3a
+ 173 0093 04       		.uleb128 0x4
+ 174 0094 91020000 		.4byte	.LASF13
+ 175 0098 02       		.byte	0x2
+ 176 0099 53       		.byte	0x53
+ 177 009a 5D000000 		.4byte	0x5d
+ 178 009e 04       		.uleb128 0x4
+ 179 009f 6C000000 		.4byte	.LASF14
+ 180 00a3 02       		.byte	0x2
+ 181 00a4 54       		.byte	0x54
+ 182 00a5 64000000 		.4byte	0x64
+ 183 00a9 04       		.uleb128 0x4
+ 184 00aa 17000000 		.4byte	.LASF15
+ 185 00ae 03       		.byte	0x3
+ 186 00af 4D       		.byte	0x4d
+ 187 00b0 9E000000 		.4byte	0x9e
+ 188 00b4 04       		.uleb128 0x4
+ 189 00b5 64000000 		.4byte	.LASF16
+ 190 00b9 03       		.byte	0x3
+ 191 00ba 4F       		.byte	0x4f
+ 192 00bb 9E000000 		.4byte	0x9e
+ 193 00bf 04       		.uleb128 0x4
+ 194 00c0 E2020000 		.4byte	.LASF17
+ 195 00c4 03       		.byte	0x3
+ 196 00c5 54       		.byte	0x54
+ 197 00c6 A9000000 		.4byte	0xa9
+ 198 00ca 04       		.uleb128 0x4
+ 199 00cb 87000000 		.4byte	.LASF18
+ 200 00cf 03       		.byte	0x3
+ 201 00d0 78       		.byte	0x78
+ 202 00d1 93000000 		.4byte	0x93
+ 203 00d5 05       		.uleb128 0x5
+ 204 00d6 15010000 		.4byte	.LASF19
+ 205 00da 04       		.byte	0x4
+ 206 00db 1101     		.2byte	0x111
+ 207 00dd 88000000 		.4byte	0x88
+ 208 00e1 05       		.uleb128 0x5
+ 209 00e2 07020000 		.4byte	.LASF20
+ 210 00e6 04       		.byte	0x4
+ 211 00e7 F701     		.2byte	0x1f7
+ 212 00e9 CA000000 		.4byte	0xca
+ 213 00ed 06       		.uleb128 0x6
+ 214 00ee 04       		.byte	0x4
+ 215 00ef A9000000 		.4byte	0xa9
+ 216 00f3 05       		.uleb128 0x5
+ 217 00f4 1F000000 		.4byte	.LASF21
+ 218 00f8 04       		.byte	0x4
+ 219 00f9 2F02     		.2byte	0x22f
+ 220 00fb ED000000 		.4byte	0xed
+ 221 00ff 05       		.uleb128 0x5
+ 222 0100 59000000 		.4byte	.LASF22
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 8
+
+
+ 223 0104 04       		.byte	0x4
+ 224 0105 2103     		.2byte	0x321
+ 225 0107 2C000000 		.4byte	0x2c
+ 226 010b 07       		.uleb128 0x7
+ 227 010c AF010000 		.4byte	.LASF23
+ 228 0110 04       		.byte	0x4
+ 229 0111 9703     		.2byte	0x397
+ 230 0113 03       		.byte	0x3
+ 231 0114 25010000 		.4byte	0x125
+ 232 0118 08       		.uleb128 0x8
+ 233 0119 73727600 		.ascii	"srv\000"
+ 234 011d 04       		.byte	0x4
+ 235 011e 9703     		.2byte	0x397
+ 236 0120 72000000 		.4byte	0x72
+ 237 0124 00       		.byte	0
+ 238 0125 07       		.uleb128 0x7
+ 239 0126 B4000000 		.4byte	.LASF24
+ 240 012a 04       		.byte	0x4
+ 241 012b A303     		.2byte	0x3a3
+ 242 012d 03       		.byte	0x3
+ 243 012e 3E010000 		.4byte	0x13e
+ 244 0132 08       		.uleb128 0x8
+ 245 0133 696400   		.ascii	"id\000"
+ 246 0136 04       		.byte	0x4
+ 247 0137 A303     		.2byte	0x3a3
+ 248 0139 72000000 		.4byte	0x72
+ 249 013d 00       		.byte	0
+ 250 013e 07       		.uleb128 0x7
+ 251 013f FC030000 		.4byte	.LASF25
+ 252 0143 04       		.byte	0x4
+ 253 0144 A803     		.2byte	0x3a8
+ 254 0146 03       		.byte	0x3
+ 255 0147 57010000 		.4byte	0x157
+ 256 014b 08       		.uleb128 0x8
+ 257 014c 696400   		.ascii	"id\000"
+ 258 014f 04       		.byte	0x4
+ 259 0150 A803     		.2byte	0x3a8
+ 260 0152 72000000 		.4byte	0x72
+ 261 0156 00       		.byte	0
+ 262 0157 09       		.uleb128 0x9
+ 263 0158 EE020000 		.4byte	.LASF26
+ 264 015c 05       		.byte	0x5
+ 265 015d B7       		.byte	0xb7
+ 266 015e 03       		.byte	0x3
+ 267 015f 6F010000 		.4byte	0x16f
+ 268 0163 0A       		.uleb128 0xa
+ 269 0164 B7020000 		.4byte	.LASF27
+ 270 0168 05       		.byte	0x5
+ 271 0169 B8       		.byte	0xb8
+ 272 016a FF000000 		.4byte	0xff
+ 273 016e 00       		.byte	0
+ 274 016f 0B       		.uleb128 0xb
+ 275 0170 CB000000 		.4byte	.LASF52
+ 276 0174 01       		.byte	0x1
+ 277 0175 46       		.byte	0x46
+ 278 0176 FF000000 		.4byte	0xff
+ 279 017a 00000000 		.4byte	.LFB60
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 9
+
+
+ 280 017e 40000000 		.4byte	.LFE60-.LFB60
+ 281 0182 01       		.uleb128 0x1
+ 282 0183 9C       		.byte	0x9c
+ 283 0184 B3010000 		.4byte	0x1b3
+ 284 0188 0C       		.uleb128 0xc
+ 285 0189 E3010000 		.4byte	.LASF28
+ 286 018d 01       		.byte	0x1
+ 287 018e 46       		.byte	0x46
+ 288 018f E1000000 		.4byte	0xe1
+ 289 0193 00000000 		.4byte	.LLST0
+ 290 0197 0D       		.uleb128 0xd
+ 291 0198 F6030000 		.4byte	.LASF29
+ 292 019c 01       		.byte	0x1
+ 293 019d 46       		.byte	0x46
+ 294 019e F3000000 		.4byte	0xf3
+ 295 01a2 01       		.uleb128 0x1
+ 296 01a3 51       		.byte	0x51
+ 297 01a4 0E       		.uleb128 0xe
+ 298 01a5 657600   		.ascii	"ev\000"
+ 299 01a8 01       		.byte	0x1
+ 300 01a9 49       		.byte	0x49
+ 301 01aa FF000000 		.4byte	0xff
+ 302 01ae 85000000 		.4byte	.LLST1
+ 303 01b2 00       		.byte	0
+ 304 01b3 0F       		.uleb128 0xf
+ 305 01b4 9F000000 		.4byte	.LASF30
+ 306 01b8 06       		.byte	0x6
+ 307 01b9 44       		.byte	0x44
+ 308 01ba A9000000 		.4byte	0xa9
+ 309 01be 0F       		.uleb128 0xf
+ 310 01bf 78020000 		.4byte	.LASF31
+ 311 01c3 07       		.byte	0x7
+ 312 01c4 48       		.byte	0x48
+ 313 01c5 CA000000 		.4byte	0xca
+ 314 01c9 10       		.uleb128 0x10
+ 315 01ca E0010000 		.4byte	0x1e0
+ 316 01ce D9010000 		.4byte	0x1d9
+ 317 01d2 11       		.uleb128 0x11
+ 318 01d3 D9010000 		.4byte	0x1d9
+ 319 01d7 03       		.byte	0x3
+ 320 01d8 00       		.byte	0
+ 321 01d9 02       		.uleb128 0x2
+ 322 01da 04       		.byte	0x4
+ 323 01db 07       		.byte	0x7
+ 324 01dc 0E030000 		.4byte	.LASF32
+ 325 01e0 12       		.uleb128 0x12
+ 326 01e1 A9000000 		.4byte	0xa9
+ 327 01e5 0F       		.uleb128 0xf
+ 328 01e6 76000000 		.4byte	.LASF33
+ 329 01ea 04       		.byte	0x4
+ 330 01eb B2       		.byte	0xb2
+ 331 01ec F0010000 		.4byte	0x1f0
+ 332 01f0 12       		.uleb128 0x12
+ 333 01f1 C9010000 		.4byte	0x1c9
+ 334 01f5 0F       		.uleb128 0xf
+ 335 01f6 31030000 		.4byte	.LASF34
+ 336 01fa 04       		.byte	0x4
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 10
+
+
+ 337 01fb B3       		.byte	0xb3
+ 338 01fc 00020000 		.4byte	0x200
+ 339 0200 12       		.uleb128 0x12
+ 340 0201 C9010000 		.4byte	0x1c9
+ 341 0205 10       		.uleb128 0x10
+ 342 0206 A9000000 		.4byte	0xa9
+ 343 020a 15020000 		.4byte	0x215
+ 344 020e 11       		.uleb128 0x11
+ 345 020f D9010000 		.4byte	0x1d9
+ 346 0213 03       		.byte	0x3
+ 347 0214 00       		.byte	0
+ 348 0215 0F       		.uleb128 0xf
+ 349 0216 24030000 		.4byte	.LASF35
+ 350 021a 04       		.byte	0x4
+ 351 021b CA       		.byte	0xca
+ 352 021c 05020000 		.4byte	0x205
+ 353 0220 10       		.uleb128 0x10
+ 354 0221 CA000000 		.4byte	0xca
+ 355 0225 30020000 		.4byte	0x230
+ 356 0229 11       		.uleb128 0x11
+ 357 022a D9010000 		.4byte	0x1d9
+ 358 022e 03       		.byte	0x3
+ 359 022f 00       		.byte	0
+ 360 0230 0F       		.uleb128 0xf
+ 361 0231 45030000 		.4byte	.LASF36
+ 362 0235 04       		.byte	0x4
+ 363 0236 D2       		.byte	0xd2
+ 364 0237 20020000 		.4byte	0x220
+ 365 023b 0F       		.uleb128 0xf
+ 366 023c 6C020000 		.4byte	.LASF37
+ 367 0240 04       		.byte	0x4
+ 368 0241 DA       		.byte	0xda
+ 369 0242 05020000 		.4byte	0x205
+ 370 0246 0F       		.uleb128 0xf
+ 371 0247 43000000 		.4byte	.LASF38
+ 372 024b 04       		.byte	0x4
+ 373 024c E2       		.byte	0xe2
+ 374 024d CA000000 		.4byte	0xca
+ 375 0251 0F       		.uleb128 0xf
+ 376 0252 EA010000 		.4byte	.LASF39
+ 377 0256 04       		.byte	0x4
+ 378 0257 F7       		.byte	0xf7
+ 379 0258 A9000000 		.4byte	0xa9
+ 380 025c 13       		.uleb128 0x13
+ 381 025d 09000000 		.4byte	.LASF40
+ 382 0261 04       		.byte	0x4
+ 383 0262 3F01     		.2byte	0x13f
+ 384 0264 D5000000 		.4byte	0xd5
+ 385 0268 13       		.uleb128 0x13
+ 386 0269 30000000 		.4byte	.LASF41
+ 387 026d 04       		.byte	0x4
+ 388 026e 5C01     		.2byte	0x15c
+ 389 0270 05020000 		.4byte	0x205
+ 390 0274 10       		.uleb128 0x10
+ 391 0275 BF000000 		.4byte	0xbf
+ 392 0279 84020000 		.4byte	0x284
+ 393 027d 11       		.uleb128 0x11
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 11
+
+
+ 394 027e D9010000 		.4byte	0x1d9
+ 395 0282 03       		.byte	0x3
+ 396 0283 00       		.byte	0
+ 397 0284 13       		.uleb128 0x13
+ 398 0285 8E000000 		.4byte	.LASF42
+ 399 0289 04       		.byte	0x4
+ 400 028a 6701     		.2byte	0x167
+ 401 028c 74020000 		.4byte	0x274
+ 402 0290 10       		.uleb128 0x10
+ 403 0291 A0020000 		.4byte	0x2a0
+ 404 0295 A0020000 		.4byte	0x2a0
+ 405 0299 11       		.uleb128 0x11
+ 406 029a D9010000 		.4byte	0x1d9
+ 407 029e 03       		.byte	0x3
+ 408 029f 00       		.byte	0
+ 409 02a0 12       		.uleb128 0x12
+ 410 02a1 BF000000 		.4byte	0xbf
+ 411 02a5 13       		.uleb128 0x13
+ 412 02a6 C3010000 		.4byte	.LASF43
+ 413 02aa 04       		.byte	0x4
+ 414 02ab 7401     		.2byte	0x174
+ 415 02ad B1020000 		.4byte	0x2b1
+ 416 02b1 12       		.uleb128 0x12
+ 417 02b2 90020000 		.4byte	0x290
+ 418 02b6 0F       		.uleb128 0xf
+ 419 02b7 DE030000 		.4byte	.LASF44
+ 420 02bb 08       		.byte	0x8
+ 421 02bc 40       		.byte	0x40
+ 422 02bd A9000000 		.4byte	0xa9
+ 423 02c1 0F       		.uleb128 0xf
+ 424 02c2 FC000000 		.4byte	.LASF45
+ 425 02c6 08       		.byte	0x8
+ 426 02c7 47       		.byte	0x47
+ 427 02c8 B4000000 		.4byte	0xb4
+ 428 02cc 0F       		.uleb128 0xf
+ 429 02cd BD020000 		.4byte	.LASF46
+ 430 02d1 08       		.byte	0x8
+ 431 02d2 4A       		.byte	0x4a
+ 432 02d3 A9000000 		.4byte	0xa9
+ 433 02d7 10       		.uleb128 0x10
+ 434 02d8 E7020000 		.4byte	0x2e7
+ 435 02dc E7020000 		.4byte	0x2e7
+ 436 02e0 11       		.uleb128 0x11
+ 437 02e1 D9010000 		.4byte	0x1d9
+ 438 02e5 FF       		.byte	0xff
+ 439 02e6 00       		.byte	0
+ 440 02e7 12       		.uleb128 0x12
+ 441 02e8 7D000000 		.4byte	0x7d
+ 442 02ec 13       		.uleb128 0x13
+ 443 02ed 17030000 		.4byte	.LASF47
+ 444 02f1 05       		.byte	0x5
+ 445 02f2 AB01     		.2byte	0x1ab
+ 446 02f4 F8020000 		.4byte	0x2f8
+ 447 02f8 12       		.uleb128 0x12
+ 448 02f9 D7020000 		.4byte	0x2d7
+ 449 02fd 13       		.uleb128 0x13
+ 450 02fe D5010000 		.4byte	.LASF48
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 12
+
+
+ 451 0302 05       		.byte	0x5
+ 452 0303 1602     		.2byte	0x216
+ 453 0305 A9000000 		.4byte	0xa9
+ 454 0309 00       		.byte	0
+ 455              		.section	.debug_abbrev,"",%progbits
+ 456              	.Ldebug_abbrev0:
+ 457 0000 01       		.uleb128 0x1
+ 458 0001 11       		.uleb128 0x11
+ 459 0002 01       		.byte	0x1
+ 460 0003 25       		.uleb128 0x25
+ 461 0004 0E       		.uleb128 0xe
+ 462 0005 13       		.uleb128 0x13
+ 463 0006 0B       		.uleb128 0xb
+ 464 0007 03       		.uleb128 0x3
+ 465 0008 0E       		.uleb128 0xe
+ 466 0009 1B       		.uleb128 0x1b
+ 467 000a 0E       		.uleb128 0xe
+ 468 000b 55       		.uleb128 0x55
+ 469 000c 17       		.uleb128 0x17
+ 470 000d 11       		.uleb128 0x11
+ 471 000e 01       		.uleb128 0x1
+ 472 000f 10       		.uleb128 0x10
+ 473 0010 17       		.uleb128 0x17
+ 474 0011 00       		.byte	0
+ 475 0012 00       		.byte	0
+ 476 0013 02       		.uleb128 0x2
+ 477 0014 24       		.uleb128 0x24
+ 478 0015 00       		.byte	0
+ 479 0016 0B       		.uleb128 0xb
+ 480 0017 0B       		.uleb128 0xb
+ 481 0018 3E       		.uleb128 0x3e
+ 482 0019 0B       		.uleb128 0xb
+ 483 001a 03       		.uleb128 0x3
+ 484 001b 0E       		.uleb128 0xe
+ 485 001c 00       		.byte	0
+ 486 001d 00       		.byte	0
+ 487 001e 03       		.uleb128 0x3
+ 488 001f 24       		.uleb128 0x24
+ 489 0020 00       		.byte	0
+ 490 0021 0B       		.uleb128 0xb
+ 491 0022 0B       		.uleb128 0xb
+ 492 0023 3E       		.uleb128 0x3e
+ 493 0024 0B       		.uleb128 0xb
+ 494 0025 03       		.uleb128 0x3
+ 495 0026 08       		.uleb128 0x8
+ 496 0027 00       		.byte	0
+ 497 0028 00       		.byte	0
+ 498 0029 04       		.uleb128 0x4
+ 499 002a 16       		.uleb128 0x16
+ 500 002b 00       		.byte	0
+ 501 002c 03       		.uleb128 0x3
+ 502 002d 0E       		.uleb128 0xe
+ 503 002e 3A       		.uleb128 0x3a
+ 504 002f 0B       		.uleb128 0xb
+ 505 0030 3B       		.uleb128 0x3b
+ 506 0031 0B       		.uleb128 0xb
+ 507 0032 49       		.uleb128 0x49
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 13
+
+
+ 508 0033 13       		.uleb128 0x13
+ 509 0034 00       		.byte	0
+ 510 0035 00       		.byte	0
+ 511 0036 05       		.uleb128 0x5
+ 512 0037 16       		.uleb128 0x16
+ 513 0038 00       		.byte	0
+ 514 0039 03       		.uleb128 0x3
+ 515 003a 0E       		.uleb128 0xe
+ 516 003b 3A       		.uleb128 0x3a
+ 517 003c 0B       		.uleb128 0xb
+ 518 003d 3B       		.uleb128 0x3b
+ 519 003e 05       		.uleb128 0x5
+ 520 003f 49       		.uleb128 0x49
+ 521 0040 13       		.uleb128 0x13
+ 522 0041 00       		.byte	0
+ 523 0042 00       		.byte	0
+ 524 0043 06       		.uleb128 0x6
+ 525 0044 0F       		.uleb128 0xf
+ 526 0045 00       		.byte	0
+ 527 0046 0B       		.uleb128 0xb
+ 528 0047 0B       		.uleb128 0xb
+ 529 0048 49       		.uleb128 0x49
+ 530 0049 13       		.uleb128 0x13
+ 531 004a 00       		.byte	0
+ 532 004b 00       		.byte	0
+ 533 004c 07       		.uleb128 0x7
+ 534 004d 2E       		.uleb128 0x2e
+ 535 004e 01       		.byte	0x1
+ 536 004f 03       		.uleb128 0x3
+ 537 0050 0E       		.uleb128 0xe
+ 538 0051 3A       		.uleb128 0x3a
+ 539 0052 0B       		.uleb128 0xb
+ 540 0053 3B       		.uleb128 0x3b
+ 541 0054 05       		.uleb128 0x5
+ 542 0055 27       		.uleb128 0x27
+ 543 0056 19       		.uleb128 0x19
+ 544 0057 20       		.uleb128 0x20
+ 545 0058 0B       		.uleb128 0xb
+ 546 0059 01       		.uleb128 0x1
+ 547 005a 13       		.uleb128 0x13
+ 548 005b 00       		.byte	0
+ 549 005c 00       		.byte	0
+ 550 005d 08       		.uleb128 0x8
+ 551 005e 05       		.uleb128 0x5
+ 552 005f 00       		.byte	0
+ 553 0060 03       		.uleb128 0x3
+ 554 0061 08       		.uleb128 0x8
+ 555 0062 3A       		.uleb128 0x3a
+ 556 0063 0B       		.uleb128 0xb
+ 557 0064 3B       		.uleb128 0x3b
+ 558 0065 05       		.uleb128 0x5
+ 559 0066 49       		.uleb128 0x49
+ 560 0067 13       		.uleb128 0x13
+ 561 0068 00       		.byte	0
+ 562 0069 00       		.byte	0
+ 563 006a 09       		.uleb128 0x9
+ 564 006b 2E       		.uleb128 0x2e
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 14
+
+
+ 565 006c 01       		.byte	0x1
+ 566 006d 03       		.uleb128 0x3
+ 567 006e 0E       		.uleb128 0xe
+ 568 006f 3A       		.uleb128 0x3a
+ 569 0070 0B       		.uleb128 0xb
+ 570 0071 3B       		.uleb128 0x3b
+ 571 0072 0B       		.uleb128 0xb
+ 572 0073 27       		.uleb128 0x27
+ 573 0074 19       		.uleb128 0x19
+ 574 0075 20       		.uleb128 0x20
+ 575 0076 0B       		.uleb128 0xb
+ 576 0077 01       		.uleb128 0x1
+ 577 0078 13       		.uleb128 0x13
+ 578 0079 00       		.byte	0
+ 579 007a 00       		.byte	0
+ 580 007b 0A       		.uleb128 0xa
+ 581 007c 05       		.uleb128 0x5
+ 582 007d 00       		.byte	0
+ 583 007e 03       		.uleb128 0x3
+ 584 007f 0E       		.uleb128 0xe
+ 585 0080 3A       		.uleb128 0x3a
+ 586 0081 0B       		.uleb128 0xb
+ 587 0082 3B       		.uleb128 0x3b
+ 588 0083 0B       		.uleb128 0xb
+ 589 0084 49       		.uleb128 0x49
+ 590 0085 13       		.uleb128 0x13
+ 591 0086 00       		.byte	0
+ 592 0087 00       		.byte	0
+ 593 0088 0B       		.uleb128 0xb
+ 594 0089 2E       		.uleb128 0x2e
+ 595 008a 01       		.byte	0x1
+ 596 008b 3F       		.uleb128 0x3f
+ 597 008c 19       		.uleb128 0x19
+ 598 008d 03       		.uleb128 0x3
+ 599 008e 0E       		.uleb128 0xe
+ 600 008f 3A       		.uleb128 0x3a
+ 601 0090 0B       		.uleb128 0xb
+ 602 0091 3B       		.uleb128 0x3b
+ 603 0092 0B       		.uleb128 0xb
+ 604 0093 27       		.uleb128 0x27
+ 605 0094 19       		.uleb128 0x19
+ 606 0095 49       		.uleb128 0x49
+ 607 0096 13       		.uleb128 0x13
+ 608 0097 11       		.uleb128 0x11
+ 609 0098 01       		.uleb128 0x1
+ 610 0099 12       		.uleb128 0x12
+ 611 009a 06       		.uleb128 0x6
+ 612 009b 40       		.uleb128 0x40
+ 613 009c 18       		.uleb128 0x18
+ 614 009d 9742     		.uleb128 0x2117
+ 615 009f 19       		.uleb128 0x19
+ 616 00a0 01       		.uleb128 0x1
+ 617 00a1 13       		.uleb128 0x13
+ 618 00a2 00       		.byte	0
+ 619 00a3 00       		.byte	0
+ 620 00a4 0C       		.uleb128 0xc
+ 621 00a5 05       		.uleb128 0x5
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 15
+
+
+ 622 00a6 00       		.byte	0
+ 623 00a7 03       		.uleb128 0x3
+ 624 00a8 0E       		.uleb128 0xe
+ 625 00a9 3A       		.uleb128 0x3a
+ 626 00aa 0B       		.uleb128 0xb
+ 627 00ab 3B       		.uleb128 0x3b
+ 628 00ac 0B       		.uleb128 0xb
+ 629 00ad 49       		.uleb128 0x49
+ 630 00ae 13       		.uleb128 0x13
+ 631 00af 02       		.uleb128 0x2
+ 632 00b0 17       		.uleb128 0x17
+ 633 00b1 00       		.byte	0
+ 634 00b2 00       		.byte	0
+ 635 00b3 0D       		.uleb128 0xd
+ 636 00b4 05       		.uleb128 0x5
+ 637 00b5 00       		.byte	0
+ 638 00b6 03       		.uleb128 0x3
+ 639 00b7 0E       		.uleb128 0xe
+ 640 00b8 3A       		.uleb128 0x3a
+ 641 00b9 0B       		.uleb128 0xb
+ 642 00ba 3B       		.uleb128 0x3b
+ 643 00bb 0B       		.uleb128 0xb
+ 644 00bc 49       		.uleb128 0x49
+ 645 00bd 13       		.uleb128 0x13
+ 646 00be 02       		.uleb128 0x2
+ 647 00bf 18       		.uleb128 0x18
+ 648 00c0 00       		.byte	0
+ 649 00c1 00       		.byte	0
+ 650 00c2 0E       		.uleb128 0xe
+ 651 00c3 34       		.uleb128 0x34
+ 652 00c4 00       		.byte	0
+ 653 00c5 03       		.uleb128 0x3
+ 654 00c6 08       		.uleb128 0x8
+ 655 00c7 3A       		.uleb128 0x3a
+ 656 00c8 0B       		.uleb128 0xb
+ 657 00c9 3B       		.uleb128 0x3b
+ 658 00ca 0B       		.uleb128 0xb
+ 659 00cb 49       		.uleb128 0x49
+ 660 00cc 13       		.uleb128 0x13
+ 661 00cd 02       		.uleb128 0x2
+ 662 00ce 17       		.uleb128 0x17
+ 663 00cf 00       		.byte	0
+ 664 00d0 00       		.byte	0
+ 665 00d1 0F       		.uleb128 0xf
+ 666 00d2 34       		.uleb128 0x34
+ 667 00d3 00       		.byte	0
+ 668 00d4 03       		.uleb128 0x3
+ 669 00d5 0E       		.uleb128 0xe
+ 670 00d6 3A       		.uleb128 0x3a
+ 671 00d7 0B       		.uleb128 0xb
+ 672 00d8 3B       		.uleb128 0x3b
+ 673 00d9 0B       		.uleb128 0xb
+ 674 00da 49       		.uleb128 0x49
+ 675 00db 13       		.uleb128 0x13
+ 676 00dc 3F       		.uleb128 0x3f
+ 677 00dd 19       		.uleb128 0x19
+ 678 00de 3C       		.uleb128 0x3c
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 16
+
+
+ 679 00df 19       		.uleb128 0x19
+ 680 00e0 00       		.byte	0
+ 681 00e1 00       		.byte	0
+ 682 00e2 10       		.uleb128 0x10
+ 683 00e3 01       		.uleb128 0x1
+ 684 00e4 01       		.byte	0x1
+ 685 00e5 49       		.uleb128 0x49
+ 686 00e6 13       		.uleb128 0x13
+ 687 00e7 01       		.uleb128 0x1
+ 688 00e8 13       		.uleb128 0x13
+ 689 00e9 00       		.byte	0
+ 690 00ea 00       		.byte	0
+ 691 00eb 11       		.uleb128 0x11
+ 692 00ec 21       		.uleb128 0x21
+ 693 00ed 00       		.byte	0
+ 694 00ee 49       		.uleb128 0x49
+ 695 00ef 13       		.uleb128 0x13
+ 696 00f0 2F       		.uleb128 0x2f
+ 697 00f1 0B       		.uleb128 0xb
+ 698 00f2 00       		.byte	0
+ 699 00f3 00       		.byte	0
+ 700 00f4 12       		.uleb128 0x12
+ 701 00f5 26       		.uleb128 0x26
+ 702 00f6 00       		.byte	0
+ 703 00f7 49       		.uleb128 0x49
+ 704 00f8 13       		.uleb128 0x13
+ 705 00f9 00       		.byte	0
+ 706 00fa 00       		.byte	0
+ 707 00fb 13       		.uleb128 0x13
+ 708 00fc 34       		.uleb128 0x34
+ 709 00fd 00       		.byte	0
+ 710 00fe 03       		.uleb128 0x3
+ 711 00ff 0E       		.uleb128 0xe
+ 712 0100 3A       		.uleb128 0x3a
+ 713 0101 0B       		.uleb128 0xb
+ 714 0102 3B       		.uleb128 0x3b
+ 715 0103 05       		.uleb128 0x5
+ 716 0104 49       		.uleb128 0x49
+ 717 0105 13       		.uleb128 0x13
+ 718 0106 3F       		.uleb128 0x3f
+ 719 0107 19       		.uleb128 0x19
+ 720 0108 3C       		.uleb128 0x3c
+ 721 0109 19       		.uleb128 0x19
+ 722 010a 00       		.byte	0
+ 723 010b 00       		.byte	0
+ 724 010c 00       		.byte	0
+ 725              		.section	.debug_loc,"",%progbits
+ 726              	.Ldebug_loc0:
+ 727              	.LLST0:
+ 728 0000 00000000 		.4byte	.LVL0
+ 729 0004 22000000 		.4byte	.LVL2
+ 730 0008 0100     		.2byte	0x1
+ 731 000a 50       		.byte	0x50
+ 732 000b 22000000 		.4byte	.LVL2
+ 733 000f 24000000 		.4byte	.LVL3
+ 734 0013 0400     		.2byte	0x4
+ 735 0015 F3       		.byte	0xf3
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 17
+
+
+ 736 0016 01       		.uleb128 0x1
+ 737 0017 50       		.byte	0x50
+ 738 0018 9F       		.byte	0x9f
+ 739 0019 24000000 		.4byte	.LVL3
+ 740 001d 26000000 		.4byte	.LVL4
+ 741 0021 0100     		.2byte	0x1
+ 742 0023 50       		.byte	0x50
+ 743 0024 26000000 		.4byte	.LVL4
+ 744 0028 28000000 		.4byte	.LVL5
+ 745 002c 0400     		.2byte	0x4
+ 746 002e F3       		.byte	0xf3
+ 747 002f 01       		.uleb128 0x1
+ 748 0030 50       		.byte	0x50
+ 749 0031 9F       		.byte	0x9f
+ 750 0032 28000000 		.4byte	.LVL5
+ 751 0036 2A000000 		.4byte	.LVL6
+ 752 003a 0100     		.2byte	0x1
+ 753 003c 50       		.byte	0x50
+ 754 003d 2A000000 		.4byte	.LVL6
+ 755 0041 2C000000 		.4byte	.LVL7
+ 756 0045 0400     		.2byte	0x4
+ 757 0047 F3       		.byte	0xf3
+ 758 0048 01       		.uleb128 0x1
+ 759 0049 50       		.byte	0x50
+ 760 004a 9F       		.byte	0x9f
+ 761 004b 2C000000 		.4byte	.LVL7
+ 762 004f 2E000000 		.4byte	.LVL8
+ 763 0053 0100     		.2byte	0x1
+ 764 0055 50       		.byte	0x50
+ 765 0056 2E000000 		.4byte	.LVL8
+ 766 005a 30000000 		.4byte	.LVL9
+ 767 005e 0400     		.2byte	0x4
+ 768 0060 F3       		.byte	0xf3
+ 769 0061 01       		.uleb128 0x1
+ 770 0062 50       		.byte	0x50
+ 771 0063 9F       		.byte	0x9f
+ 772 0064 30000000 		.4byte	.LVL9
+ 773 0068 32000000 		.4byte	.LVL10
+ 774 006c 0100     		.2byte	0x1
+ 775 006e 50       		.byte	0x50
+ 776 006f 32000000 		.4byte	.LVL10
+ 777 0073 40000000 		.4byte	.LFE60
+ 778 0077 0400     		.2byte	0x4
+ 779 0079 F3       		.byte	0xf3
+ 780 007a 01       		.uleb128 0x1
+ 781 007b 50       		.byte	0x50
+ 782 007c 9F       		.byte	0x9f
+ 783 007d 00000000 		.4byte	0
+ 784 0081 00000000 		.4byte	0
+ 785              	.LLST1:
+ 786 0085 20000000 		.4byte	.LVL1
+ 787 0089 24000000 		.4byte	.LVL3
+ 788 008d 0200     		.2byte	0x2
+ 789 008f 30       		.byte	0x30
+ 790 0090 9F       		.byte	0x9f
+ 791 0091 32000000 		.4byte	.LVL10
+ 792 0095 40000000 		.4byte	.LFE60
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 18
+
+
+ 793 0099 0100     		.2byte	0x1
+ 794 009b 50       		.byte	0x50
+ 795 009c 00000000 		.4byte	0
+ 796 00a0 00000000 		.4byte	0
+ 797              		.section	.debug_aranges,"",%progbits
+ 798 0000 1C000000 		.4byte	0x1c
+ 799 0004 0200     		.2byte	0x2
+ 800 0006 00000000 		.4byte	.Ldebug_info0
+ 801 000a 04       		.byte	0x4
+ 802 000b 00       		.byte	0
+ 803 000c 0000     		.2byte	0
+ 804 000e 0000     		.2byte	0
+ 805 0010 00000000 		.4byte	.LFB60
+ 806 0014 40000000 		.4byte	.LFE60-.LFB60
+ 807 0018 00000000 		.4byte	0
+ 808 001c 00000000 		.4byte	0
+ 809              		.section	.debug_ranges,"",%progbits
+ 810              	.Ldebug_ranges0:
+ 811 0000 00000000 		.4byte	.LFB60
+ 812 0004 40000000 		.4byte	.LFE60
+ 813 0008 00000000 		.4byte	0
+ 814 000c 00000000 		.4byte	0
+ 815              		.section	.debug_line,"",%progbits
+ 816              	.Ldebug_line0:
+ 817 0000 57010000 		.section	.debug_str,"MS",%progbits,1
+ 817      02002E01 
+ 817      00000201 
+ 817      FB0E0D00 
+ 817      01010101 
+ 818              	.LASF10:
+ 819 0000 45455F55 		.ascii	"EE_UINT8\000"
+ 819      494E5438 
+ 819      00
+ 820              	.LASF40:
+ 821 0009 45455F72 		.ascii	"EE_rq_bitmask\000"
+ 821      715F6269 
+ 821      746D6173 
+ 821      6B00
+ 822              	.LASF15:
+ 823 0017 45455F55 		.ascii	"EE_UREG\000"
+ 823      52454700 
+ 824              	.LASF21:
+ 825 001f 4576656E 		.ascii	"EventMaskRefType\000"
+ 825      744D6173 
+ 825      6B526566 
+ 825      54797065 
+ 825      00
+ 826              	.LASF41:
+ 827 0030 45455F74 		.ascii	"EE_th_event_active\000"
+ 827      685F6576 
+ 827      656E745F 
+ 827      61637469 
+ 827      766500
+ 828              	.LASF38:
+ 829 0043 45455F73 		.ascii	"EE_stkfirst\000"
+ 829      746B6669 
+ 829      72737400 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 19
+
+
+ 830              	.LASF2:
+ 831 004f 73686F72 		.ascii	"short int\000"
+ 831      7420696E 
+ 831      7400
+ 832              	.LASF22:
+ 833 0059 53746174 		.ascii	"StatusType\000"
+ 833      75735479 
+ 833      706500
+ 834              	.LASF16:
+ 835 0064 45455F46 		.ascii	"EE_FREG\000"
+ 835      52454700 
+ 836              	.LASF14:
+ 837 006c 45455F55 		.ascii	"EE_UINT32\000"
+ 837      494E5433 
+ 837      3200
+ 838              	.LASF33:
+ 839 0076 45455F74 		.ascii	"EE_th_ready_prio\000"
+ 839      685F7265 
+ 839      6164795F 
+ 839      7072696F 
+ 839      00
+ 840              	.LASF18:
+ 841 0087 45455F54 		.ascii	"EE_TID\000"
+ 841      494400
+ 842              	.LASF42:
+ 843 008e 45455F74 		.ascii	"EE_th_waswaiting\000"
+ 843      685F7761 
+ 843      73776169 
+ 843      74696E67 
+ 843      00
+ 844              	.LASF30:
+ 845 009f 45455F49 		.ascii	"EE_IRQ_nesting_level\000"
+ 845      52515F6E 
+ 845      65737469 
+ 845      6E675F6C 
+ 845      6576656C 
+ 846              	.LASF24:
+ 847 00b4 45455F4F 		.ascii	"EE_ORTI_set_service_in\000"
+ 847      5254495F 
+ 847      7365745F 
+ 847      73657276 
+ 847      6963655F 
+ 848              	.LASF52:
+ 849 00cb 45455F6F 		.ascii	"EE_oo_GetEvent\000"
+ 849      6F5F4765 
+ 849      74457665 
+ 849      6E7400
+ 850              	.LASF9:
+ 851 00da 6C6F6E67 		.ascii	"long double\000"
+ 851      20646F75 
+ 851      626C6500 
+ 852              	.LASF6:
+ 853 00e6 6C6F6E67 		.ascii	"long long int\000"
+ 853      206C6F6E 
+ 853      6720696E 
+ 853      7400
+ 854              	.LASF11:
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 20
+
+
+ 855 00f4 45455F49 		.ascii	"EE_INT8\000"
+ 855      4E543800 
+ 856              	.LASF45:
+ 857 00fc 45455F6F 		.ascii	"EE_oo_IRQ_suspend_status\000"
+ 857      6F5F4952 
+ 857      515F7375 
+ 857      7370656E 
+ 857      645F7374 
+ 858              	.LASF19:
+ 859 0115 45455F54 		.ascii	"EE_TYPE_RQ_MASK\000"
+ 859      5950455F 
+ 859      52515F4D 
+ 859      41534B00 
+ 860              	.LASF51:
+ 861 0125 433A5C4D 		.ascii	"C:\\My_Files\\College_Documents\\AMA EOS\\EOS\\LAB\\"
+ 861      795F4669 
+ 861      6C65735C 
+ 861      436F6C6C 
+ 861      6567655F 
+ 862 0153 4C41425F 		.ascii	"LAB_2_Submission\\Json Parser\\code\\w06_criticalRe"
+ 862      325F5375 
+ 862      626D6973 
+ 862      73696F6E 
+ 862      5C4A736F 
+ 863 0183 67696F6E 		.ascii	"gion.cydsn\\Lab2_JSONParser01.cydsn\000"
+ 863      2E637964 
+ 863      736E5C4C 
+ 863      6162325F 
+ 863      4A534F4E 
+ 864              	.LASF4:
+ 865 01a6 6C6F6E67 		.ascii	"long int\000"
+ 865      20696E74 
+ 865      00
+ 866              	.LASF23:
+ 867 01af 45455F4F 		.ascii	"EE_ORTI_set_service\000"
+ 867      5254495F 
+ 867      7365745F 
+ 867      73657276 
+ 867      69636500 
+ 868              	.LASF43:
+ 869 01c3 45455F74 		.ascii	"EE_th_is_extended\000"
+ 869      685F6973 
+ 869      5F657874 
+ 869      656E6465 
+ 869      6400
+ 870              	.LASF48:
+ 871 01d5 45455F69 		.ascii	"EE_isr2_index\000"
+ 871      7372325F 
+ 871      696E6465 
+ 871      7800
+ 872              	.LASF28:
+ 873 01e3 5461736B 		.ascii	"TaskID\000"
+ 873      494400
+ 874              	.LASF39:
+ 875 01ea 45455F73 		.ascii	"EE_sys_ceiling\000"
+ 875      79735F63 
+ 875      65696C69 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 21
+
+
+ 875      6E6700
+ 876              	.LASF1:
+ 877 01f9 756E7369 		.ascii	"unsigned char\000"
+ 877      676E6564 
+ 877      20636861 
+ 877      7200
+ 878              	.LASF20:
+ 879 0207 5461736B 		.ascii	"TaskType\000"
+ 879      54797065 
+ 879      00
+ 880              	.LASF50:
+ 881 0210 47656E65 		.ascii	"Generated_Source\\PSoC5\\ErikaOS_1_ee_evget.c\000"
+ 881      72617465 
+ 881      645F536F 
+ 881      75726365 
+ 881      5C50536F 
+ 882              	.LASF0:
+ 883 023c 7369676E 		.ascii	"signed char\000"
+ 883      65642063 
+ 883      68617200 
+ 884              	.LASF7:
+ 885 0248 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 885      206C6F6E 
+ 885      6720756E 
+ 885      7369676E 
+ 885      65642069 
+ 886              	.LASF8:
+ 887 025f 756E7369 		.ascii	"unsigned int\000"
+ 887      676E6564 
+ 887      20696E74 
+ 887      00
+ 888              	.LASF37:
+ 889 026c 45455F74 		.ascii	"EE_th_rnact\000"
+ 889      685F726E 
+ 889      61637400 
+ 890              	.LASF31:
+ 891 0278 45455F73 		.ascii	"EE_std_endcycle_next_tid\000"
+ 891      74645F65 
+ 891      6E646379 
+ 891      636C655F 
+ 891      6E657874 
+ 892              	.LASF13:
+ 893 0291 45455F49 		.ascii	"EE_INT32\000"
+ 893      4E543332 
+ 893      00
+ 894              	.LASF3:
+ 895 029a 73686F72 		.ascii	"short unsigned int\000"
+ 895      7420756E 
+ 895      7369676E 
+ 895      65642069 
+ 895      6E7400
+ 896              	.LASF12:
+ 897 02ad 45455F55 		.ascii	"EE_UINT16\000"
+ 897      494E5431 
+ 897      3600
+ 898              	.LASF27:
+ 899 02b7 4572726F 		.ascii	"Error\000"
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 22
+
+
+ 899      7200
+ 900              	.LASF46:
+ 901 02bd 45455F41 		.ascii	"EE_ApplicationMode\000"
+ 901      70706C69 
+ 901      63617469 
+ 901      6F6E4D6F 
+ 901      646500
+ 902              	.LASF5:
+ 903 02d0 6C6F6E67 		.ascii	"long unsigned int\000"
+ 903      20756E73 
+ 903      69676E65 
+ 903      6420696E 
+ 903      7400
+ 904              	.LASF17:
+ 905 02e2 45455F54 		.ascii	"EE_TYPEBOOL\000"
+ 905      59504542 
+ 905      4F4F4C00 
+ 906              	.LASF26:
+ 907 02ee 45455F6F 		.ascii	"EE_os_notify_error_from_us_impl\000"
+ 907      735F6E6F 
+ 907      74696679 
+ 907      5F657272 
+ 907      6F725F66 
+ 908              	.LASF32:
+ 909 030e 73697A65 		.ascii	"sizetype\000"
+ 909      74797065 
+ 909      00
+ 910              	.LASF47:
+ 911 0317 45455F72 		.ascii	"EE_rq_lookup\000"
+ 911      715F6C6F 
+ 911      6F6B7570 
+ 911      00
+ 912              	.LASF35:
+ 913 0324 45455F74 		.ascii	"EE_th_status\000"
+ 913      685F7374 
+ 913      61747573 
+ 913      00
+ 914              	.LASF34:
+ 915 0331 45455F74 		.ascii	"EE_th_dispatch_prio\000"
+ 915      685F6469 
+ 915      73706174 
+ 915      63685F70 
+ 915      72696F00 
+ 916              	.LASF36:
+ 917 0345 45455F74 		.ascii	"EE_th_next\000"
+ 917      685F6E65 
+ 917      787400
+ 918              	.LASF49:
+ 919 0350 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 919      43313120 
+ 919      352E342E 
+ 919      31203230 
+ 919      31363036 
+ 920 0383 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 920      20726576 
+ 920      6973696F 
+ 920      6E203233 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cczuOq4t.s 			page 23
+
+
+ 920      37373135 
+ 921 03b6 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 921      66756E63 
+ 921      74696F6E 
+ 921      2D736563 
+ 921      74696F6E 
+ 922              	.LASF44:
+ 923 03de 45455F6F 		.ascii	"EE_oo_IRQ_disable_count\000"
+ 923      6F5F4952 
+ 923      515F6469 
+ 923      7361626C 
+ 923      655F636F 
+ 924              	.LASF29:
+ 925 03f6 4576656E 		.ascii	"Event\000"
+ 925      7400
+ 926              	.LASF25:
+ 927 03fc 45455F4F 		.ascii	"EE_ORTI_set_service_out\000"
+ 927      5254495F 
+ 927      7365745F 
+ 927      73657276 
+ 927      6963655F 
+ 928              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

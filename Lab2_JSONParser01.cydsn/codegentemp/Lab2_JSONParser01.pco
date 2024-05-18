@@ -1,0 +1,75 @@
+# Lab2_JSONParser01
+# 2024-02-13 07:57:03Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_io "UART_TX(0)" iocell 12 7
+set_io "UART_RX(0)" iocell 12 6
+set_io "TFT_SDA(0)" iocell 12 5
+set_io "TFT_SCL(0)" iocell 12 4
+set_io "TFT_LED(0)" iocell 12 2
+set_io "TFT_DC(0)" iocell 12 3
+set_io "TFT_RES(0)" iocell 3 4
+set_io "TFT_CS(0)" iocell 3 3
+set_location "Net_290" 1 0 0 2
+set_location "\UART_LOG:BUART:counter_load_not\" 1 1 0 1
+set_location "\UART_LOG:BUART:tx_status_0\" 1 2 1 0
+set_location "\UART_LOG:BUART:tx_status_2\" 1 3 0 0
+set_location "\UART_LOG:BUART:rx_counter_load\" 0 1 0 1
+set_location "\UART_LOG:BUART:rx_postpoll\" 0 0 0 1
+set_location "\UART_LOG:BUART:rx_status_4\" 0 2 1 3
+set_location "\UART_LOG:BUART:rx_status_5\" 0 0 1 0
+set_location "\TFT_SPI:BSPIM:load_rx_data\" 0 3 1 2
+set_location "\TFT_SPI:BSPIM:tx_status_0\" 0 0 1 3
+set_location "\TFT_SPI:BSPIM:tx_status_4\" 0 3 1 1
+set_location "\TFT_SPI:BSPIM:rx_status_6\" 1 2 1 3
+set_location "\TFT_BackLight:PWMUDB:status_2\" 1 3 0 3
+set_location "ISR_UART_RX" interrupt -1 -1 0
+set_location "\UART_LOG:BUART:sTX:TxShifter:u0\" 1 2 2
+set_location "\UART_LOG:BUART:sTX:sCLOCK:TxBitClkGen\" 1 0 2
+set_location "\UART_LOG:BUART:sTX:TxSts\" 1 2 4
+set_location "\UART_LOG:BUART:sRX:RxShifter:u0\" 0 0 2
+set_location "\UART_LOG:BUART:sRX:RxBitCounter\" 0 1 7
+set_location "\UART_LOG:BUART:sRX:RxSts\" 0 0 4
+set_location "\TFT_SPI:BSPIM:BitCounter\" 1 4 7
+set_location "\TFT_SPI:BSPIM:TxStsReg\" 0 3 4
+set_location "\TFT_SPI:BSPIM:RxStsReg\" 1 1 4
+set_location "\TFT_SPI:BSPIM:sR8:Dp:u0\" 0 2 2
+set_location "\TFT_BackLight:PWMUDB:genblk1:ctrlreg\" 0 2 6
+set_location "\TFT_BackLight:PWMUDB:genblk8:stsreg\" 1 3 4
+set_location "\TFT_BackLight:PWMUDB:sP16:pwmdp:u0\" 0 3 2
+set_location "\TFT_BackLight:PWMUDB:sP16:pwmdp:u1\" 1 3 2
+set_location "\UART_LOG:BUART:txn\" 1 1 1 0
+set_location "\UART_LOG:BUART:tx_state_1\" 1 3 1 2
+set_location "\UART_LOG:BUART:tx_state_0\" 1 2 0 2
+set_location "\UART_LOG:BUART:tx_state_2\" 1 3 1 1
+set_location "\UART_LOG:BUART:tx_bitclk\" 1 1 0 0
+set_location "\UART_LOG:BUART:tx_ctrl_mark_last\" 0 0 1 2
+set_location "\UART_LOG:BUART:rx_state_0\" 0 1 0 0
+set_location "\UART_LOG:BUART:rx_load_fifo\" 0 1 1 1
+set_location "\UART_LOG:BUART:rx_state_3\" 0 1 0 2
+set_location "\UART_LOG:BUART:rx_state_2\" 0 1 1 0
+set_location "\UART_LOG:BUART:rx_bitclk_enable\" 0 2 0 1
+set_location "\UART_LOG:BUART:rx_state_stop1_reg\" 0 0 1 1
+set_location "\UART_LOG:BUART:pollcount_1\" 0 0 0 3
+set_location "\UART_LOG:BUART:pollcount_0\" 0 2 0 2
+set_location "\UART_LOG:BUART:rx_status_3\" 0 0 0 0
+set_location "\UART_LOG:BUART:rx_last\" 0 0 0 2
+set_location "Net_3180" 0 4 1 2
+set_location "Net_3179" 0 4 0 0
+set_location "\TFT_SPI:BSPIM:state_2\" 0 4 1 0
+set_location "\TFT_SPI:BSPIM:state_1\" 1 4 0 3
+set_location "\TFT_SPI:BSPIM:state_0\" 1 0 0 0
+set_location "Net_299" 1 0 0 1
+set_location "\TFT_SPI:BSPIM:load_cond\" 0 3 1 0
+set_location "\TFT_SPI:BSPIM:ld_ident\" 0 4 1 1
+set_location "\TFT_SPI:BSPIM:cnt_enable\" 1 4 1 1
+set_location "\TFT_BackLight:PWMUDB:runmode_enable\" 0 3 0 0
+set_location "\TFT_BackLight:PWMUDB:prevCompare1\" 0 3 0 3
+set_location "\TFT_BackLight:PWMUDB:status_0\" 0 3 0 2
+set_location "Net_3181" 1 3 0 1

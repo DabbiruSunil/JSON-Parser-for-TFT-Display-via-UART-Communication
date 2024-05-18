@@ -1,0 +1,6 @@
+C:\My_Files\College_Documents\AMA EOS\EOS\LAB\LAB_2_Submission\Json Parser\code\w06_criticalRegion.cydsn\w06_criticalRegion.cyprj|54aa47c8-8dea-48ce-941f-54e4938e4f65
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|da08b40d-693a-4257-aa90-faf4450d43dc
+C:\Users\Dabbiru Sunil\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|24d26bb3-070f-4899-816c-622fc9db69bc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|fb4a13c7-47a5-48d7-941d-cd6a6095f0dd
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4ac1d551-0d11-4908-859b-078c3448dc47
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|875aaf52-eac9-4eca-ade2-4e3325a5637a

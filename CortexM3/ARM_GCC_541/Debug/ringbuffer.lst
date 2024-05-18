@@ -1,0 +1,1857 @@
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"ringbuffer.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.RB_clear,"ax",%progbits
+  20              		.align	2
+  21              		.global	RB_clear
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	RB_clear, %function
+  25              	RB_clear:
+  26              	.LFB111:
+  27              		.file 1 "source\\bsw\\cdd\\ringbuffer.c"
+   1:source\bsw\cdd/ringbuffer.c **** /**
+   2:source\bsw\cdd/ringbuffer.c **** * \file ringbuffer.c
+   3:source\bsw\cdd/ringbuffer.c **** * \author P. Fromm
+   4:source\bsw\cdd/ringbuffer.c **** * \date 8.12.19
+   5:source\bsw\cdd/ringbuffer.c **** *
+   6:source\bsw\cdd/ringbuffer.c **** * \brief Ringbuffer FIFO implementation
+   7:source\bsw\cdd/ringbuffer.c **** *
+   8:source\bsw\cdd/ringbuffer.c **** * \copyright Copyright ©2016
+   9:source\bsw\cdd/ringbuffer.c **** * Department of electrical engineering and information technology, Hochschule Darmstadt - Universit
+  10:source\bsw\cdd/ringbuffer.c **** * Permission to use, copy, modify, and distribute this software and its documentation for education
+  11:source\bsw\cdd/ringbuffer.c **** * (unless permitted by h_da) and official h_da projects, is hereby granted for enrolled students of
+  12:source\bsw\cdd/ringbuffer.c **** * this paragraph and the following paragraph appear in all copies, modifications, and distributions
+  13:source\bsw\cdd/ringbuffer.c **** * Contact Prof.Dr.-Ing. Peter Fromm, peter.fromm@h-da.de, Birkenweg 8 64295 Darmstadt - GERMANY for
+  14:source\bsw\cdd/ringbuffer.c **** *
+  15:source\bsw\cdd/ringbuffer.c **** * \warning This software is a PROTOTYPE version and is not designed or intended for use in producti
+  16:source\bsw\cdd/ringbuffer.c **** * The user represents and warrants that it will NOT use or redistribute the Software for such purpo
+  17:source\bsw\cdd/ringbuffer.c **** * This prototype is for research purposes only. This software is provided "AS IS," without a warran
+  18:source\bsw\cdd/ringbuffer.c **** */
+  19:source\bsw\cdd/ringbuffer.c **** 
+  20:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  21:source\bsw\cdd/ringbuffer.c **** /* Include files                                                             */
+  22:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  23:source\bsw\cdd/ringbuffer.c **** #include "ringbuffer.h"
+  24:source\bsw\cdd/ringbuffer.c **** 
+  25:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  26:source\bsw\cdd/ringbuffer.c **** /* Local pre-processor symbols/macros ('#define')                            */
+  27:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  28:source\bsw\cdd/ringbuffer.c **** 
+  29:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  30:source\bsw\cdd/ringbuffer.c **** /* Global variable definitions (declared in header file with 'extern')       */
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 2
+
+
+  31:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  32:source\bsw\cdd/ringbuffer.c **** 
+  33:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  34:source\bsw\cdd/ringbuffer.c **** /* Local type definitions ('typedef')                                        */
+  35:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  36:source\bsw\cdd/ringbuffer.c **** 
+  37:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  38:source\bsw\cdd/ringbuffer.c **** /* Local variable definitions ('static')                                     */
+  39:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  40:source\bsw\cdd/ringbuffer.c **** 
+  41:source\bsw\cdd/ringbuffer.c **** 
+  42:source\bsw\cdd/ringbuffer.c **** 
+  43:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  44:source\bsw\cdd/ringbuffer.c **** /* Local function prototypes ('static')                                      */
+  45:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  46:source\bsw\cdd/ringbuffer.c **** 
+  47:source\bsw\cdd/ringbuffer.c **** 
+  48:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  49:source\bsw\cdd/ringbuffer.c **** /* Function implementation - global ('extern') and local ('static')          */
+  50:source\bsw\cdd/ringbuffer.c **** /*****************************************************************************/
+  51:source\bsw\cdd/ringbuffer.c **** 
+  52:source\bsw\cdd/ringbuffer.c **** /**
+  53:source\bsw\cdd/ringbuffer.c ****  * Initialisation of a ringbuffer
+  54:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+  55:source\bsw\cdd/ringbuffer.c ****  * @return RC_SUCCESS or error code
+  56:source\bsw\cdd/ringbuffer.c ****  */
+  57:source\bsw\cdd/ringbuffer.c **** RC_t RB_init(RB_t * const me)
+  58:source\bsw\cdd/ringbuffer.c **** {
+  59:source\bsw\cdd/ringbuffer.c ****     return RB_clear(me);
+  60:source\bsw\cdd/ringbuffer.c **** }
+  61:source\bsw\cdd/ringbuffer.c **** 
+  62:source\bsw\cdd/ringbuffer.c **** /**
+  63:source\bsw\cdd/ringbuffer.c ****  * Clearing of a ringbuffer
+  64:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+  65:source\bsw\cdd/ringbuffer.c ****  * @return RC_SUCCESS or error code
+  66:source\bsw\cdd/ringbuffer.c ****  */
+  67:source\bsw\cdd/ringbuffer.c **** RC_t RB_clear(RB_t * const me)
+  68:source\bsw\cdd/ringbuffer.c **** {
+  28              		.loc 1 68 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              	.LVL0:
+  69:source\bsw\cdd/ringbuffer.c ****     if (0 == me) return RC_ERROR_BAD_PARAM;
+  34              		.loc 1 69 0
+  35 0000 0146     		mov	r1, r0
+  36 0002 78B1     		cbz	r0, .L5
+  70:source\bsw\cdd/ringbuffer.c ****     GetResource;
+  71:source\bsw\cdd/ringbuffer.c ****     me->m_fillLevel = 0;
+  37              		.loc 1 71 0
+  38 0004 0023     		movs	r3, #0
+  39 0006 A0F86830 		strh	r3, [r0, #104]	@ movhi
+  72:source\bsw\cdd/ringbuffer.c ****     me->m_readIndex = 0;
+  40              		.loc 1 72 0
+  41 000a A0F86430 		strh	r3, [r0, #100]	@ movhi
+  73:source\bsw\cdd/ringbuffer.c ****     me->m_writeIndex = 0;
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 3
+
+
+  42              		.loc 1 73 0
+  43 000e A0F86630 		strh	r3, [r0, #102]	@ movhi
+  44              	.LVL1:
+  45              	.LBB2:
+  74:source\bsw\cdd/ringbuffer.c ****     
+  75:source\bsw\cdd/ringbuffer.c ****     for (uint16_t i = 0; i < RB_SIZE; i++)
+  46              		.loc 1 75 0
+  47 0012 03E0     		b	.L3
+  48              	.LVL2:
+  49              	.L4:
+  76:source\bsw\cdd/ringbuffer.c ****     {
+  77:source\bsw\cdd/ringbuffer.c ****         me->m_data[i] = 0;
+  50              		.loc 1 77 0 discriminator 3
+  51 0014 0022     		movs	r2, #0
+  52 0016 CA54     		strb	r2, [r1, r3]
+  75:source\bsw\cdd/ringbuffer.c ****     {
+  53              		.loc 1 75 0 discriminator 3
+  54 0018 0133     		adds	r3, r3, #1
+  55              	.LVL3:
+  56 001a 9BB2     		uxth	r3, r3
+  57              	.LVL4:
+  58              	.L3:
+  75:source\bsw\cdd/ringbuffer.c ****     {
+  59              		.loc 1 75 0 is_stmt 0 discriminator 1
+  60 001c 632B     		cmp	r3, #99
+  61 001e F9D9     		bls	.L4
+  62              	.LBE2:
+  78:source\bsw\cdd/ringbuffer.c ****     }
+  79:source\bsw\cdd/ringbuffer.c ****     ReleaseResource;
+  80:source\bsw\cdd/ringbuffer.c ****     return RC_SUCCESS;
+  63              		.loc 1 80 0 is_stmt 1
+  64 0020 0020     		movs	r0, #0
+  65              	.LVL5:
+  66              	.LBB3:
+  67 0022 7047     		bx	lr
+  68              	.LVL6:
+  69              	.L5:
+  70              	.LBE3:
+  69:source\bsw\cdd/ringbuffer.c ****     GetResource;
+  71              		.loc 1 69 0
+  72 0024 6FF01300 		mvn	r0, #19
+  73              	.LVL7:
+  81:source\bsw\cdd/ringbuffer.c **** }
+  74              		.loc 1 81 0
+  75 0028 7047     		bx	lr
+  76              		.cfi_endproc
+  77              	.LFE111:
+  78              		.size	RB_clear, .-RB_clear
+  79 002a 00BF     		.section	.text.RB_init,"ax",%progbits
+  80              		.align	2
+  81              		.global	RB_init
+  82              		.thumb
+  83              		.thumb_func
+  84              		.type	RB_init, %function
+  85              	RB_init:
+  86              	.LFB110:
+  58:source\bsw\cdd/ringbuffer.c ****     return RB_clear(me);
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 4
+
+
+  87              		.loc 1 58 0
+  88              		.cfi_startproc
+  89              		@ args = 0, pretend = 0, frame = 0
+  90              		@ frame_needed = 0, uses_anonymous_args = 0
+  91              	.LVL8:
+  92 0000 08B5     		push	{r3, lr}
+  93              		.cfi_def_cfa_offset 8
+  94              		.cfi_offset 3, -8
+  95              		.cfi_offset 14, -4
+  59:source\bsw\cdd/ringbuffer.c **** }
+  96              		.loc 1 59 0
+  97 0002 FFF7FEFF 		bl	RB_clear
+  98              	.LVL9:
+  60:source\bsw\cdd/ringbuffer.c **** 
+  99              		.loc 1 60 0
+ 100 0006 08BD     		pop	{r3, pc}
+ 101              		.cfi_endproc
+ 102              	.LFE110:
+ 103              		.size	RB_init, .-RB_init
+ 104              		.section	.text.RB_write,"ax",%progbits
+ 105              		.align	2
+ 106              		.global	RB_write
+ 107              		.thumb
+ 108              		.thumb_func
+ 109              		.type	RB_write, %function
+ 110              	RB_write:
+ 111              	.LFB112:
+  82:source\bsw\cdd/ringbuffer.c ****     
+  83:source\bsw\cdd/ringbuffer.c **** 
+  84:source\bsw\cdd/ringbuffer.c **** /**
+  85:source\bsw\cdd/ringbuffer.c ****  * Write one element to the ringbuffer
+  86:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+  87:source\bsw\cdd/ringbuffer.c ****  * @param RB_data_t const * const data : IN - Data to be written
+  88:source\bsw\cdd/ringbuffer.c ****  * @return RC_SUCCESS or error code
+  89:source\bsw\cdd/ringbuffer.c ****  */
+  90:source\bsw\cdd/ringbuffer.c **** RC_t RB_write(RB_t * const me, RB_data_t const * const data)
+  91:source\bsw\cdd/ringbuffer.c **** {
+ 112              		.loc 1 91 0
+ 113              		.cfi_startproc
+ 114              		@ args = 0, pretend = 0, frame = 0
+ 115              		@ frame_needed = 0, uses_anonymous_args = 0
+ 116              		@ link register save eliminated.
+ 117              	.LVL10:
+ 118 0000 10B4     		push	{r4}
+ 119              		.cfi_def_cfa_offset 4
+ 120              		.cfi_offset 4, -4
+  92:source\bsw\cdd/ringbuffer.c ****     if (me->m_fillLevel < RB_SIZE)
+ 121              		.loc 1 92 0
+ 122 0002 B0F86840 		ldrh	r4, [r0, #104]
+ 123 0006 632C     		cmp	r4, #99
+ 124 0008 15D8     		bhi	.L10
+  93:source\bsw\cdd/ringbuffer.c ****     {
+  94:source\bsw\cdd/ringbuffer.c ****         GetResource;
+  95:source\bsw\cdd/ringbuffer.c ****         me->m_data[me->m_writeIndex++] = *data;
+ 125              		.loc 1 95 0
+ 126 000a B0F86620 		ldrh	r2, [r0, #102]
+ 127 000e 531C     		adds	r3, r2, #1
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 5
+
+
+ 128 0010 9BB2     		uxth	r3, r3
+ 129 0012 A0F86630 		strh	r3, [r0, #102]	@ movhi
+ 130 0016 0978     		ldrb	r1, [r1]	@ zero_extendqisi2
+ 131              	.LVL11:
+ 132 0018 8154     		strb	r1, [r0, r2]
+  96:source\bsw\cdd/ringbuffer.c ****         me->m_writeIndex %= RB_SIZE;
+ 133              		.loc 1 96 0
+ 134 001a 094A     		ldr	r2, .L12
+ 135 001c A2FB0312 		umull	r1, r2, r2, r3
+ 136 0020 5209     		lsrs	r2, r2, #5
+ 137 0022 6421     		movs	r1, #100
+ 138 0024 01FB1233 		mls	r3, r1, r2, r3
+ 139 0028 A0F86630 		strh	r3, [r0, #102]	@ movhi
+  97:source\bsw\cdd/ringbuffer.c ****         me->m_fillLevel++;
+ 140              		.loc 1 97 0
+ 141 002c 0134     		adds	r4, r4, #1
+ 142 002e A0F86840 		strh	r4, [r0, #104]	@ movhi
+  98:source\bsw\cdd/ringbuffer.c ****         ReleaseResource;
+  99:source\bsw\cdd/ringbuffer.c ****         return RC_SUCCESS;
+ 143              		.loc 1 99 0
+ 144 0032 0020     		movs	r0, #0
+ 145              	.LVL12:
+ 146 0034 01E0     		b	.L9
+ 147              	.LVL13:
+ 148              	.L10:
+ 100:source\bsw\cdd/ringbuffer.c ****     }
+ 101:source\bsw\cdd/ringbuffer.c ****     else
+ 102:source\bsw\cdd/ringbuffer.c ****     {
+ 103:source\bsw\cdd/ringbuffer.c ****         return RC_ERROR_BUFFER_FULL;
+ 149              		.loc 1 103 0
+ 150 0036 6FF00700 		mvn	r0, #7
+ 151              	.LVL14:
+ 152              	.L9:
+ 104:source\bsw\cdd/ringbuffer.c ****     }
+ 105:source\bsw\cdd/ringbuffer.c **** }
+ 153              		.loc 1 105 0
+ 154 003a 10BC     		pop	{r4}
+ 155              		.cfi_restore 4
+ 156              		.cfi_def_cfa_offset 0
+ 157 003c 7047     		bx	lr
+ 158              	.L13:
+ 159 003e 00BF     		.align	2
+ 160              	.L12:
+ 161 0040 1F85EB51 		.word	1374389535
+ 162              		.cfi_endproc
+ 163              	.LFE112:
+ 164              		.size	RB_write, .-RB_write
+ 165              		.section	.text.RB_read,"ax",%progbits
+ 166              		.align	2
+ 167              		.global	RB_read
+ 168              		.thumb
+ 169              		.thumb_func
+ 170              		.type	RB_read, %function
+ 171              	RB_read:
+ 172              	.LFB113:
+ 106:source\bsw\cdd/ringbuffer.c **** 
+ 107:source\bsw\cdd/ringbuffer.c **** /**
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 6
+
+
+ 108:source\bsw\cdd/ringbuffer.c ****  * Read one element from the ringbuffer
+ 109:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+ 110:source\bsw\cdd/ringbuffer.c ****  * @param RB_data_t * const data : OUT - Data read
+ 111:source\bsw\cdd/ringbuffer.c ****  * @return RC_SUCCESS or error code
+ 112:source\bsw\cdd/ringbuffer.c ****  */
+ 113:source\bsw\cdd/ringbuffer.c **** RC_t RB_read(RB_t * const me, RB_data_t * const data)
+ 114:source\bsw\cdd/ringbuffer.c **** {
+ 173              		.loc 1 114 0
+ 174              		.cfi_startproc
+ 175              		@ args = 0, pretend = 0, frame = 0
+ 176              		@ frame_needed = 0, uses_anonymous_args = 0
+ 177              		@ link register save eliminated.
+ 178              	.LVL15:
+ 115:source\bsw\cdd/ringbuffer.c ****     if (me->m_fillLevel > 0)
+ 179              		.loc 1 115 0
+ 180 0000 B0F86830 		ldrh	r3, [r0, #104]
+ 181 0004 C3B1     		cbz	r3, .L16
+ 116:source\bsw\cdd/ringbuffer.c ****     {
+ 117:source\bsw\cdd/ringbuffer.c ****         *data = me->m_data[me->m_readIndex++];
+ 182              		.loc 1 117 0
+ 183 0006 B0F86430 		ldrh	r3, [r0, #100]
+ 184 000a 5A1C     		adds	r2, r3, #1
+ 185 000c A0F86420 		strh	r2, [r0, #100]	@ movhi
+ 186 0010 C35C     		ldrb	r3, [r0, r3]	@ zero_extendqisi2
+ 187 0012 0B70     		strb	r3, [r1]
+ 118:source\bsw\cdd/ringbuffer.c ****         
+ 119:source\bsw\cdd/ringbuffer.c ****         me->m_readIndex %= RB_SIZE;
+ 188              		.loc 1 119 0
+ 189 0014 B0F86430 		ldrh	r3, [r0, #100]
+ 190 0018 094A     		ldr	r2, .L17
+ 191 001a A2FB0312 		umull	r1, r2, r2, r3
+ 192              	.LVL16:
+ 193 001e 5209     		lsrs	r2, r2, #5
+ 194 0020 6421     		movs	r1, #100
+ 195 0022 01FB1233 		mls	r3, r1, r2, r3
+ 196 0026 A0F86430 		strh	r3, [r0, #100]	@ movhi
+ 120:source\bsw\cdd/ringbuffer.c ****         me->m_fillLevel--;
+ 197              		.loc 1 120 0
+ 198 002a B0F86830 		ldrh	r3, [r0, #104]
+ 199 002e 013B     		subs	r3, r3, #1
+ 200 0030 A0F86830 		strh	r3, [r0, #104]	@ movhi
+ 121:source\bsw\cdd/ringbuffer.c ****         
+ 122:source\bsw\cdd/ringbuffer.c ****         return RC_SUCCESS;
+ 201              		.loc 1 122 0
+ 202 0034 0020     		movs	r0, #0
+ 203              	.LVL17:
+ 204 0036 7047     		bx	lr
+ 205              	.LVL18:
+ 206              	.L16:
+ 123:source\bsw\cdd/ringbuffer.c ****     }
+ 124:source\bsw\cdd/ringbuffer.c ****     else
+ 125:source\bsw\cdd/ringbuffer.c ****     {
+ 126:source\bsw\cdd/ringbuffer.c ****         return RC_ERROR_BUFFER_EMTPY;
+ 207              		.loc 1 126 0
+ 208 0038 6FF00800 		mvn	r0, #8
+ 209              	.LVL19:
+ 127:source\bsw\cdd/ringbuffer.c ****     }
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 7
+
+
+ 128:source\bsw\cdd/ringbuffer.c **** }
+ 210              		.loc 1 128 0
+ 211 003c 7047     		bx	lr
+ 212              	.L18:
+ 213 003e 00BF     		.align	2
+ 214              	.L17:
+ 215 0040 1F85EB51 		.word	1374389535
+ 216              		.cfi_endproc
+ 217              	.LFE113:
+ 218              		.size	RB_read, .-RB_read
+ 219              		.section	.text.RB_getCapacity,"ax",%progbits
+ 220              		.align	2
+ 221              		.global	RB_getCapacity
+ 222              		.thumb
+ 223              		.thumb_func
+ 224              		.type	RB_getCapacity, %function
+ 225              	RB_getCapacity:
+ 226              	.LFB114:
+ 129:source\bsw\cdd/ringbuffer.c **** 
+ 130:source\bsw\cdd/ringbuffer.c **** /**
+ 131:source\bsw\cdd/ringbuffer.c ****  * Provide available space in buffer
+ 132:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+ 133:source\bsw\cdd/ringbuffer.c ****  * @return Available number of elements to be stored
+ 134:source\bsw\cdd/ringbuffer.c ****  */
+ 135:source\bsw\cdd/ringbuffer.c **** uint16_t RB_getCapacity(RB_t * const me)
+ 136:source\bsw\cdd/ringbuffer.c **** {
+ 227              		.loc 1 136 0
+ 228              		.cfi_startproc
+ 229              		@ args = 0, pretend = 0, frame = 0
+ 230              		@ frame_needed = 0, uses_anonymous_args = 0
+ 231              		@ link register save eliminated.
+ 232              	.LVL20:
+ 137:source\bsw\cdd/ringbuffer.c ****     //Todo: No  error handling considered, assume all other functions work as intended
+ 138:source\bsw\cdd/ringbuffer.c ****     return RB_SIZE - me->m_fillLevel;
+ 233              		.loc 1 138 0
+ 234 0000 B0F86800 		ldrh	r0, [r0, #104]
+ 235              	.LVL21:
+ 236 0004 C0F16400 		rsb	r0, r0, #100
+ 139:source\bsw\cdd/ringbuffer.c **** }
+ 237              		.loc 1 139 0
+ 238 0008 80B2     		uxth	r0, r0
+ 239 000a 7047     		bx	lr
+ 240              		.cfi_endproc
+ 241              	.LFE114:
+ 242              		.size	RB_getCapacity, .-RB_getCapacity
+ 243              		.section	.text.RB_getNumberOfStoredElements,"ax",%progbits
+ 244              		.align	2
+ 245              		.global	RB_getNumberOfStoredElements
+ 246              		.thumb
+ 247              		.thumb_func
+ 248              		.type	RB_getNumberOfStoredElements, %function
+ 249              	RB_getNumberOfStoredElements:
+ 250              	.LFB115:
+ 140:source\bsw\cdd/ringbuffer.c **** 
+ 141:source\bsw\cdd/ringbuffer.c **** /**
+ 142:source\bsw\cdd/ringbuffer.c ****  * Check how much data is stored
+ 143:source\bsw\cdd/ringbuffer.c ****  * @param RB_t * const me : IN/OUT - pointer to ringbuffer object 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 8
+
+
+ 144:source\bsw\cdd/ringbuffer.c ****  * @return number of byte stored
+ 145:source\bsw\cdd/ringbuffer.c ****  */
+ 146:source\bsw\cdd/ringbuffer.c **** uint16_t RB_getNumberOfStoredElements(RB_t * const me)
+ 147:source\bsw\cdd/ringbuffer.c **** {
+ 251              		.loc 1 147 0
+ 252              		.cfi_startproc
+ 253              		@ args = 0, pretend = 0, frame = 0
+ 254              		@ frame_needed = 0, uses_anonymous_args = 0
+ 255              		@ link register save eliminated.
+ 256              	.LVL22:
+ 148:source\bsw\cdd/ringbuffer.c ****     return me->m_fillLevel;
+ 149:source\bsw\cdd/ringbuffer.c **** }
+ 257              		.loc 1 149 0
+ 258 0000 B0F86800 		ldrh	r0, [r0, #104]
+ 259              	.LVL23:
+ 260 0004 7047     		bx	lr
+ 261              		.cfi_endproc
+ 262              	.LFE115:
+ 263              		.size	RB_getNumberOfStoredElements, .-RB_getNumberOfStoredElements
+ 264 0006 00BF     		.text
+ 265              	.Letext0:
+ 266              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 267              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 268              		.file 4 "Generated_Source\\PSoC5/ErikaOS_1_common_ee_types.inc"
+ 269              		.file 5 "Generated_Source\\PSoC5/ErikaOS_1_cortex_mx_ee_cpu.inc"
+ 270              		.file 6 ".\\source\\bsw/global.h"
+ 271              		.file 7 "source\\bsw\\cdd\\ringbuffer_cfg.h"
+ 272              		.file 8 "source\\bsw\\cdd\\ringbuffer.h"
+ 273              		.file 9 "Generated_Source\\PSoC5/ErikaOS_1_ee_oo_intfunc.inc"
+ 274              		.file 10 "Generated_Source\\PSoC5/ErikaOS_1_cortex_mx_ee_context.inc"
+ 275              		.file 11 "Generated_Source\\PSoC5/ErikaOS_1_common_ee_primitives.inc"
+ 276              		.file 12 "Generated_Source\\PSoC5/core_cm3.h"
+ 277              		.section	.debug_info,"",%progbits
+ 278              	.Ldebug_info0:
+ 279 0000 B9030000 		.4byte	0x3b9
+ 280 0004 0400     		.2byte	0x4
+ 281 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 282 000a 04       		.byte	0x4
+ 283 000b 01       		.uleb128 0x1
+ 284 000c 17030000 		.4byte	.LASF70
+ 285 0010 0C       		.byte	0xc
+ 286 0011 4F040000 		.4byte	.LASF71
+ 287 0015 0E020000 		.4byte	.LASF72
+ 288 0019 18000000 		.4byte	.Ldebug_ranges0+0x18
+ 289 001d 00000000 		.4byte	0
+ 290 0021 00000000 		.4byte	.Ldebug_line0
+ 291 0025 02       		.uleb128 0x2
+ 292 0026 01       		.byte	0x1
+ 293 0027 06       		.byte	0x6
+ 294 0028 7F020000 		.4byte	.LASF0
+ 295 002c 03       		.uleb128 0x3
+ 296 002d B2010000 		.4byte	.LASF3
+ 297 0031 02       		.byte	0x2
+ 298 0032 1D       		.byte	0x1d
+ 299 0033 37000000 		.4byte	0x37
+ 300 0037 02       		.uleb128 0x2
+ 301 0038 01       		.byte	0x1
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 9
+
+
+ 302 0039 08       		.byte	0x8
+ 303 003a F7010000 		.4byte	.LASF1
+ 304 003e 02       		.uleb128 0x2
+ 305 003f 02       		.byte	0x2
+ 306 0040 05       		.byte	0x5
+ 307 0041 3F000000 		.4byte	.LASF2
+ 308 0045 03       		.uleb128 0x3
+ 309 0046 AF000000 		.4byte	.LASF4
+ 310 004a 02       		.byte	0x2
+ 311 004b 2B       		.byte	0x2b
+ 312 004c 50000000 		.4byte	0x50
+ 313 0050 02       		.uleb128 0x2
+ 314 0051 02       		.byte	0x2
+ 315 0052 07       		.byte	0x7
+ 316 0053 04030000 		.4byte	.LASF5
+ 317 0057 03       		.uleb128 0x3
+ 318 0058 6B040000 		.4byte	.LASF6
+ 319 005c 02       		.byte	0x2
+ 320 005d 3F       		.byte	0x3f
+ 321 005e 62000000 		.4byte	0x62
+ 322 0062 02       		.uleb128 0x2
+ 323 0063 04       		.byte	0x4
+ 324 0064 05       		.byte	0x5
+ 325 0065 80010000 		.4byte	.LASF7
+ 326 0069 02       		.uleb128 0x2
+ 327 006a 04       		.byte	0x4
+ 328 006b 07       		.byte	0x7
+ 329 006c 0F040000 		.4byte	.LASF8
+ 330 0070 02       		.uleb128 0x2
+ 331 0071 08       		.byte	0x8
+ 332 0072 05       		.byte	0x5
+ 333 0073 46010000 		.4byte	.LASF9
+ 334 0077 02       		.uleb128 0x2
+ 335 0078 08       		.byte	0x8
+ 336 0079 07       		.byte	0x7
+ 337 007a 9C020000 		.4byte	.LASF10
+ 338 007e 04       		.uleb128 0x4
+ 339 007f 04       		.byte	0x4
+ 340 0080 05       		.byte	0x5
+ 341 0081 696E7400 		.ascii	"int\000"
+ 342 0085 02       		.uleb128 0x2
+ 343 0086 04       		.byte	0x4
+ 344 0087 07       		.byte	0x7
+ 345 0088 B3020000 		.4byte	.LASF11
+ 346 008c 03       		.uleb128 0x3
+ 347 008d C1000000 		.4byte	.LASF12
+ 348 0091 03       		.byte	0x3
+ 349 0092 18       		.byte	0x18
+ 350 0093 2C000000 		.4byte	0x2c
+ 351 0097 03       		.uleb128 0x3
+ 352 0098 CE020000 		.4byte	.LASF13
+ 353 009c 03       		.byte	0x3
+ 354 009d 24       		.byte	0x24
+ 355 009e 45000000 		.4byte	0x45
+ 356 00a2 03       		.uleb128 0x3
+ 357 00a3 BF030000 		.4byte	.LASF14
+ 358 00a7 03       		.byte	0x3
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 10
+
+
+ 359 00a8 2C       		.byte	0x2c
+ 360 00a9 57000000 		.4byte	0x57
+ 361 00ad 02       		.uleb128 0x2
+ 362 00ae 04       		.byte	0x4
+ 363 00af 04       		.byte	0x4
+ 364 00b0 27010000 		.4byte	.LASF15
+ 365 00b4 02       		.uleb128 0x2
+ 366 00b5 08       		.byte	0x8
+ 367 00b6 04       		.byte	0x4
+ 368 00b7 21040000 		.4byte	.LASF16
+ 369 00bb 02       		.uleb128 0x2
+ 370 00bc 01       		.byte	0x1
+ 371 00bd 08       		.byte	0x8
+ 372 00be A5030000 		.4byte	.LASF17
+ 373 00c2 02       		.uleb128 0x2
+ 374 00c3 08       		.byte	0x8
+ 375 00c4 04       		.byte	0x4
+ 376 00c5 EB010000 		.4byte	.LASF18
+ 377 00c9 03       		.uleb128 0x3
+ 378 00ca FB020000 		.4byte	.LASF19
+ 379 00ce 04       		.byte	0x4
+ 380 00cf 53       		.byte	0x53
+ 381 00d0 7E000000 		.4byte	0x7e
+ 382 00d4 03       		.uleb128 0x3
+ 383 00d5 A5000000 		.4byte	.LASF20
+ 384 00d9 04       		.byte	0x4
+ 385 00da 54       		.byte	0x54
+ 386 00db 85000000 		.4byte	0x85
+ 387 00df 03       		.uleb128 0x3
+ 388 00e0 47040000 		.4byte	.LASF21
+ 389 00e4 05       		.byte	0x5
+ 390 00e5 4D       		.byte	0x4d
+ 391 00e6 D4000000 		.4byte	0xd4
+ 392 00ea 03       		.uleb128 0x3
+ 393 00eb 7A000000 		.4byte	.LASF22
+ 394 00ef 05       		.byte	0x5
+ 395 00f0 4F       		.byte	0x4f
+ 396 00f1 D4000000 		.4byte	0xd4
+ 397 00f5 03       		.uleb128 0x3
+ 398 00f6 BA000000 		.4byte	.LASF23
+ 399 00fa 05       		.byte	0x5
+ 400 00fb 78       		.byte	0x78
+ 401 00fc C9000000 		.4byte	0xc9
+ 402 0100 02       		.uleb128 0x2
+ 403 0101 04       		.byte	0x4
+ 404 0102 07       		.byte	0x7
+ 405 0103 63000000 		.4byte	.LASF24
+ 406 0107 05       		.uleb128 0x5
+ 407 0108 65524300 		.ascii	"eRC\000"
+ 408 010c 01       		.byte	0x1
+ 409 010d 25000000 		.4byte	0x25
+ 410 0111 06       		.byte	0x6
+ 411 0112 AC       		.byte	0xac
+ 412 0113 AE010000 		.4byte	0x1ae
+ 413 0117 06       		.uleb128 0x6
+ 414 0118 20000000 		.4byte	.LASF25
+ 415 011c 00       		.byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 11
+
+
+ 416 011d 07       		.uleb128 0x7
+ 417 011e 9A040000 		.4byte	.LASF26
+ 418 0122 7F       		.sleb128 -1
+ 419 0123 07       		.uleb128 0x7
+ 420 0124 D7020000 		.4byte	.LASF27
+ 421 0128 7E       		.sleb128 -2
+ 422 0129 07       		.uleb128 0x7
+ 423 012a 6C000000 		.4byte	.LASF28
+ 424 012e 7D       		.sleb128 -3
+ 425 012f 07       		.uleb128 0x7
+ 426 0130 A3040000 		.4byte	.LASF29
+ 427 0134 7C       		.sleb128 -4
+ 428 0135 07       		.uleb128 0x7
+ 429 0136 18010000 		.4byte	.LASF30
+ 430 013a 7B       		.sleb128 -5
+ 431 013b 07       		.uleb128 0x7
+ 432 013c 8B020000 		.4byte	.LASF31
+ 433 0140 7A       		.sleb128 -6
+ 434 0141 07       		.uleb128 0x7
+ 435 0142 89010000 		.4byte	.LASF32
+ 436 0146 79       		.sleb128 -7
+ 437 0147 07       		.uleb128 0x7
+ 438 0148 AA030000 		.4byte	.LASF33
+ 439 014c 78       		.sleb128 -8
+ 440 014d 07       		.uleb128 0x7
+ 441 014e E5020000 		.4byte	.LASF34
+ 442 0152 77       		.sleb128 -9
+ 443 0153 07       		.uleb128 0x7
+ 444 0154 A4010000 		.4byte	.LASF35
+ 445 0158 76       		.sleb128 -10
+ 446 0159 07       		.uleb128 0x7
+ 447 015a D0040000 		.4byte	.LASF36
+ 448 015e 75       		.sleb128 -11
+ 449 015f 07       		.uleb128 0x7
+ 450 0160 C0020000 		.4byte	.LASF37
+ 451 0164 74       		.sleb128 -12
+ 452 0165 07       		.uleb128 0x7
+ 453 0166 35040000 		.4byte	.LASF38
+ 454 016a 73       		.sleb128 -13
+ 455 016b 07       		.uleb128 0x7
+ 456 016c 0D000000 		.4byte	.LASF39
+ 457 0170 72       		.sleb128 -14
+ 458 0171 07       		.uleb128 0x7
+ 459 0172 2B000000 		.4byte	.LASF40
+ 460 0176 71       		.sleb128 -15
+ 461 0177 07       		.uleb128 0x7
+ 462 0178 BC010000 		.4byte	.LASF41
+ 463 017c 70       		.sleb128 -16
+ 464 017d 07       		.uleb128 0x7
+ 465 017e 82000000 		.4byte	.LASF42
+ 466 0182 6F       		.sleb128 -17
+ 467 0183 07       		.uleb128 0x7
+ 468 0184 4E000000 		.4byte	.LASF43
+ 469 0188 6E       		.sleb128 -18
+ 470 0189 07       		.uleb128 0x7
+ 471 018a 5C010000 		.4byte	.LASF44
+ 472 018e 6D       		.sleb128 -19
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 12
+
+
+ 473 018f 07       		.uleb128 0x7
+ 474 0190 C7030000 		.4byte	.LASF45
+ 475 0194 6C       		.sleb128 -20
+ 476 0195 07       		.uleb128 0x7
+ 477 0196 CD010000 		.4byte	.LASF46
+ 478 019a 6B       		.sleb128 -21
+ 479 019b 07       		.uleb128 0x7
+ 480 019c 75040000 		.4byte	.LASF47
+ 481 01a0 6A       		.sleb128 -22
+ 482 01a1 07       		.uleb128 0x7
+ 483 01a2 C9000000 		.4byte	.LASF48
+ 484 01a6 69       		.sleb128 -23
+ 485 01a7 07       		.uleb128 0x7
+ 486 01a8 6F010000 		.4byte	.LASF49
+ 487 01ac 68       		.sleb128 -24
+ 488 01ad 00       		.byte	0
+ 489 01ae 03       		.uleb128 0x3
+ 490 01af CB040000 		.4byte	.LASF50
+ 491 01b3 06       		.byte	0x6
+ 492 01b4 C8       		.byte	0xc8
+ 493 01b5 07010000 		.4byte	0x107
+ 494 01b9 03       		.uleb128 0x3
+ 495 01ba F5000000 		.4byte	.LASF51
+ 496 01be 07       		.byte	0x7
+ 497 01bf 2F       		.byte	0x2f
+ 498 01c0 8C000000 		.4byte	0x8c
+ 499 01c4 08       		.uleb128 0x8
+ 500 01c5 73524200 		.ascii	"sRB\000"
+ 501 01c9 6A       		.byte	0x6a
+ 502 01ca 08       		.byte	0x8
+ 503 01cb 2F       		.byte	0x2f
+ 504 01cc 01020000 		.4byte	0x201
+ 505 01d0 09       		.uleb128 0x9
+ 506 01d1 93040000 		.4byte	.LASF52
+ 507 01d5 08       		.byte	0x8
+ 508 01d6 30       		.byte	0x30
+ 509 01d7 01020000 		.4byte	0x201
+ 510 01db 00       		.byte	0
+ 511 01dc 09       		.uleb128 0x9
+ 512 01dd 87040000 		.4byte	.LASF53
+ 513 01e1 08       		.byte	0x8
+ 514 01e2 31       		.byte	0x31
+ 515 01e3 97000000 		.4byte	0x97
+ 516 01e7 64       		.byte	0x64
+ 517 01e8 09       		.uleb128 0x9
+ 518 01e9 00000000 		.4byte	.LASF54
+ 519 01ed 08       		.byte	0x8
+ 520 01ee 32       		.byte	0x32
+ 521 01ef 97000000 		.4byte	0x97
+ 522 01f3 66       		.byte	0x66
+ 523 01f4 09       		.uleb128 0x9
+ 524 01f5 DF010000 		.4byte	.LASF55
+ 525 01f9 08       		.byte	0x8
+ 526 01fa 33       		.byte	0x33
+ 527 01fb 97000000 		.4byte	0x97
+ 528 01ff 68       		.byte	0x68
+ 529 0200 00       		.byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 13
+
+
+ 530 0201 0A       		.uleb128 0xa
+ 531 0202 B9010000 		.4byte	0x1b9
+ 532 0206 11020000 		.4byte	0x211
+ 533 020a 0B       		.uleb128 0xb
+ 534 020b 00010000 		.4byte	0x100
+ 535 020f 63       		.byte	0x63
+ 536 0210 00       		.byte	0
+ 537 0211 03       		.uleb128 0x3
+ 538 0212 49000000 		.4byte	.LASF56
+ 539 0216 08       		.byte	0x8
+ 540 0217 35       		.byte	0x35
+ 541 0218 C4010000 		.4byte	0x1c4
+ 542 021c 0C       		.uleb128 0xc
+ 543 021d 9B010000 		.4byte	.LASF57
+ 544 0221 01       		.byte	0x1
+ 545 0222 43       		.byte	0x43
+ 546 0223 AE010000 		.4byte	0x1ae
+ 547 0227 00000000 		.4byte	.LFB111
+ 548 022b 2A000000 		.4byte	.LFE111-.LFB111
+ 549 022f 01       		.uleb128 0x1
+ 550 0230 9C       		.byte	0x9c
+ 551 0231 57020000 		.4byte	0x257
+ 552 0235 0D       		.uleb128 0xd
+ 553 0236 6D6500   		.ascii	"me\000"
+ 554 0239 01       		.byte	0x1
+ 555 023a 43       		.byte	0x43
+ 556 023b 5D020000 		.4byte	0x25d
+ 557 023f 00000000 		.4byte	.LLST0
+ 558 0243 0E       		.uleb128 0xe
+ 559 0244 00000000 		.4byte	.Ldebug_ranges0+0
+ 560 0248 0F       		.uleb128 0xf
+ 561 0249 6900     		.ascii	"i\000"
+ 562 024b 01       		.byte	0x1
+ 563 024c 4B       		.byte	0x4b
+ 564 024d 97000000 		.4byte	0x97
+ 565 0251 34000000 		.4byte	.LLST1
+ 566 0255 00       		.byte	0
+ 567 0256 00       		.byte	0
+ 568 0257 10       		.uleb128 0x10
+ 569 0258 04       		.byte	0x4
+ 570 0259 11020000 		.4byte	0x211
+ 571 025d 11       		.uleb128 0x11
+ 572 025e 57020000 		.4byte	0x257
+ 573 0262 0C       		.uleb128 0xc
+ 574 0263 54010000 		.4byte	.LASF58
+ 575 0267 01       		.byte	0x1
+ 576 0268 39       		.byte	0x39
+ 577 0269 AE010000 		.4byte	0x1ae
+ 578 026d 00000000 		.4byte	.LFB110
+ 579 0271 08000000 		.4byte	.LFE110-.LFB110
+ 580 0275 01       		.uleb128 0x1
+ 581 0276 9C       		.byte	0x9c
+ 582 0277 9B020000 		.4byte	0x29b
+ 583 027b 0D       		.uleb128 0xd
+ 584 027c 6D6500   		.ascii	"me\000"
+ 585 027f 01       		.byte	0x1
+ 586 0280 39       		.byte	0x39
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 14
+
+
+ 587 0281 5D020000 		.4byte	0x25d
+ 588 0285 5E000000 		.4byte	.LLST2
+ 589 0289 12       		.uleb128 0x12
+ 590 028a 06000000 		.4byte	.LVL9
+ 591 028e 1C020000 		.4byte	0x21c
+ 592 0292 13       		.uleb128 0x13
+ 593 0293 01       		.uleb128 0x1
+ 594 0294 50       		.byte	0x50
+ 595 0295 03       		.uleb128 0x3
+ 596 0296 F3       		.byte	0xf3
+ 597 0297 01       		.uleb128 0x1
+ 598 0298 50       		.byte	0x50
+ 599 0299 00       		.byte	0
+ 600 029a 00       		.byte	0
+ 601 029b 0C       		.uleb128 0xc
+ 602 029c 05020000 		.4byte	.LASF59
+ 603 02a0 01       		.byte	0x1
+ 604 02a1 5A       		.byte	0x5a
+ 605 02a2 AE010000 		.4byte	0x1ae
+ 606 02a6 00000000 		.4byte	.LFB112
+ 607 02aa 44000000 		.4byte	.LFE112-.LFB112
+ 608 02ae 01       		.uleb128 0x1
+ 609 02af 9C       		.byte	0x9c
+ 610 02b0 D2020000 		.4byte	0x2d2
+ 611 02b4 0D       		.uleb128 0xd
+ 612 02b5 6D6500   		.ascii	"me\000"
+ 613 02b8 01       		.byte	0x1
+ 614 02b9 5A       		.byte	0x5a
+ 615 02ba 5D020000 		.4byte	0x25d
+ 616 02be 7F000000 		.4byte	.LLST3
+ 617 02c2 14       		.uleb128 0x14
+ 618 02c3 DA030000 		.4byte	.LASF60
+ 619 02c7 01       		.byte	0x1
+ 620 02c8 5A       		.byte	0x5a
+ 621 02c9 DD020000 		.4byte	0x2dd
+ 622 02cd B9000000 		.4byte	.LLST4
+ 623 02d1 00       		.byte	0
+ 624 02d2 10       		.uleb128 0x10
+ 625 02d3 04       		.byte	0x4
+ 626 02d4 D8020000 		.4byte	0x2d8
+ 627 02d8 11       		.uleb128 0x11
+ 628 02d9 B9010000 		.4byte	0x1b9
+ 629 02dd 11       		.uleb128 0x11
+ 630 02de D2020000 		.4byte	0x2d2
+ 631 02e2 0C       		.uleb128 0xc
+ 632 02e3 77020000 		.4byte	.LASF61
+ 633 02e7 01       		.byte	0x1
+ 634 02e8 71       		.byte	0x71
+ 635 02e9 AE010000 		.4byte	0x1ae
+ 636 02ed 00000000 		.4byte	.LFB113
+ 637 02f1 44000000 		.4byte	.LFE113-.LFB113
+ 638 02f5 01       		.uleb128 0x1
+ 639 02f6 9C       		.byte	0x9c
+ 640 02f7 19030000 		.4byte	0x319
+ 641 02fb 0D       		.uleb128 0xd
+ 642 02fc 6D6500   		.ascii	"me\000"
+ 643 02ff 01       		.byte	0x1
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 15
+
+
+ 644 0300 71       		.byte	0x71
+ 645 0301 5D020000 		.4byte	0x25d
+ 646 0305 F3000000 		.4byte	.LLST5
+ 647 0309 14       		.uleb128 0x14
+ 648 030a DA030000 		.4byte	.LASF60
+ 649 030e 01       		.byte	0x1
+ 650 030f 71       		.byte	0x71
+ 651 0310 1F030000 		.4byte	0x31f
+ 652 0314 2D010000 		.4byte	.LLST6
+ 653 0318 00       		.byte	0
+ 654 0319 10       		.uleb128 0x10
+ 655 031a 04       		.byte	0x4
+ 656 031b B9010000 		.4byte	0x1b9
+ 657 031f 11       		.uleb128 0x11
+ 658 0320 19030000 		.4byte	0x319
+ 659 0324 0C       		.uleb128 0xc
+ 660 0325 96000000 		.4byte	.LASF62
+ 661 0329 01       		.byte	0x1
+ 662 032a 87       		.byte	0x87
+ 663 032b 97000000 		.4byte	0x97
+ 664 032f 00000000 		.4byte	.LFB114
+ 665 0333 0C000000 		.4byte	.LFE114-.LFB114
+ 666 0337 01       		.uleb128 0x1
+ 667 0338 9C       		.byte	0x9c
+ 668 0339 4C030000 		.4byte	0x34c
+ 669 033d 0D       		.uleb128 0xd
+ 670 033e 6D6500   		.ascii	"me\000"
+ 671 0341 01       		.byte	0x1
+ 672 0342 87       		.byte	0x87
+ 673 0343 5D020000 		.4byte	0x25d
+ 674 0347 59010000 		.4byte	.LLST7
+ 675 034b 00       		.byte	0
+ 676 034c 0C       		.uleb128 0xc
+ 677 034d F2030000 		.4byte	.LASF63
+ 678 0351 01       		.byte	0x1
+ 679 0352 92       		.byte	0x92
+ 680 0353 97000000 		.4byte	0x97
+ 681 0357 00000000 		.4byte	.LFB115
+ 682 035b 06000000 		.4byte	.LFE115-.LFB115
+ 683 035f 01       		.uleb128 0x1
+ 684 0360 9C       		.byte	0x9c
+ 685 0361 74030000 		.4byte	0x374
+ 686 0365 0D       		.uleb128 0xd
+ 687 0366 6D6500   		.ascii	"me\000"
+ 688 0369 01       		.byte	0x1
+ 689 036a 92       		.byte	0x92
+ 690 036b 5D020000 		.4byte	0x25d
+ 691 036f 7A010000 		.4byte	.LLST8
+ 692 0373 00       		.byte	0
+ 693 0374 15       		.uleb128 0x15
+ 694 0375 B3040000 		.4byte	.LASF64
+ 695 0379 09       		.byte	0x9
+ 696 037a 40       		.byte	0x40
+ 697 037b DF000000 		.4byte	0xdf
+ 698 037f 15       		.uleb128 0x15
+ 699 0380 2D010000 		.4byte	.LASF65
+ 700 0384 09       		.byte	0x9
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 16
+
+
+ 701 0385 47       		.byte	0x47
+ 702 0386 EA000000 		.4byte	0xea
+ 703 038a 15       		.uleb128 0x15
+ 704 038b DF030000 		.4byte	.LASF66
+ 705 038f 09       		.byte	0x9
+ 706 0390 4A       		.byte	0x4a
+ 707 0391 DF000000 		.4byte	0xdf
+ 708 0395 15       		.uleb128 0x15
+ 709 0396 FF000000 		.4byte	.LASF67
+ 710 039a 0A       		.byte	0xa
+ 711 039b 48       		.byte	0x48
+ 712 039c F5000000 		.4byte	0xf5
+ 713 03a0 15       		.uleb128 0x15
+ 714 03a1 E0000000 		.4byte	.LASF68
+ 715 03a5 0B       		.byte	0xb
+ 716 03a6 44       		.byte	0x44
+ 717 03a7 DF000000 		.4byte	0xdf
+ 718 03ab 16       		.uleb128 0x16
+ 719 03ac 28040000 		.4byte	.LASF69
+ 720 03b0 0C       		.byte	0xc
+ 721 03b1 1207     		.2byte	0x712
+ 722 03b3 B7030000 		.4byte	0x3b7
+ 723 03b7 17       		.uleb128 0x17
+ 724 03b8 A2000000 		.4byte	0xa2
+ 725 03bc 00       		.byte	0
+ 726              		.section	.debug_abbrev,"",%progbits
+ 727              	.Ldebug_abbrev0:
+ 728 0000 01       		.uleb128 0x1
+ 729 0001 11       		.uleb128 0x11
+ 730 0002 01       		.byte	0x1
+ 731 0003 25       		.uleb128 0x25
+ 732 0004 0E       		.uleb128 0xe
+ 733 0005 13       		.uleb128 0x13
+ 734 0006 0B       		.uleb128 0xb
+ 735 0007 03       		.uleb128 0x3
+ 736 0008 0E       		.uleb128 0xe
+ 737 0009 1B       		.uleb128 0x1b
+ 738 000a 0E       		.uleb128 0xe
+ 739 000b 55       		.uleb128 0x55
+ 740 000c 17       		.uleb128 0x17
+ 741 000d 11       		.uleb128 0x11
+ 742 000e 01       		.uleb128 0x1
+ 743 000f 10       		.uleb128 0x10
+ 744 0010 17       		.uleb128 0x17
+ 745 0011 00       		.byte	0
+ 746 0012 00       		.byte	0
+ 747 0013 02       		.uleb128 0x2
+ 748 0014 24       		.uleb128 0x24
+ 749 0015 00       		.byte	0
+ 750 0016 0B       		.uleb128 0xb
+ 751 0017 0B       		.uleb128 0xb
+ 752 0018 3E       		.uleb128 0x3e
+ 753 0019 0B       		.uleb128 0xb
+ 754 001a 03       		.uleb128 0x3
+ 755 001b 0E       		.uleb128 0xe
+ 756 001c 00       		.byte	0
+ 757 001d 00       		.byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 17
+
+
+ 758 001e 03       		.uleb128 0x3
+ 759 001f 16       		.uleb128 0x16
+ 760 0020 00       		.byte	0
+ 761 0021 03       		.uleb128 0x3
+ 762 0022 0E       		.uleb128 0xe
+ 763 0023 3A       		.uleb128 0x3a
+ 764 0024 0B       		.uleb128 0xb
+ 765 0025 3B       		.uleb128 0x3b
+ 766 0026 0B       		.uleb128 0xb
+ 767 0027 49       		.uleb128 0x49
+ 768 0028 13       		.uleb128 0x13
+ 769 0029 00       		.byte	0
+ 770 002a 00       		.byte	0
+ 771 002b 04       		.uleb128 0x4
+ 772 002c 24       		.uleb128 0x24
+ 773 002d 00       		.byte	0
+ 774 002e 0B       		.uleb128 0xb
+ 775 002f 0B       		.uleb128 0xb
+ 776 0030 3E       		.uleb128 0x3e
+ 777 0031 0B       		.uleb128 0xb
+ 778 0032 03       		.uleb128 0x3
+ 779 0033 08       		.uleb128 0x8
+ 780 0034 00       		.byte	0
+ 781 0035 00       		.byte	0
+ 782 0036 05       		.uleb128 0x5
+ 783 0037 04       		.uleb128 0x4
+ 784 0038 01       		.byte	0x1
+ 785 0039 03       		.uleb128 0x3
+ 786 003a 08       		.uleb128 0x8
+ 787 003b 0B       		.uleb128 0xb
+ 788 003c 0B       		.uleb128 0xb
+ 789 003d 49       		.uleb128 0x49
+ 790 003e 13       		.uleb128 0x13
+ 791 003f 3A       		.uleb128 0x3a
+ 792 0040 0B       		.uleb128 0xb
+ 793 0041 3B       		.uleb128 0x3b
+ 794 0042 0B       		.uleb128 0xb
+ 795 0043 01       		.uleb128 0x1
+ 796 0044 13       		.uleb128 0x13
+ 797 0045 00       		.byte	0
+ 798 0046 00       		.byte	0
+ 799 0047 06       		.uleb128 0x6
+ 800 0048 28       		.uleb128 0x28
+ 801 0049 00       		.byte	0
+ 802 004a 03       		.uleb128 0x3
+ 803 004b 0E       		.uleb128 0xe
+ 804 004c 1C       		.uleb128 0x1c
+ 805 004d 0B       		.uleb128 0xb
+ 806 004e 00       		.byte	0
+ 807 004f 00       		.byte	0
+ 808 0050 07       		.uleb128 0x7
+ 809 0051 28       		.uleb128 0x28
+ 810 0052 00       		.byte	0
+ 811 0053 03       		.uleb128 0x3
+ 812 0054 0E       		.uleb128 0xe
+ 813 0055 1C       		.uleb128 0x1c
+ 814 0056 0D       		.uleb128 0xd
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 18
+
+
+ 815 0057 00       		.byte	0
+ 816 0058 00       		.byte	0
+ 817 0059 08       		.uleb128 0x8
+ 818 005a 13       		.uleb128 0x13
+ 819 005b 01       		.byte	0x1
+ 820 005c 03       		.uleb128 0x3
+ 821 005d 08       		.uleb128 0x8
+ 822 005e 0B       		.uleb128 0xb
+ 823 005f 0B       		.uleb128 0xb
+ 824 0060 3A       		.uleb128 0x3a
+ 825 0061 0B       		.uleb128 0xb
+ 826 0062 3B       		.uleb128 0x3b
+ 827 0063 0B       		.uleb128 0xb
+ 828 0064 01       		.uleb128 0x1
+ 829 0065 13       		.uleb128 0x13
+ 830 0066 00       		.byte	0
+ 831 0067 00       		.byte	0
+ 832 0068 09       		.uleb128 0x9
+ 833 0069 0D       		.uleb128 0xd
+ 834 006a 00       		.byte	0
+ 835 006b 03       		.uleb128 0x3
+ 836 006c 0E       		.uleb128 0xe
+ 837 006d 3A       		.uleb128 0x3a
+ 838 006e 0B       		.uleb128 0xb
+ 839 006f 3B       		.uleb128 0x3b
+ 840 0070 0B       		.uleb128 0xb
+ 841 0071 49       		.uleb128 0x49
+ 842 0072 13       		.uleb128 0x13
+ 843 0073 38       		.uleb128 0x38
+ 844 0074 0B       		.uleb128 0xb
+ 845 0075 00       		.byte	0
+ 846 0076 00       		.byte	0
+ 847 0077 0A       		.uleb128 0xa
+ 848 0078 01       		.uleb128 0x1
+ 849 0079 01       		.byte	0x1
+ 850 007a 49       		.uleb128 0x49
+ 851 007b 13       		.uleb128 0x13
+ 852 007c 01       		.uleb128 0x1
+ 853 007d 13       		.uleb128 0x13
+ 854 007e 00       		.byte	0
+ 855 007f 00       		.byte	0
+ 856 0080 0B       		.uleb128 0xb
+ 857 0081 21       		.uleb128 0x21
+ 858 0082 00       		.byte	0
+ 859 0083 49       		.uleb128 0x49
+ 860 0084 13       		.uleb128 0x13
+ 861 0085 2F       		.uleb128 0x2f
+ 862 0086 0B       		.uleb128 0xb
+ 863 0087 00       		.byte	0
+ 864 0088 00       		.byte	0
+ 865 0089 0C       		.uleb128 0xc
+ 866 008a 2E       		.uleb128 0x2e
+ 867 008b 01       		.byte	0x1
+ 868 008c 3F       		.uleb128 0x3f
+ 869 008d 19       		.uleb128 0x19
+ 870 008e 03       		.uleb128 0x3
+ 871 008f 0E       		.uleb128 0xe
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 19
+
+
+ 872 0090 3A       		.uleb128 0x3a
+ 873 0091 0B       		.uleb128 0xb
+ 874 0092 3B       		.uleb128 0x3b
+ 875 0093 0B       		.uleb128 0xb
+ 876 0094 27       		.uleb128 0x27
+ 877 0095 19       		.uleb128 0x19
+ 878 0096 49       		.uleb128 0x49
+ 879 0097 13       		.uleb128 0x13
+ 880 0098 11       		.uleb128 0x11
+ 881 0099 01       		.uleb128 0x1
+ 882 009a 12       		.uleb128 0x12
+ 883 009b 06       		.uleb128 0x6
+ 884 009c 40       		.uleb128 0x40
+ 885 009d 18       		.uleb128 0x18
+ 886 009e 9742     		.uleb128 0x2117
+ 887 00a0 19       		.uleb128 0x19
+ 888 00a1 01       		.uleb128 0x1
+ 889 00a2 13       		.uleb128 0x13
+ 890 00a3 00       		.byte	0
+ 891 00a4 00       		.byte	0
+ 892 00a5 0D       		.uleb128 0xd
+ 893 00a6 05       		.uleb128 0x5
+ 894 00a7 00       		.byte	0
+ 895 00a8 03       		.uleb128 0x3
+ 896 00a9 08       		.uleb128 0x8
+ 897 00aa 3A       		.uleb128 0x3a
+ 898 00ab 0B       		.uleb128 0xb
+ 899 00ac 3B       		.uleb128 0x3b
+ 900 00ad 0B       		.uleb128 0xb
+ 901 00ae 49       		.uleb128 0x49
+ 902 00af 13       		.uleb128 0x13
+ 903 00b0 02       		.uleb128 0x2
+ 904 00b1 17       		.uleb128 0x17
+ 905 00b2 00       		.byte	0
+ 906 00b3 00       		.byte	0
+ 907 00b4 0E       		.uleb128 0xe
+ 908 00b5 0B       		.uleb128 0xb
+ 909 00b6 01       		.byte	0x1
+ 910 00b7 55       		.uleb128 0x55
+ 911 00b8 17       		.uleb128 0x17
+ 912 00b9 00       		.byte	0
+ 913 00ba 00       		.byte	0
+ 914 00bb 0F       		.uleb128 0xf
+ 915 00bc 34       		.uleb128 0x34
+ 916 00bd 00       		.byte	0
+ 917 00be 03       		.uleb128 0x3
+ 918 00bf 08       		.uleb128 0x8
+ 919 00c0 3A       		.uleb128 0x3a
+ 920 00c1 0B       		.uleb128 0xb
+ 921 00c2 3B       		.uleb128 0x3b
+ 922 00c3 0B       		.uleb128 0xb
+ 923 00c4 49       		.uleb128 0x49
+ 924 00c5 13       		.uleb128 0x13
+ 925 00c6 02       		.uleb128 0x2
+ 926 00c7 17       		.uleb128 0x17
+ 927 00c8 00       		.byte	0
+ 928 00c9 00       		.byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 20
+
+
+ 929 00ca 10       		.uleb128 0x10
+ 930 00cb 0F       		.uleb128 0xf
+ 931 00cc 00       		.byte	0
+ 932 00cd 0B       		.uleb128 0xb
+ 933 00ce 0B       		.uleb128 0xb
+ 934 00cf 49       		.uleb128 0x49
+ 935 00d0 13       		.uleb128 0x13
+ 936 00d1 00       		.byte	0
+ 937 00d2 00       		.byte	0
+ 938 00d3 11       		.uleb128 0x11
+ 939 00d4 26       		.uleb128 0x26
+ 940 00d5 00       		.byte	0
+ 941 00d6 49       		.uleb128 0x49
+ 942 00d7 13       		.uleb128 0x13
+ 943 00d8 00       		.byte	0
+ 944 00d9 00       		.byte	0
+ 945 00da 12       		.uleb128 0x12
+ 946 00db 898201   		.uleb128 0x4109
+ 947 00de 01       		.byte	0x1
+ 948 00df 11       		.uleb128 0x11
+ 949 00e0 01       		.uleb128 0x1
+ 950 00e1 31       		.uleb128 0x31
+ 951 00e2 13       		.uleb128 0x13
+ 952 00e3 00       		.byte	0
+ 953 00e4 00       		.byte	0
+ 954 00e5 13       		.uleb128 0x13
+ 955 00e6 8A8201   		.uleb128 0x410a
+ 956 00e9 00       		.byte	0
+ 957 00ea 02       		.uleb128 0x2
+ 958 00eb 18       		.uleb128 0x18
+ 959 00ec 9142     		.uleb128 0x2111
+ 960 00ee 18       		.uleb128 0x18
+ 961 00ef 00       		.byte	0
+ 962 00f0 00       		.byte	0
+ 963 00f1 14       		.uleb128 0x14
+ 964 00f2 05       		.uleb128 0x5
+ 965 00f3 00       		.byte	0
+ 966 00f4 03       		.uleb128 0x3
+ 967 00f5 0E       		.uleb128 0xe
+ 968 00f6 3A       		.uleb128 0x3a
+ 969 00f7 0B       		.uleb128 0xb
+ 970 00f8 3B       		.uleb128 0x3b
+ 971 00f9 0B       		.uleb128 0xb
+ 972 00fa 49       		.uleb128 0x49
+ 973 00fb 13       		.uleb128 0x13
+ 974 00fc 02       		.uleb128 0x2
+ 975 00fd 17       		.uleb128 0x17
+ 976 00fe 00       		.byte	0
+ 977 00ff 00       		.byte	0
+ 978 0100 15       		.uleb128 0x15
+ 979 0101 34       		.uleb128 0x34
+ 980 0102 00       		.byte	0
+ 981 0103 03       		.uleb128 0x3
+ 982 0104 0E       		.uleb128 0xe
+ 983 0105 3A       		.uleb128 0x3a
+ 984 0106 0B       		.uleb128 0xb
+ 985 0107 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 21
+
+
+ 986 0108 0B       		.uleb128 0xb
+ 987 0109 49       		.uleb128 0x49
+ 988 010a 13       		.uleb128 0x13
+ 989 010b 3F       		.uleb128 0x3f
+ 990 010c 19       		.uleb128 0x19
+ 991 010d 3C       		.uleb128 0x3c
+ 992 010e 19       		.uleb128 0x19
+ 993 010f 00       		.byte	0
+ 994 0110 00       		.byte	0
+ 995 0111 16       		.uleb128 0x16
+ 996 0112 34       		.uleb128 0x34
+ 997 0113 00       		.byte	0
+ 998 0114 03       		.uleb128 0x3
+ 999 0115 0E       		.uleb128 0xe
+ 1000 0116 3A       		.uleb128 0x3a
+ 1001 0117 0B       		.uleb128 0xb
+ 1002 0118 3B       		.uleb128 0x3b
+ 1003 0119 05       		.uleb128 0x5
+ 1004 011a 49       		.uleb128 0x49
+ 1005 011b 13       		.uleb128 0x13
+ 1006 011c 3F       		.uleb128 0x3f
+ 1007 011d 19       		.uleb128 0x19
+ 1008 011e 3C       		.uleb128 0x3c
+ 1009 011f 19       		.uleb128 0x19
+ 1010 0120 00       		.byte	0
+ 1011 0121 00       		.byte	0
+ 1012 0122 17       		.uleb128 0x17
+ 1013 0123 35       		.uleb128 0x35
+ 1014 0124 00       		.byte	0
+ 1015 0125 49       		.uleb128 0x49
+ 1016 0126 13       		.uleb128 0x13
+ 1017 0127 00       		.byte	0
+ 1018 0128 00       		.byte	0
+ 1019 0129 00       		.byte	0
+ 1020              		.section	.debug_loc,"",%progbits
+ 1021              	.Ldebug_loc0:
+ 1022              	.LLST0:
+ 1023 0000 00000000 		.4byte	.LVL0
+ 1024 0004 22000000 		.4byte	.LVL5
+ 1025 0008 0100     		.2byte	0x1
+ 1026 000a 50       		.byte	0x50
+ 1027 000b 22000000 		.4byte	.LVL5
+ 1028 000f 24000000 		.4byte	.LVL6
+ 1029 0013 0100     		.2byte	0x1
+ 1030 0015 51       		.byte	0x51
+ 1031 0016 24000000 		.4byte	.LVL6
+ 1032 001a 28000000 		.4byte	.LVL7
+ 1033 001e 0100     		.2byte	0x1
+ 1034 0020 50       		.byte	0x50
+ 1035 0021 28000000 		.4byte	.LVL7
+ 1036 0025 2A000000 		.4byte	.LFE111
+ 1037 0029 0100     		.2byte	0x1
+ 1038 002b 51       		.byte	0x51
+ 1039 002c 00000000 		.4byte	0
+ 1040 0030 00000000 		.4byte	0
+ 1041              	.LLST1:
+ 1042 0034 12000000 		.4byte	.LVL1
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 22
+
+
+ 1043 0038 14000000 		.4byte	.LVL2
+ 1044 003c 0200     		.2byte	0x2
+ 1045 003e 30       		.byte	0x30
+ 1046 003f 9F       		.byte	0x9f
+ 1047 0040 14000000 		.4byte	.LVL2
+ 1048 0044 1A000000 		.4byte	.LVL3
+ 1049 0048 0100     		.2byte	0x1
+ 1050 004a 53       		.byte	0x53
+ 1051 004b 1C000000 		.4byte	.LVL4
+ 1052 004f 24000000 		.4byte	.LVL6
+ 1053 0053 0100     		.2byte	0x1
+ 1054 0055 53       		.byte	0x53
+ 1055 0056 00000000 		.4byte	0
+ 1056 005a 00000000 		.4byte	0
+ 1057              	.LLST2:
+ 1058 005e 00000000 		.4byte	.LVL8
+ 1059 0062 05000000 		.4byte	.LVL9-1
+ 1060 0066 0100     		.2byte	0x1
+ 1061 0068 50       		.byte	0x50
+ 1062 0069 05000000 		.4byte	.LVL9-1
+ 1063 006d 08000000 		.4byte	.LFE110
+ 1064 0071 0400     		.2byte	0x4
+ 1065 0073 F3       		.byte	0xf3
+ 1066 0074 01       		.uleb128 0x1
+ 1067 0075 50       		.byte	0x50
+ 1068 0076 9F       		.byte	0x9f
+ 1069 0077 00000000 		.4byte	0
+ 1070 007b 00000000 		.4byte	0
+ 1071              	.LLST3:
+ 1072 007f 00000000 		.4byte	.LVL10
+ 1073 0083 34000000 		.4byte	.LVL12
+ 1074 0087 0100     		.2byte	0x1
+ 1075 0089 50       		.byte	0x50
+ 1076 008a 34000000 		.4byte	.LVL12
+ 1077 008e 36000000 		.4byte	.LVL13
+ 1078 0092 0400     		.2byte	0x4
+ 1079 0094 F3       		.byte	0xf3
+ 1080 0095 01       		.uleb128 0x1
+ 1081 0096 50       		.byte	0x50
+ 1082 0097 9F       		.byte	0x9f
+ 1083 0098 36000000 		.4byte	.LVL13
+ 1084 009c 3A000000 		.4byte	.LVL14
+ 1085 00a0 0100     		.2byte	0x1
+ 1086 00a2 50       		.byte	0x50
+ 1087 00a3 3A000000 		.4byte	.LVL14
+ 1088 00a7 44000000 		.4byte	.LFE112
+ 1089 00ab 0400     		.2byte	0x4
+ 1090 00ad F3       		.byte	0xf3
+ 1091 00ae 01       		.uleb128 0x1
+ 1092 00af 50       		.byte	0x50
+ 1093 00b0 9F       		.byte	0x9f
+ 1094 00b1 00000000 		.4byte	0
+ 1095 00b5 00000000 		.4byte	0
+ 1096              	.LLST4:
+ 1097 00b9 00000000 		.4byte	.LVL10
+ 1098 00bd 18000000 		.4byte	.LVL11
+ 1099 00c1 0100     		.2byte	0x1
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 23
+
+
+ 1100 00c3 51       		.byte	0x51
+ 1101 00c4 18000000 		.4byte	.LVL11
+ 1102 00c8 36000000 		.4byte	.LVL13
+ 1103 00cc 0400     		.2byte	0x4
+ 1104 00ce F3       		.byte	0xf3
+ 1105 00cf 01       		.uleb128 0x1
+ 1106 00d0 51       		.byte	0x51
+ 1107 00d1 9F       		.byte	0x9f
+ 1108 00d2 36000000 		.4byte	.LVL13
+ 1109 00d6 3A000000 		.4byte	.LVL14
+ 1110 00da 0100     		.2byte	0x1
+ 1111 00dc 51       		.byte	0x51
+ 1112 00dd 3A000000 		.4byte	.LVL14
+ 1113 00e1 44000000 		.4byte	.LFE112
+ 1114 00e5 0400     		.2byte	0x4
+ 1115 00e7 F3       		.byte	0xf3
+ 1116 00e8 01       		.uleb128 0x1
+ 1117 00e9 51       		.byte	0x51
+ 1118 00ea 9F       		.byte	0x9f
+ 1119 00eb 00000000 		.4byte	0
+ 1120 00ef 00000000 		.4byte	0
+ 1121              	.LLST5:
+ 1122 00f3 00000000 		.4byte	.LVL15
+ 1123 00f7 36000000 		.4byte	.LVL17
+ 1124 00fb 0100     		.2byte	0x1
+ 1125 00fd 50       		.byte	0x50
+ 1126 00fe 36000000 		.4byte	.LVL17
+ 1127 0102 38000000 		.4byte	.LVL18
+ 1128 0106 0400     		.2byte	0x4
+ 1129 0108 F3       		.byte	0xf3
+ 1130 0109 01       		.uleb128 0x1
+ 1131 010a 50       		.byte	0x50
+ 1132 010b 9F       		.byte	0x9f
+ 1133 010c 38000000 		.4byte	.LVL18
+ 1134 0110 3C000000 		.4byte	.LVL19
+ 1135 0114 0100     		.2byte	0x1
+ 1136 0116 50       		.byte	0x50
+ 1137 0117 3C000000 		.4byte	.LVL19
+ 1138 011b 44000000 		.4byte	.LFE113
+ 1139 011f 0400     		.2byte	0x4
+ 1140 0121 F3       		.byte	0xf3
+ 1141 0122 01       		.uleb128 0x1
+ 1142 0123 50       		.byte	0x50
+ 1143 0124 9F       		.byte	0x9f
+ 1144 0125 00000000 		.4byte	0
+ 1145 0129 00000000 		.4byte	0
+ 1146              	.LLST6:
+ 1147 012d 00000000 		.4byte	.LVL15
+ 1148 0131 1E000000 		.4byte	.LVL16
+ 1149 0135 0100     		.2byte	0x1
+ 1150 0137 51       		.byte	0x51
+ 1151 0138 1E000000 		.4byte	.LVL16
+ 1152 013c 38000000 		.4byte	.LVL18
+ 1153 0140 0400     		.2byte	0x4
+ 1154 0142 F3       		.byte	0xf3
+ 1155 0143 01       		.uleb128 0x1
+ 1156 0144 51       		.byte	0x51
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 24
+
+
+ 1157 0145 9F       		.byte	0x9f
+ 1158 0146 38000000 		.4byte	.LVL18
+ 1159 014a 44000000 		.4byte	.LFE113
+ 1160 014e 0100     		.2byte	0x1
+ 1161 0150 51       		.byte	0x51
+ 1162 0151 00000000 		.4byte	0
+ 1163 0155 00000000 		.4byte	0
+ 1164              	.LLST7:
+ 1165 0159 00000000 		.4byte	.LVL20
+ 1166 015d 04000000 		.4byte	.LVL21
+ 1167 0161 0100     		.2byte	0x1
+ 1168 0163 50       		.byte	0x50
+ 1169 0164 04000000 		.4byte	.LVL21
+ 1170 0168 0C000000 		.4byte	.LFE114
+ 1171 016c 0400     		.2byte	0x4
+ 1172 016e F3       		.byte	0xf3
+ 1173 016f 01       		.uleb128 0x1
+ 1174 0170 50       		.byte	0x50
+ 1175 0171 9F       		.byte	0x9f
+ 1176 0172 00000000 		.4byte	0
+ 1177 0176 00000000 		.4byte	0
+ 1178              	.LLST8:
+ 1179 017a 00000000 		.4byte	.LVL22
+ 1180 017e 04000000 		.4byte	.LVL23
+ 1181 0182 0100     		.2byte	0x1
+ 1182 0184 50       		.byte	0x50
+ 1183 0185 04000000 		.4byte	.LVL23
+ 1184 0189 06000000 		.4byte	.LFE115
+ 1185 018d 0400     		.2byte	0x4
+ 1186 018f F3       		.byte	0xf3
+ 1187 0190 01       		.uleb128 0x1
+ 1188 0191 50       		.byte	0x50
+ 1189 0192 9F       		.byte	0x9f
+ 1190 0193 00000000 		.4byte	0
+ 1191 0197 00000000 		.4byte	0
+ 1192              		.section	.debug_aranges,"",%progbits
+ 1193 0000 44000000 		.4byte	0x44
+ 1194 0004 0200     		.2byte	0x2
+ 1195 0006 00000000 		.4byte	.Ldebug_info0
+ 1196 000a 04       		.byte	0x4
+ 1197 000b 00       		.byte	0
+ 1198 000c 0000     		.2byte	0
+ 1199 000e 0000     		.2byte	0
+ 1200 0010 00000000 		.4byte	.LFB111
+ 1201 0014 2A000000 		.4byte	.LFE111-.LFB111
+ 1202 0018 00000000 		.4byte	.LFB110
+ 1203 001c 08000000 		.4byte	.LFE110-.LFB110
+ 1204 0020 00000000 		.4byte	.LFB112
+ 1205 0024 44000000 		.4byte	.LFE112-.LFB112
+ 1206 0028 00000000 		.4byte	.LFB113
+ 1207 002c 44000000 		.4byte	.LFE113-.LFB113
+ 1208 0030 00000000 		.4byte	.LFB114
+ 1209 0034 0C000000 		.4byte	.LFE114-.LFB114
+ 1210 0038 00000000 		.4byte	.LFB115
+ 1211 003c 06000000 		.4byte	.LFE115-.LFB115
+ 1212 0040 00000000 		.4byte	0
+ 1213 0044 00000000 		.4byte	0
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 25
+
+
+ 1214              		.section	.debug_ranges,"",%progbits
+ 1215              	.Ldebug_ranges0:
+ 1216 0000 12000000 		.4byte	.LBB2
+ 1217 0004 20000000 		.4byte	.LBE2
+ 1218 0008 22000000 		.4byte	.LBB3
+ 1219 000c 24000000 		.4byte	.LBE3
+ 1220 0010 00000000 		.4byte	0
+ 1221 0014 00000000 		.4byte	0
+ 1222 0018 00000000 		.4byte	.LFB111
+ 1223 001c 2A000000 		.4byte	.LFE111
+ 1224 0020 00000000 		.4byte	.LFB110
+ 1225 0024 08000000 		.4byte	.LFE110
+ 1226 0028 00000000 		.4byte	.LFB112
+ 1227 002c 44000000 		.4byte	.LFE112
+ 1228 0030 00000000 		.4byte	.LFB113
+ 1229 0034 44000000 		.4byte	.LFE113
+ 1230 0038 00000000 		.4byte	.LFB114
+ 1231 003c 0C000000 		.4byte	.LFE114
+ 1232 0040 00000000 		.4byte	.LFB115
+ 1233 0044 06000000 		.4byte	.LFE115
+ 1234 0048 00000000 		.4byte	0
+ 1235 004c 00000000 		.4byte	0
+ 1236              		.section	.debug_line,"",%progbits
+ 1237              	.Ldebug_line0:
+ 1238 0000 D4020000 		.section	.debug_str,"MS",%progbits,1
+ 1238      02003F02 
+ 1238      00000201 
+ 1238      FB0E0D00 
+ 1238      01010101 
+ 1239              	.LASF54:
+ 1240 0000 6D5F7772 		.ascii	"m_writeIndex\000"
+ 1240      69746549 
+ 1240      6E646578 
+ 1240      00
+ 1241              	.LASF39:
+ 1242 000d 52435F45 		.ascii	"RC_ERROR_READ_ONLY\000"
+ 1242      52524F52 
+ 1242      5F524541 
+ 1242      445F4F4E 
+ 1242      4C5900
+ 1243              	.LASF25:
+ 1244 0020 52435F53 		.ascii	"RC_SUCCESS\000"
+ 1244      55434345 
+ 1244      535300
+ 1245              	.LASF40:
+ 1246 002b 52435F45 		.ascii	"RC_ERROR_WRITE_ONLY\000"
+ 1246      52524F52 
+ 1246      5F575249 
+ 1246      54455F4F 
+ 1246      4E4C5900 
+ 1247              	.LASF2:
+ 1248 003f 73686F72 		.ascii	"short int\000"
+ 1248      7420696E 
+ 1248      7400
+ 1249              	.LASF56:
+ 1250 0049 52425F74 		.ascii	"RB_t\000"
+ 1250      00
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 26
+
+
+ 1251              	.LASF43:
+ 1252 004e 52435F45 		.ascii	"RC_ERROR_WRITE_FAILS\000"
+ 1252      52524F52 
+ 1252      5F575249 
+ 1252      54455F46 
+ 1252      41494C53 
+ 1253              	.LASF24:
+ 1254 0063 73697A65 		.ascii	"sizetype\000"
+ 1254      74797065 
+ 1254      00
+ 1255              	.LASF28:
+ 1256 006c 52435F45 		.ascii	"RC_ERROR_ZERO\000"
+ 1256      52524F52 
+ 1256      5F5A4552 
+ 1256      4F00
+ 1257              	.LASF22:
+ 1258 007a 45455F46 		.ascii	"EE_FREG\000"
+ 1258      52454700 
+ 1259              	.LASF42:
+ 1260 0082 52435F45 		.ascii	"RC_ERROR_READ_FAILS\000"
+ 1260      52524F52 
+ 1260      5F524541 
+ 1260      445F4641 
+ 1260      494C5300 
+ 1261              	.LASF62:
+ 1262 0096 52425F67 		.ascii	"RB_getCapacity\000"
+ 1262      65744361 
+ 1262      70616369 
+ 1262      747900
+ 1263              	.LASF20:
+ 1264 00a5 45455F55 		.ascii	"EE_UINT32\000"
+ 1264      494E5433 
+ 1264      3200
+ 1265              	.LASF4:
+ 1266 00af 5F5F7569 		.ascii	"__uint16_t\000"
+ 1266      6E743136 
+ 1266      5F7400
+ 1267              	.LASF23:
+ 1268 00ba 45455F54 		.ascii	"EE_TID\000"
+ 1268      494400
+ 1269              	.LASF12:
+ 1270 00c1 75696E74 		.ascii	"uint8_t\000"
+ 1270      385F7400 
+ 1271              	.LASF48:
+ 1272 00c9 52435F45 		.ascii	"RC_ERROR_INVALID_STATE\000"
+ 1272      52524F52 
+ 1272      5F494E56 
+ 1272      414C4944 
+ 1272      5F535441 
+ 1273              	.LASF68:
+ 1274 00e0 45455F49 		.ascii	"EE_IRQ_nesting_level\000"
+ 1274      52515F6E 
+ 1274      65737469 
+ 1274      6E675F6C 
+ 1274      6576656C 
+ 1275              	.LASF51:
+ 1276 00f5 52425F64 		.ascii	"RB_data_t\000"
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 27
+
+
+ 1276      6174615F 
+ 1276      7400
+ 1277              	.LASF67:
+ 1278 00ff 45455F73 		.ascii	"EE_std_endcycle_next_tid\000"
+ 1278      74645F65 
+ 1278      6E646379 
+ 1278      636C655F 
+ 1278      6E657874 
+ 1279              	.LASF30:
+ 1280 0118 52435F45 		.ascii	"RC_ERROR_RANGE\000"
+ 1280      52524F52 
+ 1280      5F52414E 
+ 1280      474500
+ 1281              	.LASF15:
+ 1282 0127 666C6F61 		.ascii	"float\000"
+ 1282      7400
+ 1283              	.LASF65:
+ 1284 012d 45455F6F 		.ascii	"EE_oo_IRQ_suspend_status\000"
+ 1284      6F5F4952 
+ 1284      515F7375 
+ 1284      7370656E 
+ 1284      645F7374 
+ 1285              	.LASF9:
+ 1286 0146 6C6F6E67 		.ascii	"long long int\000"
+ 1286      206C6F6E 
+ 1286      6720696E 
+ 1286      7400
+ 1287              	.LASF58:
+ 1288 0154 52425F69 		.ascii	"RB_init\000"
+ 1288      6E697400 
+ 1289              	.LASF44:
+ 1290 015c 52435F45 		.ascii	"RC_ERROR_NOT_MATCH\000"
+ 1290      52524F52 
+ 1290      5F4E4F54 
+ 1290      5F4D4154 
+ 1290      434800
+ 1291              	.LASF49:
+ 1292 016f 52435F45 		.ascii	"RC_ERROR_UNKNOWN\000"
+ 1292      52524F52 
+ 1292      5F554E4B 
+ 1292      4E4F574E 
+ 1292      00
+ 1293              	.LASF7:
+ 1294 0180 6C6F6E67 		.ascii	"long int\000"
+ 1294      20696E74 
+ 1294      00
+ 1295              	.LASF32:
+ 1296 0189 52435F45 		.ascii	"RC_ERROR_UNDERRUN\000"
+ 1296      52524F52 
+ 1296      5F554E44 
+ 1296      45525255 
+ 1296      4E00
+ 1297              	.LASF57:
+ 1298 019b 52425F63 		.ascii	"RB_clear\000"
+ 1298      6C656172 
+ 1298      00
+ 1299              	.LASF35:
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 28
+
+
+ 1300 01a4 52435F45 		.ascii	"RC_ERROR_BUSY\000"
+ 1300      52524F52 
+ 1300      5F425553 
+ 1300      5900
+ 1301              	.LASF3:
+ 1302 01b2 5F5F7569 		.ascii	"__uint8_t\000"
+ 1302      6E74385F 
+ 1302      7400
+ 1303              	.LASF41:
+ 1304 01bc 52435F45 		.ascii	"RC_ERROR_INVALID\000"
+ 1304      52524F52 
+ 1304      5F494E56 
+ 1304      414C4944 
+ 1304      00
+ 1305              	.LASF46:
+ 1306 01cd 52435F45 		.ascii	"RC_ERROR_BAD_DATA\000"
+ 1306      52524F52 
+ 1306      5F424144 
+ 1306      5F444154 
+ 1306      4100
+ 1307              	.LASF55:
+ 1308 01df 6D5F6669 		.ascii	"m_fillLevel\000"
+ 1308      6C6C4C65 
+ 1308      76656C00 
+ 1309              	.LASF18:
+ 1310 01eb 6C6F6E67 		.ascii	"long double\000"
+ 1310      20646F75 
+ 1310      626C6500 
+ 1311              	.LASF1:
+ 1312 01f7 756E7369 		.ascii	"unsigned char\000"
+ 1312      676E6564 
+ 1312      20636861 
+ 1312      7200
+ 1313              	.LASF59:
+ 1314 0205 52425F77 		.ascii	"RB_write\000"
+ 1314      72697465 
+ 1314      00
+ 1315              	.LASF72:
+ 1316 020e 433A5C4D 		.ascii	"C:\\My_Files\\College_Documents\\AMA EOS\\EOS\\LAB\\"
+ 1316      795F4669 
+ 1316      6C65735C 
+ 1316      436F6C6C 
+ 1316      6567655F 
+ 1317 023c 4C41425F 		.ascii	"LAB_2_Submission\\Json Parser\\code\\w06_criticalRe"
+ 1317      325F5375 
+ 1317      626D6973 
+ 1317      73696F6E 
+ 1317      5C4A736F 
+ 1318 026c 67696F6E 		.ascii	"gion.cydsn\000"
+ 1318      2E637964 
+ 1318      736E00
+ 1319              	.LASF61:
+ 1320 0277 52425F72 		.ascii	"RB_read\000"
+ 1320      65616400 
+ 1321              	.LASF0:
+ 1322 027f 7369676E 		.ascii	"signed char\000"
+ 1322      65642063 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 29
+
+
+ 1322      68617200 
+ 1323              	.LASF31:
+ 1324 028b 52435F45 		.ascii	"RC_ERROR_OVERRUN\000"
+ 1324      52524F52 
+ 1324      5F4F5645 
+ 1324      5252554E 
+ 1324      00
+ 1325              	.LASF10:
+ 1326 029c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1326      206C6F6E 
+ 1326      6720756E 
+ 1326      7369676E 
+ 1326      65642069 
+ 1327              	.LASF11:
+ 1328 02b3 756E7369 		.ascii	"unsigned int\000"
+ 1328      676E6564 
+ 1328      20696E74 
+ 1328      00
+ 1329              	.LASF37:
+ 1330 02c0 52435F45 		.ascii	"RC_ERROR_OPEN\000"
+ 1330      52524F52 
+ 1330      5F4F5045 
+ 1330      4E00
+ 1331              	.LASF13:
+ 1332 02ce 75696E74 		.ascii	"uint16_t\000"
+ 1332      31365F74 
+ 1332      00
+ 1333              	.LASF27:
+ 1334 02d7 52435F45 		.ascii	"RC_ERROR_NULL\000"
+ 1334      52524F52 
+ 1334      5F4E554C 
+ 1334      4C00
+ 1335              	.LASF34:
+ 1336 02e5 52435F45 		.ascii	"RC_ERROR_BUFFER_EMTPY\000"
+ 1336      52524F52 
+ 1336      5F425546 
+ 1336      4645525F 
+ 1336      454D5450 
+ 1337              	.LASF19:
+ 1338 02fb 45455F49 		.ascii	"EE_INT32\000"
+ 1338      4E543332 
+ 1338      00
+ 1339              	.LASF5:
+ 1340 0304 73686F72 		.ascii	"short unsigned int\000"
+ 1340      7420756E 
+ 1340      7369676E 
+ 1340      65642069 
+ 1340      6E7400
+ 1341              	.LASF70:
+ 1342 0317 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1342      43313120 
+ 1342      352E342E 
+ 1342      31203230 
+ 1342      31363036 
+ 1343 034a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1343      20726576 
+ 1343      6973696F 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 30
+
+
+ 1343      6E203233 
+ 1343      37373135 
+ 1344 037d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1344      66756E63 
+ 1344      74696F6E 
+ 1344      2D736563 
+ 1344      74696F6E 
+ 1345              	.LASF17:
+ 1346 03a5 63686172 		.ascii	"char\000"
+ 1346      00
+ 1347              	.LASF33:
+ 1348 03aa 52435F45 		.ascii	"RC_ERROR_BUFFER_FULL\000"
+ 1348      52524F52 
+ 1348      5F425546 
+ 1348      4645525F 
+ 1348      46554C4C 
+ 1349              	.LASF14:
+ 1350 03bf 696E7433 		.ascii	"int32_t\000"
+ 1350      325F7400 
+ 1351              	.LASF45:
+ 1352 03c7 52435F45 		.ascii	"RC_ERROR_BAD_PARAM\000"
+ 1352      52524F52 
+ 1352      5F424144 
+ 1352      5F504152 
+ 1352      414D00
+ 1353              	.LASF60:
+ 1354 03da 64617461 		.ascii	"data\000"
+ 1354      00
+ 1355              	.LASF66:
+ 1356 03df 45455F41 		.ascii	"EE_ApplicationMode\000"
+ 1356      70706C69 
+ 1356      63617469 
+ 1356      6F6E4D6F 
+ 1356      646500
+ 1357              	.LASF63:
+ 1358 03f2 52425F67 		.ascii	"RB_getNumberOfStoredElements\000"
+ 1358      65744E75 
+ 1358      6D626572 
+ 1358      4F665374 
+ 1358      6F726564 
+ 1359              	.LASF8:
+ 1360 040f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1360      20756E73 
+ 1360      69676E65 
+ 1360      6420696E 
+ 1360      7400
+ 1361              	.LASF16:
+ 1362 0421 646F7562 		.ascii	"double\000"
+ 1362      6C6500
+ 1363              	.LASF69:
+ 1364 0428 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1364      52784275 
+ 1364      66666572 
+ 1364      00
+ 1365              	.LASF38:
+ 1366 0435 52435F45 		.ascii	"RC_ERROR_CHECKSUM\000"
+ 1366      52524F52 
+ARM GAS  C:\Users\DABBIR~1\AppData\Local\Temp\cckUKVUL.s 			page 31
+
+
+ 1366      5F434845 
+ 1366      434B5355 
+ 1366      4D00
+ 1367              	.LASF21:
+ 1368 0447 45455F55 		.ascii	"EE_UREG\000"
+ 1368      52454700 
+ 1369              	.LASF71:
+ 1370 044f 736F7572 		.ascii	"source\\bsw\\cdd\\ringbuffer.c\000"
+ 1370      63655C62 
+ 1370      73775C63 
+ 1370      64645C72 
+ 1370      696E6762 
+ 1371              	.LASF6:
+ 1372 046b 5F5F696E 		.ascii	"__int32_t\000"
+ 1372      7433325F 
+ 1372      7400
+ 1373              	.LASF47:
+ 1374 0475 52435F45 		.ascii	"RC_ERROR_CANCELED\000"
+ 1374      52524F52 
+ 1374      5F43414E 
+ 1374      43454C45 
+ 1374      4400
+ 1375              	.LASF53:
+ 1376 0487 6D5F7265 		.ascii	"m_readIndex\000"
+ 1376      6164496E 
+ 1376      64657800 
+ 1377              	.LASF52:
+ 1378 0493 6D5F6461 		.ascii	"m_data\000"
+ 1378      746100
+ 1379              	.LASF26:
+ 1380 049a 52435F45 		.ascii	"RC_ERROR\000"
+ 1380      52524F52 
+ 1380      00
+ 1381              	.LASF29:
+ 1382 04a3 52435F45 		.ascii	"RC_ERROR_MEMORY\000"
+ 1382      52524F52 
+ 1382      5F4D454D 
+ 1382      4F525900 
+ 1383              	.LASF64:
+ 1384 04b3 45455F6F 		.ascii	"EE_oo_IRQ_disable_count\000"
+ 1384      6F5F4952 
+ 1384      515F6469 
+ 1384      7361626C 
+ 1384      655F636F 
+ 1385              	.LASF50:
+ 1386 04cb 52435F74 		.ascii	"RC_t\000"
+ 1386      00
+ 1387              	.LASF36:
+ 1388 04d0 52435F45 		.ascii	"RC_ERROR_TIME_OUT\000"
+ 1388      52524F52 
+ 1388      5F54494D 
+ 1388      455F4F55 
+ 1388      5400
+ 1389              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

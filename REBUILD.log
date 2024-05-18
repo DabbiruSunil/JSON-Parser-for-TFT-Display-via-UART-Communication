@@ -1,0 +1,625 @@
+--------------- Rebuild Started: 12/08/2019 14:33:02 Project: w06_criticalRegion, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\trcStreamingPort.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\trcKernelPort.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\trcSnapshotRecorder.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\trcStreamingRecorder.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\led.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\button.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\seven.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ringbuffer.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\uart.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_A.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_B.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_C.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_D.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_E.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_F.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_G.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_Button.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LED_red.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LED_yellow.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LED_green.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\UART_LOG.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\PWM_Clock.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_R.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_G.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RGB_B.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\Cm3Start.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyDmac.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CySpc.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_audio.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_boot.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_cdc.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_cls.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_descr.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_drv.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_episr.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_hid.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_pm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_std.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_vnd.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_midi.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_msc.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_Dm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\USBUART_Dp.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_tx.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_rx.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.hex"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.elf"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.map"
+Deleting file ".\w06_criticalRegion.cycdx"
+Deleting file ".\w06_criticalRegion.svd"
+Deleting file ".\w06_criticalRegion.rpt"
+Deleting file ".\w06_criticalRegion_timing.html"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\Fromm\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture_PO2019\work\w06_criticalRegion.cydsn\w06_criticalRegion.cyprj -d CY8C5888LTQ-LP097 -s D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture_PO2019\work\w06_criticalRegion.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+source\asw\main.c: In function 'Functsk_cyclic':
+source\asw\main.c:124:34: warning: pointer targets in passing argument 2 of 'UART_writeString' differ in signedness [-Wpointer-sign]
+     UART_writeString(&UART_port, "I'm a poor low priority cyclic task having a hell of a job!\n");
+                                  ^
+In file included from source\asw\main.c:41:0:
+.\source\bsw\cdd/uart.h:79:6: note: expected 'const uint8_t * const {aka const unsigned char * const}' but argument is of type 'char *'
+ RC_t UART_writeString(UART_t *const me, uint8_t const * const s);
+      ^
+source\asw\main.c: In function 'Functsk_cyclic2':
+source\asw\main.c:139:34: warning: pointer targets in passing argument 2 of 'UART_writeString' differ in signedness [-Wpointer-sign]
+     UART_writeString(&UART_port, "Bang!!!!\n");
+                                  ^
+In file included from source\asw\main.c:41:0:
+.\source\bsw\cdd/uart.h:79:6: note: expected 'const uint8_t * const {aka const unsigned char * const}' but argument is of type 'char *'
+ RC_t UART_writeString(UART_t *const me, uint8_t const * const s);
+      ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/trcStreamingPort.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\TraceRecorder\streamport\trcStreamingPort.c -o .\CortexM3\ARM_GCC_541\Debug\trcStreamingPort.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/trcKernelPort.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\TraceRecorder\trcKernelPort.c -o .\CortexM3\ARM_GCC_541\Debug\trcKernelPort.o
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from .\source\bsw\TraceRecorder\include/ERIKAPorting.h:24,
+                 from source\bsw\TraceRecorder\trcKernelPort.c:45:
+source\bsw\TraceRecorder\trcKernelPort.c: In function 'FuncTzCtrl':
+source\bsw\TraceRecorder\trcKernelPort.c:161:39: warning: passing argument 1 of 'trcUARTReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+    status = TRC_STREAM_PORT_READ_DATA(&msg, sizeof(TracealyzerCommandType), (int32_t*)&bytes);
+                                       ^
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:144:83: note: in definition of macro 'TRC_STREAM_PORT_READ_DATA'
+ #define TRC_STREAM_PORT_READ_DATA(_ptrData, _size, _ptrBytesRead)  trcUARTReceive(_ptrData, _size, _ptrBytesRead)
+                                                                                   ^
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from .\source\bsw\TraceRecorder\include/ERIKAPorting.h:24,
+                 from source\bsw\TraceRecorder\trcKernelPort.c:45:
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:103:9: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'TracealyzerCommandType * {aka struct <anonymous> *}'
+ int32_t trcUARTReceive(uint8_t* p_data, uint32_t size, int32_t* p_NumBytes);
+         ^
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from .\source\bsw\TraceRecorder\include/ERIKAPorting.h:24,
+                 from source\bsw\TraceRecorder\trcKernelPort.c:45:
+source\bsw\TraceRecorder\trcKernelPort.c: In function 'vTraceEnable':
+source\bsw\TraceRecorder\trcKernelPort.c:377:39: warning: passing argument 1 of 'trcUARTReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+    status = TRC_STREAM_PORT_READ_DATA(&msg, sizeof(TracealyzerCommandType), (int32_t*)&bytes);
+                                       ^
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:144:83: note: in definition of macro 'TRC_STREAM_PORT_READ_DATA'
+ #define TRC_STREAM_PORT_READ_DATA(_ptrData, _size, _ptrBytesRead)  trcUARTReceive(_ptrData, _size, _ptrBytesRead)
+                                                                                   ^
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from .\source\bsw\TraceRecorder\include/ERIKAPorting.h:24,
+                 from source\bsw\TraceRecorder\trcKernelPort.c:45:
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:103:9: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'TracealyzerCommandType * {aka struct <anonymous> *}'
+ int32_t trcUARTReceive(uint8_t* p_data, uint32_t size, int32_t* p_NumBytes);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/trcSnapshotRecorder.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\TraceRecorder\trcSnapshotRecorder.c -o .\CortexM3\ARM_GCC_541\Debug\trcSnapshotRecorder.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/trcStreamingRecorder.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\TraceRecorder\trcStreamingRecorder.c -o .\CortexM3\ARM_GCC_541\Debug\trcStreamingRecorder.o
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:84:0,
+                 from source\bsw\TraceRecorder\trcStreamingRecorder.c:45:
+source\bsw\TraceRecorder\trcStreamingRecorder.c: In function 'vTraceStoreISREnd':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1414:34: warning: implicit declaration of function 'prvTraceGetCurrentTaskHandle' [-Wimplicit-function-declaration]
+ #define TRACE_GET_CURRENT_TASK() prvTraceGetCurrentTaskHandle()
+                                  ^
+source\bsw\TraceRecorder\trcStreamingRecorder.c:614:55: note: in expansion of macro 'TRACE_GET_CURRENT_TASK'
+    prvTraceStoreEvent1(PSF_EVENT_TS_RESUME, (uint32_t)TRACE_GET_CURRENT_TASK());
+                                                       ^
+source\bsw\TraceRecorder\trcStreamingRecorder.c: In function 'prvSetRecorderEnabled':
+source\bsw\TraceRecorder\trcStreamingRecorder.c:805:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  currentTask = TRACE_GET_CURRENT_TASK();
+              ^
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from source\bsw\TraceRecorder\trcStreamingRecorder.c:45:
+source\bsw\TraceRecorder\trcStreamingRecorder.c: In function 'prvPagedEventBufferTransfer':
+source\bsw\TraceRecorder\trcStreamingRecorder.c:1755:6: warning: pointer targets in passing argument 1 of 'trcUARTTransmit' differ in signedness [-Wpointer-sign]
+      &EventBuffer[pageToTransfer * (TRC_CFG_PAGED_EVENT_BUFFER_PAGE_SIZE) + bytesTransferredTotal],
+      ^
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:147:85: note: in definition of macro 'TRC_STREAM_PORT_WRITE_DATA'
+ #define TRC_STREAM_PORT_WRITE_DATA(_ptrData, _size, _ptrBytesSent)  trcUARTTransmit(_ptrData, _size, _ptrBytesSent)
+                                                                                     ^
+In file included from .\source\bsw\TraceRecorder\include/trcRecorder.h:83:0,
+                 from source\bsw\TraceRecorder\trcStreamingRecorder.c:45:
+.\source\bsw\TraceRecorder\streamport/trcStreamingPort.h:112:9: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ int32_t trcUARTTransmit(uint8_t* p_data, uint32_t size, int32_t* p_NumBytes);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/led.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\cdd\led.c -o .\CortexM3\ARM_GCC_541\Debug\led.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/button.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\cdd\button.c -o .\CortexM3\ARM_GCC_541\Debug\button.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/seven.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\cdd\seven.c -o .\CortexM3\ARM_GCC_541\Debug\seven.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ringbuffer.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\cdd\ringbuffer.c -o .\CortexM3\ARM_GCC_541\Debug\ringbuffer.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/uart.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\cdd\uart.c -o .\CortexM3\ARM_GCC_541\Debug\uart.o
+source\bsw\cdd\uart.c: In function 'UART_writeString':
+source\bsw\cdd\uart.c:77:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     uint16_t len = strlen(s);
+                           ^
+In file included from c:\tool\cypress\psoc_creator\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:10:0,
+                 from source\bsw\cdd\uart.c:23:
+c:\tool\cypress\psoc_creator\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:33:9: note: expected 'const char *' but argument is of type 'const uint8_t * const {aka const unsigned char * const}'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+source\bsw\cdd\uart.c: In function 'UART_init':
+source\bsw\cdd\uart.c:66:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cymetadata.c -o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_activate.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_activate.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_alcancel.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_alcancel.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_alcancel.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_alcancel.c: In function 'EE_oo_CancelAlarm':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:2044:3: warning: implicit declaration of function 'prvTraceStoreEvent1' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent1(PSF_EVENT_CANCEL_ALARM, (uint32_t)alarmID+10);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_alcancel.c:75:5: note: in expansion of macro 'traceALARM_CANCEL_ALARM'
+     traceALARM_CANCEL_ALARM(AlarmID)
+     ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_alget.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_alget.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_alget.c:54:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_algetbase.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_algetbase.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_alsetabs.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_alsetabs.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_alsetabs.c:54:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_alsetabs.c: In function 'EE_oo_SetAbsAlarm':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:2036:3: warning: implicit declaration of function 'prvTraceStoreEvent3' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent3(PSF_EVENT_SET_ABS_ALARM, (uint32_t)alarmID+10, ticks, cycle);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_alsetabs.c:83:5: note: in expansion of macro 'traceALARM_SET_ABS_ALARM'
+     traceALARM_SET_ABS_ALARM(AlarmID, start, cycle)
+     ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_alsetrel.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_alsetrel.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_alsetrel.c:54:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_altick.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_altick.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_altick.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_altick.c: In function 'EE_oo_IncrementCounterImplementation':
+Generated_Source\PSoC5\ErikaOS_1_ee_altick.c:603:48: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         EE_oo_action_ROM_type *p_traceAction = &EE_oo_action_ROM[EE_alarm_ROM[
+                                                ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_chaintas.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_chaintas.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_evclear.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_evclear.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_evclear.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_evget.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_evget.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_evget.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_evset.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_evset.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_evset.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_evset.c: In function 'EE_oo_SetEvent':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:2517:3: warning: implicit declaration of function 'prvTraceStoreEvent1' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent1(PSF_EVENT_SET_EVENT_FROM_ISR, (uint32_t)taskID+1, event);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_evset.c:91:9: note: in expansion of macro 'traceTASK_SET_EVENT_FROM_ISR'
+         traceTASK_SET_EVENT_FROM_ISR(TaskID, Mask)
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_evwait.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_evwait.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_evwait.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_force_schedule.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_force_schedule.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_getcountervalue.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_getcountervalue.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_getelapsedvalue.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_getelapsedvalue.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gettaskid.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_gettaskid.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gettaskstate.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_gettaskstate.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_iparam.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_iparam.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_irqendin.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_irqendin.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_irqendin.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_irqendin.c: In function 'EE_IRQ_run_next_task':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1670:3: warning: implicit declaration of function 'prvTraceStoreEvent1' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent1(PSF_EVENT_TASK_READY, taskID+1);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_irqendin.c:135:3: note: in expansion of macro 'traceMOVED_TASK_TO_READY_STATE'
+   traceMOVED_TASK_TO_READY_STATE(EE_stk_queryfirst());
+   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_lockres.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_lockres.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_lockres.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_lookup.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_lookup.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_rq_exchg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_rq_exchg.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_rq_first.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_rq_first.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_rq_inser.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_rq_inser.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_schedule.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_schedule.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_semgetvalue.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_semgetvalue.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_sempost.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_sempost.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_semtrywait.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_semtrywait.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_semwait.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_semwait.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_shtdown.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_shtdown.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_startos.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_startos.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_startos.c: In function 'EE_oo_creatTaskInfo':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1677:3: warning: implicit declaration of function 'prvTraceSaveSymbol' [-Wimplicit-function-declaration]
+   prvTraceSaveSymbol(taskID+1, taskName); \
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:65:9: note: in expansion of macro 'traceTASK_CREATE'
+         traceTASK_CREATE(i, EE_TASK_NAME[i], EE_th_ready_prio[i]);
+         ^
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1678:3: warning: implicit declaration of function 'prvTraceSaveObjectData' [-Wimplicit-function-declaration]
+   prvTraceSaveObjectData(taskID+1, taskPriority); \
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:65:9: note: in expansion of macro 'traceTASK_CREATE'
+         traceTASK_CREATE(i, EE_TASK_NAME[i], EE_th_ready_prio[i]);
+         ^
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1679:3: warning: implicit declaration of function 'prvTraceStoreStringEvent' [-Wimplicit-function-declaration]
+   prvTraceStoreStringEvent(1, PSF_EVENT_OBJ_NAME, taskName, taskID+1); \
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:65:9: note: in expansion of macro 'traceTASK_CREATE'
+         traceTASK_CREATE(i, EE_TASK_NAME[i], EE_th_ready_prio[i]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_terminat.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_terminat.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_thendin.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_thendin.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_thendin.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_thendin.c: In function 'EE_thread_endcycle_next':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1670:3: warning: implicit declaration of function 'prvTraceStoreEvent1' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent1(PSF_EVENT_TASK_READY, taskID+1);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_thendin.c:79:3: note: in expansion of macro 'traceMOVED_TASK_TO_READY_STATE'
+   traceMOVED_TASK_TO_READY_STATE(EE_stk_queryfirst());
+   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_tnterm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_tnterm.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_tstub.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_tstub.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:59:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_internal.inc:91,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_tstub.c:53:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+Generated_Source\PSoC5\ErikaOS_1_ee_tstub.c: In function 'EE_oo_thread_stub':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1670:3: warning: implicit declaration of function 'prvTraceStoreEvent1' [-Wimplicit-function-declaration]
+   prvTraceStoreEvent1(PSF_EVENT_TASK_READY, taskID+1);
+   ^
+Generated_Source\PSoC5\ErikaOS_1_ee_tstub.c:73:3: note: in expansion of macro 'traceMOVED_TASK_TO_READY_STATE'
+   traceMOVED_TASK_TO_READY_STATE(EE_stk_queryfirst());
+   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_ulockallres.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_ulockallres.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_ulockres.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_ulockres.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_ulockres.c:54:0:
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1411:1: warning: useless type name in empty declaration
+ void vTraceStoreKernelObjectName(void* object, const char* name); 
+ ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc: In function 'EE_oo_preemption_point':
+.\source\bsw\TraceRecorder\include/trcKernelPort.h:1660:4: warning: implicit declaration of function 'prvTraceStoreEvent2' [-Wimplicit-function-declaration]
+    prvTraceStoreEvent2(PSF_EVENT_TASK_ACTIVATE, (uint32_t)taskID+1, taskPriority); \
+    ^
+Generated_Source\PSoC5\ErikaOS_1_ee_oo_internal.inc:689:9: note: in expansion of macro 'traceTASK_SWITCHED_IN'
+         traceTASK_SWITCHED_IN(rq, EE_th_ready_prio[rq]);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_cortex_mx_ee_context.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_cortex_mx_ee_context.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_cortex_mx_ee_system_timer.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_cortex_mx_ee_system_timer.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_cortex_mx_ee_utils.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_cortex_mx_ee_utils.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_common_ee_hal_structs.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_common_ee_hal_structs.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_eecfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_eecfg.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o
+Generated_Source\PSoC5\ErikaOS_1_eecfg.c:1943:62: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+         { (EE_OO_AUTOSTART_TASK_MODE_OSDEFAULTAPPMODE_SIZE), EE_oo_autostart_task_mode_OSDEFAULTAPPMODE}
+                                                              ^
+Generated_Source\PSoC5\ErikaOS_1_eecfg.c:1943:62: note: (near initialization for 'EE_oo_autostart_task_data[0].task')
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_A.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_A.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_A.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_B.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_B.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_B.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_C.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_C.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_C.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_D.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_D.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_D.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_E.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_E.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_E.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_F.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_F.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_F.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_G.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_G.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_G.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_DP.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_DP.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_SELECT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_SELECT.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_reg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_reg.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_reg_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_reg_PM.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_1.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_Button.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\isr_Button.c -o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_2.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_2.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_3.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_3.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_4.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_4.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_red.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_red.c -o .\CortexM3\ARM_GCC_541\Debug\LED_red.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_yellow.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_yellow.c -o .\CortexM3\ARM_GCC_541\Debug\LED_yellow.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_green.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_green.c -o .\CortexM3\ARM_GCC_541\Debug\LED_green.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_PM.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_INT.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_BOOT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_BOOT.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_red.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_red.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_red_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_red_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/PWM_Clock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\PWM_Clock.c -o .\CortexM3\ARM_GCC_541\Debug\PWM_Clock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_green.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_green.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_green_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_green_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_blue.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_blue.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_blue_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_blue_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_R.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_R.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_R.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_G.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_G.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_G.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_B.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_B.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_B.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_IntClock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_IntClock.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cy_em_eeprom.c -o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Cm3Start.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Cm3Start.c -o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyDmac.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyDmac.c -o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyFlash.c -o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyLib.c -o .\CortexM3\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyPm.c -o .\CortexM3\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CySpc.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CySpc.c -o .\CortexM3\ARM_GCC_541\Debug\CySpc.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyutils.c -o .\CortexM3\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_audio.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_audio.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_audio.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_boot.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_boot.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_boot.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_cdc.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_cdc.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_cdc.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_cls.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_cls.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_cls.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_descr.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_descr.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_descr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_drv.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_drv.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_drv.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_episr.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_episr.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_episr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_hid.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_hid.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_hid.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_pm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_pm.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_pm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_std.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_std.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_std.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_vnd.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_vnd.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_vnd.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_midi.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_midi.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_midi.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_msc.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_msc.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_msc.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_Dm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_Dm.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/USBUART_Dp.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\USBUART_Dp.c -o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dp.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_DEBUG_tx.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\isr_DEBUG_tx.c -o .\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_tx.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\cdd -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_DEBUG_rx.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\isr_DEBUG_rx.c -o .\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_rx.o
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gnu_change_context_isr.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o Generated_Source\PSoC5\ErikaOS_1_ee_gnu_change_context_isr.s
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gnu_irq_stack.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o Generated_Source\PSoC5\ErikaOS_1_ee_gnu_irq_stack.s
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gnu_multi_context.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o Generated_Source\PSoC5\ErikaOS_1_ee_gnu_multi_context.s
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_gnu_oo.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o Generated_Source\PSoC5\ErikaOS_1_ee_gnu_oo.s
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC5\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.a .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_A.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_B.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_C.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_D.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_E.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_F.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_G.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o .\CortexM3\ARM_GCC_541\Debug\LED_red.o .\CortexM3\ARM_GCC_541\Debug\LED_yellow.o .\CortexM3\ARM_GCC_541\Debug\LED_green.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red_PM.o .\CortexM3\ARM_GCC_541\Debug\PWM_Clock.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green_PM.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue_PM.o .\CortexM3\ARM_GCC_541\Debug\RGB_R.o .\CortexM3\ARM_GCC_541\Debug\RGB_G.o .\CortexM3\ARM_GCC_541\Debug\RGB_B.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\USBUART.o .\CortexM3\ARM_GCC_541\Debug\USBUART_audio.o .\CortexM3\ARM_GCC_541\Debug\USBUART_boot.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cdc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cls.o .\CortexM3\ARM_GCC_541\Debug\USBUART_descr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_drv.o .\CortexM3\ARM_GCC_541\Debug\USBUART_episr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_hid.o .\CortexM3\ARM_GCC_541\Debug\USBUART_pm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_std.o .\CortexM3\ARM_GCC_541\Debug\USBUART_vnd.o .\CortexM3\ARM_GCC_541\Debug\USBUART_midi.o .\CortexM3\ARM_GCC_541\Debug\USBUART_msc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dp.o .\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_tx.o .\CortexM3\ARM_GCC_541\Debug\isr_DEBUG_rx.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture_PO2019\work\w06_criticalRegion.cydsn\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\trcStreamingPort.o .\CortexM3\ARM_GCC_541\Debug\trcKernelPort.o .\CortexM3\ARM_GCC_541\Debug\trcSnapshotRecorder.o .\CortexM3\ARM_GCC_541\Debug\trcStreamingRecorder.o .\CortexM3\ARM_GCC_541\Debug\led.o .\CortexM3\ARM_GCC_541\Debug\button.o .\CortexM3\ARM_GCC_541\Debug\seven.o .\CortexM3\ARM_GCC_541\Debug\ringbuffer.o .\CortexM3\ARM_GCC_541\Debug\uart.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.a "C:\tool\Cypress\PSOC_Creator\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/w06_criticalRegion.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture_PO2019\work\w06_criticalRegion.cydsn\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S D:\50_HDA\60_Lehre\40_Vorlesungen\10_EOS\20_Lecture_PO2019\work\w06_criticalRegion.cydsn\CortexM3\ARM_GCC_541\Debug\w06_criticalRegion.elf
+Flash used: 17758 of 262144 bytes (6,8 %).
+SRAM used: 10649 of 65536 bytes (16,2 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Rebuild Succeeded: 12/08/2019 14:33:26 ---------------
