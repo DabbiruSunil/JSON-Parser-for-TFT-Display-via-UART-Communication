@@ -1,88 +1,108 @@
-##JSON Parser for UART to TFT Display
+# 📡 JSON Parser for UART to TFT Display
 
-This project implements a JSON parser that reads in JSON strings over the UART, parses them, and displays the transmitted drawing commands on a TFT display. The project is structured to handle the reception, parsing, and display of JSON protocols using the Erika OS and follows a modular design for clarity and maintainability.
+This project implements a modular JSON parser that receives drawing commands over UART, parses them, and renders the graphics on a TFT display. Built on **Erika OS**, it demonstrates efficient interrupt-driven communication, robust parsing, and multitask scheduling for embedded systems.
 
+---
 
-##Table of Contents
+## 📌 Project Overview
 
-Project Overview
-Features
-Requirements
-Installation
-Usage
-Contributing
+The system processes JSON data received through UART and updates a TFT screen in real time.
+Three main contexts work together:
 
+1️⃣ **UART ISR** – Captures incoming data and stores it in a ring buffer.
+2️⃣ **High-Priority Task (`tsk_json`)** – Parses JSON strings using the *jsmn* library and forwards commands.
+3️⃣ **Low-Priority Task (`tsk_hmi`)** – Draws the parsed elements on the TFT display.
 
-##Project Overview
+This layered approach ensures smooth data flow while maintaining responsiveness.
 
-The main objective of this project is to create a system that can:
+---
 
-Receive JSON data via UART interrupts.
-Parse the JSON data in a high-priority task.
-Display drawing commands extracted from the JSON data on a TFT display via a low-priority task.
-This involves three different contexts:
+## ✨ Features
 
-UART ISR: Receives data and stores it in a ring buffer.
-High-priority Task (tsk_json): Parses the JSON string and sends commands to the drawing task.
-Low-priority Task (tsk_hmi): Draws the content on the TFT display.
+* **Interrupt-Driven UART Reception** – Efficient handling of continuous data streams.
+* **Ring Buffer Implementation** – Prevents overflow and manages asynchronous input.
+* **Robust JSON Parsing** – Lightweight parsing using the [jsmn](https://github.com/zserge/jsmn) library.
+* **TFT Display Integration** – Real-time rendering of parsed drawing commands via SPI.
+* **Thread Safety** – Shared resources protected with semaphores.
+* **Error Handling** – Detects and manages malformed JSON or communication errors.
 
-##Features
+---
 
-Interrupt-Driven UART Reception: Efficiently handles incoming data.
-Ring Buffer Implementation: Manages data reception and prevents overflow.
-JSON Parsing: Uses the jsmn library for parsing JSON data.
-TFT Display Integration: Displays parsed drawing commands on a TFT screen.
-Thread Safety: Ensures safe access to shared resources using semaphores.
-Error Handling: Robust error detection and handling during data reception and parsing.
+## 🛠️ Requirements
 
-##Requirements
+* **Hardware**: PSoC LabBoard (or compatible board with UART & SPI), TFT display.
+* **Software**: [Erika OS](https://erika-enterprise.com/), GCC toolchain, PSoC Creator (or equivalent).
+* **Libraries**:
 
-Erika OS: The system is developed based on Erika OS.
-TFT Display: For visual output.
-UART Interface: For receiving JSON data.
-SPI Interface: For communicating with the TFT display.
-JSMN Library: For JSON parsing.
+  * [jsmn](https://github.com/zserge/jsmn) for JSON parsing.
+  * TFT display driver compatible with Erika OS.
 
-##Installation
+---
 
-Clone the repository:
+## ⚙️ Installation
 
-bash
-Copy code
-git clone https://github.com/your-username/json-uart-tft.git
-cd json-uart-tft
-Set up the Erika OS environment and install necessary tools.
+```bash
+# Clone the repository
+git clone https://github.com/DabbiruSunil/JSON-Parser-for-TFT-Display-via-UART-Communication.git
+cd JSON-Parser-for-TFT-Display-via-UART-Communication
 
-Add the jsmn library to your project:
-
-bash
-Copy code
+# Add jsmn as a submodule
 git submodule add https://github.com/zserge/jsmn externals/jsmn
-Include the TFT library and configure the SPI component as per the project requirements.
+```
 
-##Usage
+Set up the Erika OS environment and configure the SPI/TFT driver as per your hardware.
 
-Compile and Flash the Firmware: Build the project using your development environment and flash it to your hardware.
+---
 
-Run the System: Power up your hardware. The system will:
+## ▶️ Usage
 
-Receive JSON strings over UART.
-Parse the JSON data to extract drawing commands.
-Display the drawings on the TFT screen.
-Test the System: Use a UART terminal to send JSON strings to the system. Example JSON strings for testing:
+1. **Build & Flash**: Compile the firmware with your Erika OS toolchain and flash it to the target board.
+2. **Run the System**:
 
-json
-Copy code
-{ "c" : "red", "d" : [10, 10, 10, 100], "d" : [10, 100, 100, 100], "d" : [100, 100, 100, 10], "d" : [100, 10, 10, 10] }
+   * Send JSON commands over UART (e.g., using a serial terminal).
+   * The parser extracts drawing instructions and updates the TFT display.
 
-##Contributing
+**Example JSON Input**
 
-Contributions are welcome! Please follow these steps:
+```json
+{ "c":"red", "d":[10,10,10,100], "d":[10,100,100,100] }
+```
 
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Commit your changes.
-Push the branch to your fork.
-Open a pull request.
+---
 
+## 🧪 Testing
+
+* Use a UART terminal (e.g., PuTTY, HTERM) to send test JSON strings.
+* Validate real-time display updates and check error handling with malformed inputs.
+
+---
+
+## 📊 Project Structure
+
+```
+├─ src/                # Application and OS tasks
+│  ├─ isr_uart.c       # UART interrupt & ring buffer
+│  ├─ tsk_json.c       # JSON parsing task
+│  ├─ tsk_hmi.c        # TFT drawing task
+├─ externals/jsmn/     # JSON parser library
+└─ README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit and push your changes
+4. Open a pull request
+
+---
+
+**License**
+MIT License – See [LICENSE](LICENSE) for details.
+
+**Author**: [Sunil Dabbiru](https://github.com/DabbiruSunil)
 
