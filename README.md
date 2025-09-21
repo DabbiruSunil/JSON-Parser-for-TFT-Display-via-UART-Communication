@@ -2,6 +2,7 @@
 
 This project implements a modular JSON parser that receives drawing commands over UART, parses them, and renders the graphics on a TFT display. Built on **Erika OS**, it demonstrates efficient interrupt-driven communication, robust parsing, and multitask scheduling for embedded systems.
 
+![PSoC image](PSoC_image_with_LEDs_ON.png)
 ---
 
 ## 📌 Project Overview
